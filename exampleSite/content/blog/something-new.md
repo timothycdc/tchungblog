@@ -3,7 +3,6 @@ author = []
 categories = []
 date = 2020-05-11T16:00:00Z
 description = "A cool article"
-draft = true
 image = ""
 tags = []
 title = "Something NEw"
