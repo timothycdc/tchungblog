@@ -1988,6 +1988,7 @@ button.sub-menu-toggle.active svg {
 
 .menu-wrapper .menu-item {
     position: relative;
+    font-weight: 500;
 }
 
 .menu-wrapper .active {
