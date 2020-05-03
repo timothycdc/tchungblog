@@ -7,7 +7,7 @@ languageName = "En"
 paginate = "6"
 summaryLength = "10"
 theme = "twentytwenty"
-title = "Timothy Chung"
+title = "Timo's Blog"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.desktop]]
@@ -51,7 +51,7 @@ content = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean comm
 enable = true
 title = "Contact us for more information."
 [params.footer]
-address = 
+address = ""
 content = "I'm Timothy, a student at ECIM. My interests lie in the sciency and computery stuff, plus a lot more. See more [here](timochung.netlify.app)."
 copyright = "Copyright &copy; 2020
 hours = ""
