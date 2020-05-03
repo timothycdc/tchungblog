@@ -1,10 +1,10 @@
 +++
-author = []
-categories = []
+author = ["Timothy"]
+categories = ["Coolness"]
 date = 2020-05-11T16:00:00Z
 description = "A cool article"
 image = ""
-tags = []
+tags = ["What"]
 title = "Something NEw"
 
 +++
