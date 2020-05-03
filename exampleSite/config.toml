@@ -11,29 +11,21 @@ title = "Timo's Blog"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.desktop]]
-URL = "contact"
-name = "Contact"
+name = "About"
+url = "https://timochung.netlify.app"
 weight = 1
+[[menu.main]]
+name = "About"
+url = "https://timochung.netlify.app"
+weight = 3
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 2
 [[menu.main]]
 URL = "/"
 name = "Home"
 weight = 1
-[[menu.main]]
-URL = "about"
-name = "About"
-weight = 2
-[[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 3
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 4
-[[menu.main]]
-URL = "sample-page"
-name = "Sample Page"
-weight = 5
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
