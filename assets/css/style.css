@@ -527,6 +527,7 @@ li>ol {
 .reset-list-style ol {
     list-style: none;
     margin: 0;
+    font-weight: 700;
 }
 
 .reset-list-style li {
@@ -4855,7 +4856,7 @@ a.to-the-top>* {
     }
     /* HEADER TOGGLES */
     .toggle-inner .toggle-text {
-        font-size: 1.2rem;
+        font-size: 1.9rem;
     }
     .search-toggle {
         left: 2rem;
@@ -5543,7 +5544,7 @@ a.to-the-top>* {
     .header-toggles:only-child .toggle-inner .toggle-text {
         position: static;
         padding-right: 20px;
-        font-size: 15px;
+        font-size: 25px;
         color: inherit;
     }
     /* Menu Modal ---------------------------- */
