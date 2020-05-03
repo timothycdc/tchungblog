@@ -130,7 +130,7 @@ body {
     background: #434c74;
     box-sizing: border-box;
     color: #fff;
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 1.8rem;
     letter-spacing: -0.015em;
     text-align: left;
@@ -746,7 +746,7 @@ button,
 .faux-button,
 .wp-block-button__link,
 .wp-block-file__button {
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     line-height: 1;
 }
 
@@ -2862,7 +2862,7 @@ h2.entry-title {
 .entry-content .wp-block-pullquote,
 .entry-content .wp-block-quote.is-large,
 .entry-content .wp-block-quote.is-style-large {
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Work Sans"-apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 @supports (font-variation-settings: normal) {
@@ -3576,7 +3576,7 @@ figure.wp-block-table.is-style-stripes {
 /* Font Families ----------------------------- */
 
 .entry-content {
-    font-family: NonBreakingSpaceOverride, "Inter", sans-serif;
+    font-family: "Work Sans", sans-serif;
     letter-spacing: normal;
 }
 
@@ -4187,14 +4187,14 @@ div.comment:first-of-type {
 .widget_text dl,
 .widget_text dt,
 .widget-content .rssSummary {
-    font-family: "Inter", sans-serif;
+    font-family: "Work Sans", sans-serif;
     letter-spacing: normal;
 }
 
 .widget-content cite,
 .widget-content figcaption,
 .widget-content .wp-caption-text {
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 @supports (font-variation-settings: normal) {
