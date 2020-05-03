@@ -263,29 +263,11 @@ Inter variable font. Usage:
 
 @font-face {
     font-family: "Work Sans";
-    font-weight: 100 900;
-    /* stylelint-disable-line font-weight-notation */
-    font-style: normal;
-    font-display: swap;
-    src: url(../fonts/inter/Inter-upright-var.woff2) format("woff2");
-}
-
-@font-face {
-    font-family: "Work Sans";
-    font-weight: 100 900;
-    /* stylelint-disable-line font-weight-notation */
-    font-style: italic;
-    font-display: swap;
-    src: url(../fonts/inter/Inter-italic-var.woff2) format("woff2");
-}
-
-@font-face {
-    font-family: "Work Sans";
     font-weight: 400 700;
     /* stylelint-disable-line font-weight-notation */
     font-style: normal;
     font-display: swap;
-    src: url(../fonts/WS/WorkSans-Italic-VariableFont_wght.ttf) format("ttf");
+    src: url(../fonts/ws/wsitalicvfont.ttf) format("ttf");
 }
 
 @font-face {
@@ -294,7 +276,7 @@ Inter variable font. Usage:
     /* stylelint-disable-line font-weight-notation */
     font-style: italic;
     font-display: swap;
-    src: url(../fonts/WS/WorkSans-VariableFont_wght.ttf) format("ttf");
+    src: url(../fonts/ws/wsvfont.ttf) format("ttf");
 }
 
 
@@ -450,7 +432,7 @@ hr.styled-separator {
 
 .entry-content hr:not(.has-background),
 hr.styled-separator {
-    color: #6d6d6d;
+    color: #F5A8C8;
 }
 
 .entry-content hr::before,
@@ -1430,7 +1412,7 @@ body:not(.enable-search-modal) .header-titles-wrapper {
 
 .site-description {
     margin-top: 1rem;
-    color: #6d6d6d;
+    color: #F5A8C8;
     font-size: 1.8rem;
     font-weight: 500;
     display: none;
@@ -1538,7 +1520,7 @@ body:not(.enable-search-modal) .site-logo img {
 }
 
 .toggle-inner .toggle-text {
-    color: #6d6d6d;
+    color: #F5A8C8;
     font-size: 1rem;
     font-weight: 600;
     position: absolute;
@@ -2505,7 +2487,7 @@ h2.entry-title {
 }
 
 .post-meta {
-    color: #6d6d6d;
+    color: #F5A8C8;
     display: flex;
     flex-wrap: wrap;
     font-size: 1.5rem;
@@ -2797,11 +2779,11 @@ h2.entry-title {
 }
 
 :root .has-secondary-color {
-    color: #6d6d6d;
+    color: #F5A8C8;
 }
 
 :root .has-secondary-background-color {
-    background-color: #6d6d6d;
+    background-color: #F5A8C8;
     color: #fff;
 }
 
@@ -2997,7 +2979,7 @@ h2.entry-title {
 .entry-content .wp-block-archives li,
 .entry-content .wp-block-categories li,
 .entry-content .wp-block-latest-posts li {
-    color: #6d6d6d;
+    color: #F5A8C8;
 }
 
 .wp-block-archives a,
@@ -3028,7 +3010,7 @@ h2.entry-title {
 
 .wp-block-latest-comments__comment-date,
 .wp-block-latest-posts__post-date {
-    color: #6d6d6d;
+    color: #F5A8C8;
     font-size: 0.7em;
     font-weight: 600;
     letter-spacing: normal;
@@ -3040,7 +3022,7 @@ h2.entry-title {
 
 .wp-block-embed figcaption,
 .wp-block-image figcaption {
-    color: #6d6d6d;
+    color: #F5A8C8;
     font-size: 1.4rem;
     margin-bottom: 0;
     margin-top: 1.5rem;
@@ -3293,7 +3275,7 @@ figure.wp-block-gallery.alignfull {
 }
 
 .wp-block-pullquote cite {
-    color: #6d6d6d;
+    color: #F5A8C8;
     font-size: 1.6rem;
     font-weight: 500;
     margin-top: 1.2rem;
@@ -3827,7 +3809,7 @@ div.comment:first-of-type {
 }
 
 .comment-metadata {
-    color: #6d6d6d;
+    color: #F5A8C8;
     font-size: 1.4rem;
     font-weight: 500;
     margin-top: 0.6rem;
@@ -3957,7 +3939,7 @@ div.comment:first-of-type {
 
 .comment-respond .comment-notes,
 .comment-respond .logged-in-as {
-    color: #6d6d6d;
+    color: #F5A8C8;
     font-size: 1.6rem;
     line-height: 1.4;
     margin: -3rem 0 4rem 0;
@@ -4096,7 +4078,7 @@ div.comment:first-of-type {
 
 .pagination .dots {
     transform: translateY(-0.3em);
-    color: #6d6d6d;
+    color: #F5A8C8;
 }
 
 .nav-short {
@@ -4174,7 +4156,7 @@ div.comment:first-of-type {
 
 .widget .post-date,
 .widget .rss-date {
-    color: #6d6d6d;
+    color: #F5A8C8;
     display: block;
     font-size: 0.85em;
     font-weight: 500;
@@ -4232,7 +4214,7 @@ div.comment:first-of-type {
 .widget_pages li,
 .widget_meta li,
 .widget_nav_menu li {
-    color: #6d6d6d;
+    color: #F5A8C8;
     margin: 0.3rem 0;
 }
 
@@ -4559,7 +4541,7 @@ ul.footer-social li {
 
 .powered-by-wordpress,
 .to-the-top {
-    color: #6d6d6d;
+    color: #F5A8C8;
 }
 
 a.to-the-top>* {
