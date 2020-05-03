@@ -7,7 +7,7 @@ languageName = "En"
 paginate = "6"
 summaryLength = "10"
 theme = "twentytwenty"
-title = "Timo's Blog"
+title = "Timothy Chung"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.desktop]]
