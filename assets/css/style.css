@@ -591,7 +591,7 @@ kbd,
 pre,
 samp {
     font-family: monospace;
-    font-size: 0.9em;
+    font-size: 1.6em;
     padding: 0.4rem 0.6rem;
 }
 
@@ -2601,7 +2601,7 @@ h2.entry-title {
 .singular .featured-media-inner {
     position: relative;
     left: calc(50% - 50vw);
-    width: 100vw;
+    width: 90vw;
 }
 
 .singular .featured-media::before {
