@@ -1008,7 +1008,7 @@ section {
     margin-left: auto;
     margin-right: auto;
     max-width: 120rem;
-    width: calc(100% - 4rem);
+    width: calc(100% - 6rem);
 }
 
 .section-inner.max-percentage {
@@ -4841,10 +4841,10 @@ a.to-the-top>* {
     /* Helper Classes ------------------------- */
     /* SECTIONS */
     section {
-        padding: 8rem 0;
+        padding: 10rem 0;
     }
     .section-inner {
-        width: calc(100% - 8rem);
+        width: calc(100% - 10rem);
     }
     /* Site Header --------------------------- */
     .header-inner {
