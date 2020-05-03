@@ -127,7 +127,7 @@ html {
 }
 
 body {
-    background: #434c74;
+    background: #2a3150;
     box-sizing: border-box;
     color: #fff;
     font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
@@ -795,7 +795,7 @@ input[type="color"],
 textarea {
     -webkit-appearance: none;
     -moz-appearance: none;
-    background: #434c74;
+    background: #2a3150;
     border-radius: 0;
     border-style: solid;
     border-width: 0.1rem;
@@ -1372,7 +1372,7 @@ ul.social-icons li {
 /* -------------------------------------------------------------------------- */
 
 #site-header {
-    background: #434c74;
+    background: #2a3150;
     position: relative;
 }
 
@@ -1643,6 +1643,7 @@ ul.primary-menu {
 
 .primary-menu>li {
     margin: 0.8rem 0 0 1.6rem;
+    font-weight: 500;
 }
 
 .primary-menu>li.menu-item-has-children>a {
@@ -1774,7 +1775,7 @@ ul.primary-menu {
 .primary-menu ul ul::after {
     border-bottom-color: transparent;
     /*rtl:ignore*/
-    border-left-color: #434c74;
+    border-left-color: #2a3150;
     bottom: auto;
     right: -1.6rem;
     top: 2rem;
@@ -1825,7 +1826,7 @@ body.touch-enabled .primary-menu ul li.menu-item-has-children>a {
 /* -------------------------------------------------------------------------- */
 
 .menu-modal {
-    background: #434c74;
+    background: #2a3150;
     display: none;
     opacity: 0;
     overflow-y: auto;
@@ -1861,7 +1862,7 @@ body.touch-enabled .primary-menu ul li.menu-item-has-children>a {
 }
 
 .menu-modal-inner {
-    background: #434c74;
+    background: #2a3150;
     display: flex;
     justify-content: stretch;
     overflow: auto;
@@ -1922,8 +1923,8 @@ button.close-nav-toggle .toggle-text {
 .modal-menu>li>a,
 .modal-menu>li>.ancestor-wrapper>a {
     font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: -0.0375em;
+    font-weight: 500;
+    letter-spacing: 0.0375em;
 }
 
 .modal-menu>li:last-child {
@@ -1951,7 +1952,7 @@ button.close-nav-toggle .toggle-text {
 }
 
 button.sub-menu-toggle {
-    border-left: 0.1rem solid #434c74;
+    border-left: 0.1rem solid #2a3150;
     flex-shrink: 0;
     margin: 1rem 0;
     padding: 0 2.5rem;
@@ -2122,7 +2123,7 @@ button.sub-menu-toggle.active svg {
 }
 
 .search-modal-inner {
-    background: #434c74;
+    background: #2a3150;
     transform: translateY(-100%);
     transition: transform 0.15s linear, box-shadow 0.15s linear;
 }
@@ -2383,7 +2384,7 @@ body.template-full-width [class*="wp-block"].alignfull:not(.has-background) [cla
 /* Archive Header ---------------------------- */
 
 .archive-header {
-    background-color: #434c74;
+    background-color: #2a3150;
     padding: 4rem 0;
 }
 
@@ -2427,7 +2428,7 @@ body:not(.singular) main>article:first-of-type {
 /* Post Header ------------------------------- */
 
 .singular .entry-header {
-    background-color: #434c74;
+    background-color: #2a3150;
     padding: 4rem 0;
 }
 
@@ -2598,7 +2599,7 @@ h2.entry-title {
 }
 
 .singular .featured-media::before {
-    background: #434c74;
+    background: #2a3150;
     content: "";
     display: block;
     position: absolute;
@@ -2787,7 +2788,7 @@ h2.entry-title {
 
 :root .has-primary-background-color {
     background-color: #000;
-    color: #434c74;
+    color: #2a3150;
 }
 
 :root .has-secondary-color {
@@ -2809,11 +2810,11 @@ h2.entry-title {
 }
 
 :root .has-background-color {
-    color: #434c74;
+    color: #2a3150;
 }
 
 :root .has-background-background-color {
-    background-color: #434c74;
+    background-color: #2a3150;
     color: #000;
 }
 
@@ -3248,7 +3249,7 @@ figure.wp-block-gallery.alignfull {
 }
 
 .wp-block-pullquote::before {
-    background: #434c74;
+    background: #2a3150;
     border-radius: 50%;
     color: #F5A8C8;
     content: "”";
@@ -4421,7 +4422,7 @@ div.comment:first-of-type {
 
 .footer-nav-widgets-wrapper,
 #site-footer {
-    background-color: #434c74;
+    background-color: #2a3150;
     border-color: #F5A8C8;
     border-style: solid;
     border-width: 0;
