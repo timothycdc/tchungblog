@@ -257,6 +257,24 @@ Inter variable font. Usage:
 ---------------------------------------------- */
 
 @font-face {
+    font-family: "Inter var";
+    font-weight: 100 900;
+    /* stylelint-disable-line font-weight-notation */
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/inter/Inter-upright-var.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "Inter var";
+    font-weight: 100 900;
+    /* stylelint-disable-line font-weight-notation */
+    font-style: italic;
+    font-display: swap;
+    src: url(../fonts/inter/Inter-italic-var.woff2) format("woff2");
+}
+
+@font-face {
     font-family: "Work Sans";
     /* stylelint-disable-line font-weight-notation */
     font-style: normal;
@@ -3558,7 +3576,7 @@ figure.wp-block-table.is-style-stripes {
 /* Font Families ----------------------------- */
 
 .entry-content {
-    font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-family: NonBreakingSpaceOverride, "Inter", sans-serif;
     letter-spacing: normal;
 }
 
@@ -3574,7 +3592,7 @@ figure.wp-block-table.is-style-stripes {
 .entry-content address,
 .entry-content .wp-caption-text,
 .entry-content .wp-block-file {
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 @supports (font-variation-settings: normal) {
@@ -4169,7 +4187,7 @@ div.comment:first-of-type {
 .widget_text dl,
 .widget_text dt,
 .widget-content .rssSummary {
-    font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-family: "Inter", sans-serif;
     letter-spacing: normal;
 }
 
