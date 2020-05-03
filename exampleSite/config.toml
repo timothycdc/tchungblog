@@ -53,7 +53,7 @@ title = "Contact us for more information."
 [params.footer]
 address = ""
 content = "I'm Timothy, a student at ECIM. My interests lie in the sciency and computery stuff, plus a lot more. See more [here](timochung.netlify.app)."
-copyright = "Copyright &copy; 2020
+copyright = "Copyright &copy; 2020"
 hours = ""
 title = "About This Site"
 [params.gallery]
