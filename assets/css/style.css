@@ -1648,6 +1648,7 @@ ul.primary-menu {
 
 .primary-menu>li.menu-item-has-children>a {
     padding-right: 2rem;
+    font-weight: 500;
 }
 
 .primary-menu>li>.icon {
