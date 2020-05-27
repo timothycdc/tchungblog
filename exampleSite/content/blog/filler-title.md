@@ -9,24 +9,4 @@ tage = ["tags"]
 title = "Filler Title"
 
 +++
-Filler text 
-
-Filler text
-
-Filler text
-
-Filler text
-
-Filler text
-
-Filler text
-
-Filler text
-
-Filler text![](/images/FE18AEF9-C494-446B-9675-FE6904C2C19E.jpeg)
-
-How does an image look?
-
-* List 1
-* List 2
-* List 3
+$$x_{1,2} = {-b\\pm\\sqrt{b^2 - 4ac} \\over 2a}.$$
