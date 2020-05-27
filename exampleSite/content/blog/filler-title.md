@@ -7,8 +7,9 @@ image = "images/2020-three-quarters-3.png"
 tage = ["tags"]
 title = "Filler Title"
 
-
 +++
-$$\\int_{a}^{b} x^2 dx$$
+    {{< katex [display] [class="text-center"]  >}}
+    f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
+    {{< /katex >}}
 
 Will this render???
