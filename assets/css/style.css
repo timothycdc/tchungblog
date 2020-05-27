@@ -127,7 +127,7 @@ html {
 }
 
 body {
-    background: #2a3150;
+    background: linear-gradient(180deg, rgb(67, 76, 116) 0%, rgb(42, 49, 80) 45%);
     box-sizing: border-box;
     color: #fff;
     font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
