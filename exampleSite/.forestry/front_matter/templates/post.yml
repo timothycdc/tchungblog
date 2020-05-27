@@ -1,8 +1,6 @@
 ---
 label: Post
 hide_body: false
-katex: true
-markup: "mmark"
 fields:
 - type: text
   name: title
