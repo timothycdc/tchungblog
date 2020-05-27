@@ -10,10 +10,6 @@ theme = "twentytwenty"
 title = "Timo's Blog"
 [markup.goldmark.renderer]
 unsafe = true
-[[menu.desktop]]
-name = "About"
-url = "https://timochung.netlify.app"
-weight = 1
 [[menu.main]]
 name = "About"
 url = "https://timochung.netlify.app"
