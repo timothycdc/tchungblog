@@ -125,7 +125,9 @@ html {
         scroll-behavior: auto;
     }
 }
-
+MathJax_Preview	{
+	overflow: auto;
+}
 body {
     background: rgb(42, 49, 80);
     box-sizing: border-box;
