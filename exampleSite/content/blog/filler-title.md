@@ -17,3 +17,5 @@ title = "Angle Between Two Vectors Formula Proof"
 \\\\=\\frac{wy-xz}{\\sqrt{w^{2}+x^{2}}\\sqrt{y^{2}+z^{2}}}
 
 \\\\=\\frac{A\\cdot B}{\\left|A\\right|\\left|B\\right|} \\end{equation}
+
+(Draft work in progress)
