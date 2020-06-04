@@ -12,7 +12,7 @@
           if (parent.childNodes.length != 1) continue;
           parent.firstChild.style.border = 'none';
         }
-        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+        if (parent.nodeName === 'P') parent.style.textAlign = 'left';
       }
     }
   }
