@@ -125,7 +125,7 @@ html {
         scroll-behavior: auto;
     }
 }
-MathJax_Preview	{
+MathJax_Display	{
 	overflow: auto;
 }
 body {
