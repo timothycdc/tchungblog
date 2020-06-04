@@ -15,5 +15,3 @@ title = "Angle Between Two Vectors Formula Proof"
 \\\\*=\\frac{a\\cdot b}{\\left|a\\right|\\left|b\\right|}
 
     Rest
-
-    <h1>What!</h1>
