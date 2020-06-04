@@ -8,8 +8,10 @@ tage = ["tags"]
 title = "Angle Between Two Vectors Formula Proof"
 
 +++
-\\begin{equation} a=b+c
+\\\\begin{equation} 
 
-\\end{equation}
+a=b+c
+
+\\\\end{equation}
 
 (Draft work in progress)
