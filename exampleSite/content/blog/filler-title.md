@@ -3,10 +3,11 @@ author = ["Timothy"]
 categories = ["Further Maths"]
 date = 2020-03-14T09:40:24Z
 description = "This is meta description. Can you read this?"
+draft = true
 image = "/images/img_51d217ee2fc1-1.jpeg"
 tage = ["tags"]
 tags = ["Vectors", "Trigonometry", "Maths"]
-title = "Angle Between Two Vectors Formula Proof"
+title = "Draft"
 
 +++
 Last term, we learned about vectors in Core Pure Maths. I was curious on how the formula was derived, so after some experimentation, I used IGCSE-Level trigonometry to get to the answer.
