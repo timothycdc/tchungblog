@@ -326,7 +326,7 @@ h6,
     font-weight: 700;
     letter-spacing: -0.0415625em;
     line-height: 1.25;
-    display: block;
+    display: inline;
     margin: 3.5rem 0 2rem;
 	
 }
@@ -338,7 +338,7 @@ h6,
     line-height: 1.25;
     margin: 3.5rem 0 2rem;
     display: none;
-    margin: 1rem 0 0 2.4rem; ! important
+
 }
 
 h1,
@@ -5476,7 +5476,7 @@ a.to-the-top>* {
         z-index: 1;
     }
     .faux-heading1 {
-	display: block;    
+	display: inline;    
     }
     .header-inner {
         align-items: center;
