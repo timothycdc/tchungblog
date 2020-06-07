@@ -5461,6 +5461,9 @@ a.to-the-top>* {
     #site-header {
         z-index: 1;
     }
+    .faux-heading1 {
+	display:none;    
+    }
     .header-inner {
         align-items: center;
         display: flex;
