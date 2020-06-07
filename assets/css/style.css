@@ -327,6 +327,7 @@ h6,
     letter-spacing: -0.0415625em;
     line-height: 1.25;
     margin: 3.5rem 0 2rem;
+	
 }
 .faux-heading1 {
     font-feature-settings: "lnum";
@@ -336,6 +337,7 @@ h6,
     line-height: 1.25;
     margin: 3.5rem 0 2rem;
     display: none;
+    margin: 1rem 0 0 2.4rem; ! important
 }
 
 h1,
@@ -1407,7 +1409,7 @@ ul.social-icons li {
 
 body:not(.enable-search-modal) .header-titles-wrapper {
     justify-content: flex-start;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     text-align: left;
 }
 
@@ -5473,7 +5475,7 @@ a.to-the-top>* {
         z-index: 1;
     }
     .faux-heading1 {
-	display: block;    
+	display: flex;    
     }
     .header-inner {
         align-items: center;
