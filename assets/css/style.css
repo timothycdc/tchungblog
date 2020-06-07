@@ -328,6 +328,15 @@ h6,
     line-height: 1.25;
     margin: 3.5rem 0 2rem;
 }
+.faux-heading1 {
+    font-feature-settings: "lnum";
+    font-variant-numeric: lining-nums;
+    font-weight: 700;
+    letter-spacing: -0.0415625em;
+    line-height: 1.25;
+    margin: 3.5rem 0 2rem;
+    display: none;
+}
 
 h1,
 .heading-size-1 {
@@ -2299,7 +2308,9 @@ body.template-cover .entry-header {
 .cover-header .faux-heading {
     color: inherit;
 }
-
+.faux-heading1 {
+    color: inherit;
+}
 
 
 .cover-header .entry-header a {
@@ -5462,7 +5473,7 @@ a.to-the-top>* {
         z-index: 1;
     }
     .faux-heading1 {
-	display:none;    
+	display: block;    
     }
     .header-inner {
         align-items: center;
