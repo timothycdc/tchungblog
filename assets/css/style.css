@@ -1392,7 +1392,7 @@ ul.social-icons li {
     align-items: center;
     display: flex;
     justify-content: center;
-    padding: 1 4rem;
+    padding: 0 4rem;
     text-align: center;
 }
 
@@ -4748,6 +4748,11 @@ a.to-the-top>* {
 
 @media (min-width: 700px) {
     /* Element Base ------------------------- */
+    .faux-heading1 {
+	display:none;    
+    }
+	
+	
     ul,
     ol {
         margin-bottom: 4rem;
@@ -5468,6 +5473,7 @@ a.to-the-top>* {
         padding: 0.5em;
         text-align: left;
     }
+
     .header-titles {
         align-items: baseline;
         display: flex;
