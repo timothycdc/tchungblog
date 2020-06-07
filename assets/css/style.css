@@ -326,6 +326,7 @@ h6,
     font-weight: 700;
     letter-spacing: -0.0415625em;
     line-height: 1.25;
+    display: block;
     margin: 3.5rem 0 2rem;
 	
 }
@@ -1409,7 +1410,7 @@ ul.social-icons li {
 
 body:not(.enable-search-modal) .header-titles-wrapper {
     justify-content: flex-start;
-    padding-left: 0.5rem;
+    padding-left: 0.0rem;
     text-align: left;
 }
 
@@ -5475,7 +5476,7 @@ a.to-the-top>* {
         z-index: 1;
     }
     .faux-heading1 {
-	display: flex;    
+	display: block;    
     }
     .header-inner {
         align-items: center;
