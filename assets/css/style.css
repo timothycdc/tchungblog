@@ -1440,9 +1440,14 @@ body:not(.enable-search-modal) .header-titles-wrapper {
     display: block;
 }
 
-.header-titles .site-logo .site-logo {
+.site-logo .site-logo {
     margin: 0;
 }
+
+.header-titles{
+    margin-right: 1em;
+}
+
 
 .site-logo img {
     max-height: 6rem;
