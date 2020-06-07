@@ -5504,10 +5504,10 @@ a.to-the-top>* {
         margin: 1rem 0 0 2.4rem;
     }
     .faux-heading {
-        margin: 1rem 4rem 0 1rem;
+        margin: 1rem 4rem 0 1rem !important;
     }
     .faux-heading {
-        margin: 1rem 4rem 0 1rem;
+        margin: 1rem 4rem 0 1rem !important;
     }
     .wp-custom-logo .header-titles {
         align-items: center;
