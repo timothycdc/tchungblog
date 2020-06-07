@@ -5503,6 +5503,12 @@ a.to-the-top>* {
     .header-titles .site-description {
         margin: 1rem 0 0 2.4rem;
     }
+    .faux-heading {
+        margin: 1rem 4rem 0 1rem;
+    }
+    .faux-heading {
+        margin: 1rem 4rem 0 1rem;
+    }
     .wp-custom-logo .header-titles {
         align-items: center;
     }
