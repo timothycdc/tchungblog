@@ -24,6 +24,10 @@ After finishing Core Pure 1's Trigonometry chapters, I used some new trigonometr
 \\\\ =\\left(\\frac{w}{\\sqrt{w^{2}+x^{2}}}\\times\\frac{y}{\\sqrt{y^{2}+z^{2}}}\\right)-\\left(\\frac{x}{\\sqrt{w^{2}+x^{2}}}\\times\\frac{z}{\\sqrt{y^{2}+z^{2}}}\\right)\\\\=\\frac{wy-xz}{\\sqrt{w^{2}+x^{2}}\\sqrt{y^{2}+z^{2}}}\\\\ =\\frac{A\\cdot B}{\\left|A\\right|\\left|B\\right|}
 \\end{equation}
 
+It's interesting to see the cos addition formula reduce the number of lines of the working. Also, note how the left hand side of the equation slowly takes the shape of the **dot product.**
+
+ I haven't looked much into this, although 3Blue1Brown has a video about it [here](https://www.youtube.com/watch?v=LyGKycYT2v0). At 6:27, the video shows that a dot product of two vectors is simply mapping one onto the other. I will have to look further into this, and also the **cross product,** which was removed from the exam specification for some reason..
+
 Well, that concludes a little bit of proofing for today. Stay tuned for more maths posts!
 
-edit: This is more of a derivation than a proof. ([see more](https://www.quora.com/What-is-the-difference-between-a-proof-and-a-derivation?))
+edit: After some thought, I realise this is more of a derivation than a proof. ([see more](https://www.quora.com/What-is-the-difference-between-a-proof-and-a-derivation?))
