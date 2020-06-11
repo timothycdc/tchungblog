@@ -26,4 +26,4 @@ After finishing Core Pure 1's Trigonometry chapters, I used some new trigonometr
 
 Well, that concludes a little bit of proofing for today. Stay tuned for more maths posts!
 
-edit: This is more of a derivation than a proof.
+edit: This is more of a derivation than a proof. ([see more](https://www.quora.com/What-is-the-difference-between-a-proof-and-a-derivation?))
