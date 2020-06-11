@@ -6,7 +6,7 @@ description = "This is meta description. Can you read this?"
 image = "/images/img_0359.jpg"
 tage = ["tags"]
 tags = ["Vectors", "Trigonometry", "Maths"]
-title = "Angle Between Two Vectors Formula Proof"
+title = "Angle Between Two Vectors Formula"
 
 +++
 Last term, we learned about vectors in Core Pure Maths. I was curious on how the formula was derived, so after some experimentation, I used IGCSE-Level trigonometry to get to the answer.
@@ -24,4 +24,6 @@ After finishing Core Pure 1's Trigonometry chapters, I used some new trigonometr
 \\\\ =\\left(\\frac{w}{\\sqrt{w^{2}+x^{2}}}\\times\\frac{y}{\\sqrt{y^{2}+z^{2}}}\\right)-\\left(\\frac{x}{\\sqrt{w^{2}+x^{2}}}\\times\\frac{z}{\\sqrt{y^{2}+z^{2}}}\\right)\\\\=\\frac{wy-xz}{\\sqrt{w^{2}+x^{2}}\\sqrt{y^{2}+z^{2}}}\\\\ =\\frac{A\\cdot B}{\\left|A\\right|\\left|B\\right|}
 \\end{equation}
 
-Well, that concludes it! A little bit of proofing for today, done. Stay tuned for more maths posts!
+Well, that concludes a little bit of proofing for today. Stay tuned for more maths posts!
+
+edit: This is more of a derivation than a proof.
