@@ -3,7 +3,6 @@ author = []
 categories = []
 date = 2020-06-17T23:00:00Z
 description = ""
-draft = true
 image = "/images/2020-landscape-1-2.png"
 tags = []
 title = "Markdown Table Test"
