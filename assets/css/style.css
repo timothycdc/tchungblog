@@ -934,17 +934,23 @@ table {
     border-spacing: 0;
     empty-cells: show;
     font-size: 1.6rem;
-    margin: 4rem 0;
+    margin: 0 0;
     width: fit-content;
     min-width: inherit;
 
 }
 
 .tablewrapper {
-    overflow: auto;
-    width: inherit;
+	overflow: auto;
+    display: block;
+    border: 2px;
+    margin: auto;
+    outline: dashed #fff 1px;
+    outline-offset: 10px;
+    background-color: #353b5a;
+
 }
-//previously for table, max width 100%, overflow hidden, width 100%
+//previously for table, max width 100%, overflow hidden, width 100% margin: 4rem 0;
 
 .alignleft>table {
     margin: 0;
