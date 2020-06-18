@@ -27,3 +27,4 @@ fields:
 pages:
 - exampleSite/content/blog/first-post.md
 - exampleSite/content/blog/first-post.md
+- exampleSite/content/blog/markdown-table-test.md
