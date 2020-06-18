@@ -935,10 +935,10 @@ table {
     empty-cells: show;
     font-size: 1.6rem;
     margin: 4rem 0;
-    max-width: 100%;
-    overflow: hidden;
-    width: 100%;
+    overflow: scroll;
+
 }
+//previously, max width 100%, overflow hidden, width 100%
 
 .alignleft>table {
     margin: 0;
