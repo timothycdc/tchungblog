@@ -1,7 +1,7 @@
 +++
 author = []
 categories = []
-date = ""
+date = 2020-06-17T23:00:00Z
 description = ""
 image = "/images/2020-landscape-1-2.png"
 tags = []
@@ -14,4 +14,14 @@ title = "Markdown Table Test"
 |  |  |  |  |  |
 |  |  |  |  |  |
 
+
+
 please render pleaserenderpleaserender pppplease
+
+ok it works! Let's try a longer table.
+
+| Hello | There | are |  | It's getting pretty (line break)) wide in here. |
+|-|-|-|-|-|
+| How long can my table get? Will it scroll? Or will it word wrap? Oh, the possibilities! |  |  | CELLS! |  |
+|  | IN |  |  |  |
+|  |  | Table! |  |  |
