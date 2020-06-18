@@ -941,7 +941,8 @@ table {
 }
 
 tablewrapper {
-    overflow: scroll
+    overflow: scroll;
+    width: 100;
 }
 //previously for table, max width 100%, overflow hidden, width 100%
 
