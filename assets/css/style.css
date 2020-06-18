@@ -936,13 +936,13 @@ table {
     font-size: 1.6rem;
     margin: 4rem 0;
     width: fit-content;
-    min width: 100%;
+    min-width: calc(100% - 6rem);
 
 }
 
-tablewrapper {
-    overflow: scroll;
-    width: 100;
+.tablewrapper {
+    overflow: auto;
+    width: calc(100% - 6rem);
 }
 //previously for table, max width 100%, overflow hidden, width 100%
 
