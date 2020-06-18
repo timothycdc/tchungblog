@@ -935,7 +935,9 @@ table {
     empty-cells: show;
     font-size: 1.6rem;
     margin: 4rem 0;
-    overflow: scroll;
+    overflow: hidden;
+    max width: 100%;
+    width: 100%
 
 }
 //previously, max width 100%, overflow hidden, width 100%
