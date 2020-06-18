@@ -935,12 +935,15 @@ table {
     empty-cells: show;
     font-size: 1.6rem;
     margin: 4rem 0;
-    overflow: hidden;
-    max width: 100%;
-    width: 100%
+    width: fit-content;
+    min width: 100%;
 
 }
-//previously, max width 100%, overflow hidden, width 100%
+
+tablewrapper {
+    overflow: scroll
+}
+//previously for table, max width 100%, overflow hidden, width 100%
 
 .alignleft>table {
     margin: 0;
