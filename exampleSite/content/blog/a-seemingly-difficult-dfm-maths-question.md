@@ -1,20 +1,16 @@
 +++
 author = []
-categories = []
+categories = ["Further Maths"]
 date = 2020-07-06T10:00:00Z
 description = ""
 image = "/images/image-06-07-2020-at-3-49-pm.JPG"
-tags = []
+tags = ["Geometry", "Argand Diagrams", "Trigonometry"]
 title = "A Seemingly Difficult DFM Maths Question"
 
 +++
 Just before summer holidays began, a friend of mine reached out and shared this question with me. It was an Argand Diagrams question taken from the Dr Frost Maths website:
 
-\\begin{equation}A\\ complex\\ number\\ z\\ is\\ represented\\ by\\ the\\ point\\ P\\ on\\ an\\ Argand\\ Diagram.\\\\\\\\
-
-Given\\ that\\ arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\The\\ sketch\\ of\\ the\\ locus\\ of\\ P\\ as\\ z\\ varies\\ is\\ shown\\ below.\\\\\\\\\\end{equation}
-
-Find\\ the \\ exact\\ maximum\\ value\\ of\\ \\left|z\\right|.\\ (5 \\ marks)\\\\end{equation}
+\\begin{equation}A\\ complex\\ number\\ z\\ is\\ represented\\ by\\ the\\ point\\ P\\ on\\ an\\ Argand\\ Diagram.\\\\\\\\Given\\ that\\ arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\The\\ sketch\\ of\\ the\\ locus\\ of\\ P\\ as\\ z\\ varies\\ is\\ shown\\ below.\\\\\\\\\\end{equation}Find\\ the \\ exact\\ maximum\\ value\\ of\\ \\left|z\\right|.\\ (5 \\ marks)\\\\end{equation}
 
 ![](/images/image-06-07-2020-at-3-49-pm.JPG)
 
