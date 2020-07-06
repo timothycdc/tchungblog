@@ -10,13 +10,9 @@ title = "A Seemingly Difficult DFM Maths Question"
 +++
 Just before summer holidays began, a friend of mine reached out and shared this question with me. It was an Argand Diagrams question taken from the Dr Frost Maths website:
 
-\\begin{equation}
+\\begin{equation}A\\ complex\\ number\\ z\\ is\\ represented\\ by\\ the\\ point\\ P\\ on\\ an\\ Argand\\ Diagram.\\\\\\\\
 
-A\\ complex\\ number\\ z\\ is\\ represented\\ by\\ the\\ point\\ P\\ on\\ an\\ Argand\\ Diagram.\\\\\\\\
-
-Given\\ that\\ arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\
-
-The\\ sketch\\ of\\ the\\ locus\\ of\\ P\\ as\\ z\\ varies\\ is\\ shown\\ below.\\\\\\\\
+Given\\ that\\ arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\The\\ sketch\\ of\\ the\\ locus\\ of\\ P\\ as\\ z\\ varies\\ is\\ shown\\ below.\\\\\\\\\\end{equation}
 
 Find\\ the \\ exact\\ maximum\\ value\\ of\\ \\left|z\\right|.\\ (5 \\ marks)\\\\end{equation}
 
@@ -26,13 +22,7 @@ It didn't look too difficult at first, being only 5 marks. But what we did not k
 
 It took me overnight to find a creative solution, but it was well worth it in the end.
 
-\\begin{equation}
-
-arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\
-
-\\therefore \\frac{\\pi}{3}=arg\\left(z-6i\\right)-arg\\left(z-3i\\right)\\\\\\\\
-
-\\end{equation}
+\\begin{equation}arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\\\therefore \\frac{\\pi}{3}=arg\\left(z-6i\\right)-arg\\left(z-3i\\right)\\\\\\\\\\end{equation}
 
 We know that the difference between the argument of a complex number _z_ from 6i and 3i is equal to pi/3 radians.
 
@@ -44,11 +34,9 @@ Looking at Figure 1, I've chosen a point on the locus and drawn argument lines f
 
 ![](/images/img_0448.jpg "FIGURE 2")**FIGURE 2 (above)**
 
-I've drawn more lines like shown in figure 1. Do you see a pattern? (This is the circle theorem learnt in IGCSE) We've just proved this ellipse is really a circle, because of the angles in the same segment are equal to one another. 
+I’ve drawn more lines like shown in figure 1. Do you see a pattern? (This is the circle theorem learnt in IGCSE) We’ve just proved this ellipse is really a circle, because of the angles in the same segment are equal to one another.
 
-![](/images/img_0449.jpg)
-
-**FIGURE 3 (above)**
+![](/images/img_0449.jpg)**FIGURE 3 (above)**
 
 Knowing the shape is a circle, finding the largest value of modulus _z_ is easy, as shown in Figure 3. Find the distance from origin to the centre of the circle (A), and add the radius of the circle to it (B). The distance measured must pass through the centre of the circle because that is the diameter, the longest possible chord/distance between two points on a circle. The centre should have a cartesian y-coordinate of 4.5, as it is between 6 and 3, as shown in figure 3.
 
@@ -66,25 +54,7 @@ Can you spot another circle rule here? The answer will be at the bottom of the p
 
 The centre of the circle can easily be calculated with easy trigonometry, which at this point, is mere peanuts compared to the very difficult start.
 
-\\begin{equation}
-
-\\sin\\left(\\frac{\\pi}{3}\\right)=\\frac{1.5}{radius}\\\\\\\\
-
-\\frac{\\sqrt{3}}{2}=\\frac{1.5}{radius}\\\\\\\\
-
-radius\\ =\\ \\sqrt{3}\\\\\\\\
-
-\\therefore Length\\ A\\ =\\ \\sqrt{3}\\\\\\\\
-
-\\tan\\frac{\\pi}{3}=\\frac{1.5}{x}\\\\\\\\
-
-\\sqrt{3}=\\frac{1.5}{x}\\\\\\\\
-
-x=\\frac{\\sqrt{3}}{2}\\\\\\\\
-
-So\\ coordinates\\ of\\ the\\ centre\\ is\\ \\left(-\\frac{\\sqrt{3}}{2},4.5\\right)\\\\\\\\
-
-\\end{equation}
+\\begin{equation}\\sin\\left(\\frac{\\pi}{3}\\right)=\\frac{1.5}{radius}\\\\\\\\\\frac{\\sqrt{3}}{2}=\\frac{1.5}{radius}\\\\\\\\radius\\ =\\ \\sqrt{3}\\\\\\\\\\therefore Length\\ A\\ =\\ \\sqrt{3}\\\\\\\\\\tan\\frac{\\pi}{3}=\\frac{1.5}{x}\\\\\\\\\\sqrt{3}=\\frac{1.5}{x}\\\\\\\\x=\\frac{\\sqrt{3}}{2}\\\\\\\\So\\ coordinates\\ of\\ the\\ centre\\ is\\ \\left(-\\frac{\\sqrt{3}}{2},4.5\\right)\\\\\\\\\\end{equation}
 
 Now, all is left is the calculation of lengths A and B, and adding them together to get our result in Figure 6:
 
@@ -92,17 +62,7 @@ Now, all is left is the calculation of lengths A and B, and adding them together
 
 **FIGURE 6 (above)**
 
-\\begin{equation}
-
-Length\\ B\\ =\\ \\sqrt{\\left(\\frac{\\sqrt{3}}{2}\\right)^{2}+\\left(4.5\\right)^{2}}\\\\\\\\
-
-=\\sqrt{21}\\\\\\\\
-
-So\\ Length\\ A\\ +\\ Length\\ B\\\\\\\\
-
-=\\sqrt{21}+\\sqrt{3}
-
-\\end{equation}
+\\begin{equation}Length\\ B\\ =\\ \\sqrt{\\left(\\frac{\\sqrt{3}}{2}\\right)^{2}+\\left(4.5\\right)^{2}}\\\\\\\\=\\sqrt{21}\\\\\\\\So\\ Length\\ A\\ +\\ Length\\ B\\\\\\\\=\\sqrt{21}+\\sqrt{3}\\end{equation}
 
 And that concludes it for this question! I did learn a lot of problem-solving skills from this one. This questions ought to be worth more than 5 marks ;)
 
