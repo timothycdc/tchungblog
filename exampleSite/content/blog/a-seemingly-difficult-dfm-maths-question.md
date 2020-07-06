@@ -20,6 +20,8 @@ It took me overnight to find a creative solution, but it was well worth it in th
 
 Let's start:
 
+(Swipe or click+arrow keys to scroll through the workings, it may take a few seconds to load)
+
 \\begin{equation}arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\\\therefore \\frac{\\pi}{3}=arg\\left(z-6i\\right)-arg\\left(z-3i\\right)\\\\\\\\\\end{equation}
 
 We know that the difference between the argument of a complex number _z_ from 6i and 3i is equal to pi/3 radians.
