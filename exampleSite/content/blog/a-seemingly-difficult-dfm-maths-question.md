@@ -30,11 +30,11 @@ Now, what? My Y12 knowledge takes me as far as here. It's time to delve deeper.
 
 ![](/images/img_0447.jpg "Figure 1")**FIGURE 1**
 
-Looking at Figure 1, I've chosen a point on the locus and drawn argument lines from 6i and 3i to the point and highlighted the angles. Note that these lines intersect creating an acute angle of pi/3.
+Looking at Figure 1, I've chosen a point on the locus and drawn argument lines from 6i and 3i to the point and highlighted the angles for clarity. Note that these lines intersect creating an acute angle of pi/3.
 
 ![](/images/img_0448.jpg "FIGURE 2")**FIGURE 2**
 
-I’ve drawn more lines like shown in Fig 2. Do you see a pattern? (This is the circle theorem taught in IGCSEs.) We’ve proved this ellipse is really just a circle, because of the angles in the same segment are equal to one another.
+I’ve drawn more lines like shown in Fig 2. The opposite angles formed by two straight lines are the same. Do you see a pattern? (This is the circle theorem taught in IGCSEs.) We’ve proved this ellipse is really just a circle, because of the angles in the same segment are equal to one another.
 
 ![](/images/img_0449.jpg)**FIGURE 3**
 
