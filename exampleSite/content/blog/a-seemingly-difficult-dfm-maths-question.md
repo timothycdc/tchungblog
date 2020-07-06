@@ -64,9 +64,7 @@ You're probably wondering how I reverse engineered the graph for this blog post.
 
 ![](/images/img_0456.jpg)
 
-\\begin{equation}Must\\ find\\ a\\ point\\ Z\\ where\\ \\theta-\\alpha\\ =\\ \\frac{\\pi}{3}\\\\\\\\
-
-\\tan^{-1}\\left(\\frac{y-6}{x}\\right)-\\tan^{-1}\\left(\\frac{y-3}{x}\\right)=\\frac{\\pi}{3}\\\\\\\\\\end{equation}
+\\begin{equation}Must\\ find\\ a\\ point\\ Z\\ where\\ \\theta-\\alpha\\ =\\ \\frac{\\pi}{3}\\\\\\\\\\\\\\tan^{-1}\\left(\\frac{y-6}{x}\\right)-\\tan^{-1}\\left(\\frac{y-3}{x}\\right)=\\frac{\\pi}{3}\\\\\\\\\\end{equation}
 
 And that concludes it for this question! I did learn a lot of problem-solving skills from this one. This questions ought to be worth more than 5 marks ;)
 
