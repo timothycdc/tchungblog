@@ -8,13 +8,13 @@ tags = ["Geometry", "Argand Diagrams", "Trigonometry"]
 title = "A Seemingly Difficult DFM Maths Question"
 
 +++
-Just before summer holidays began, a friend of mine reached out and shared this question with me. It was an Argand Diagrams question taken from the Dr Frost Maths website:
+Just before summer holidays began, a friend of mine reached out and shared this question with me. It was an Argand Diagrams question taken from the Dr Frost Maths website.
+
+ (Swipe or click+arrow keys to scroll through the workings, it may take a few seconds to load)
 
 \\begin{equation}A\\ complex\\ number\\ z\\ is\\ represented\\ by\\ the\\ point\\ P\\ on\\ an\\ Argand\\ Diagram.\\\\\\\\Given\\ that\\ arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\The\\ sketch\\ of\\ the\\ locus\\ of\\ P\\ as\\ z\\ varies\\ is\\ shown\\ below.\\\\\\\\Find\\ the \\ exact\\ maximum\\ value\\ of\\ \\left|z\\right|.\\ (5 \\ marks)\\end{equation}
 
 ![](/images/image-06-07-2020-at-3-49-pm.JPG)
-
-
 
 It didn't look too difficult at first, being only 5 marks. But what we did not know that the question required Y13 knowledge of polar coordinates (Core Pure 2) as well as the exact value answer, so this meant estimations were not allowed. We were stumped for a long time.
 
@@ -38,7 +38,7 @@ I’ve drawn more lines like shown in Fig 2. The opposite angles formed by two s
 
 ![](/images/img_0449.jpg)**FIGURE 3**
 
-Knowing the shape is a circle, finding the largest value of  |z| is easy, as shown in Figure 3. 
+Knowing the shape is a circle, finding the largest value of  |z| is easy, as shown in Figure 3.
 
 Find the distance from origin to the centre of the circle (A), and add the radius of the circle (B). to get |z|.
 
