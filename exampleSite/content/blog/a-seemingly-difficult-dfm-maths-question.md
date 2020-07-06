@@ -38,7 +38,7 @@ I’ve drawn more lines like shown in Fig 2. Do you see a pattern? (This is the 
 
 ![](/images/img_0449.jpg)**FIGURE 3**
 
-Knowing the shape is a circle, finding the largest value of  |_z_| is easy, as shown in Figure 3. 
+Knowing the shape is a circle, finding the largest value of  |z| is easy, as shown in Figure 3. 
 
 Find the distance from origin to the centre of the circle (A), and add the radius of the circle to it (B).
 
