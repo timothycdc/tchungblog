@@ -18,7 +18,7 @@ Just before summer holidays began, a friend of mine reached out and shared this 
 
 It didn't look too difficult at first, being only 5 marks. But what we did not know that the question required Y13 knowledge of polar coordinates (Core Pure 2) as well as the exact value answer, so this meant estimations were not allowed. We were stumped for a long time.
 
-It took me overnight to find a (creative?) solution using whatever I had already learnt, but it was well worth it in the end.
+It took me overnight to find a (creative?) solution using my current knowledge of the syllabus, but it was well worth it in the end.
 
 Let's start:
 
