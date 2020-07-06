@@ -3,7 +3,7 @@ author = []
 categories = []
 date = 2020-07-06T10:00:00Z
 description = ""
-image = ""
+image = "/images/image-06-07-2020-at-3-49-pm.JPG"
 tags = []
 title = "A Seemingly Difficult DFM Maths Question"
 
