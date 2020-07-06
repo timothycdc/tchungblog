@@ -32,7 +32,7 @@ Looking at Figure 1, I've chosen a point on the locus and drawn argument lines f
 
 ![](/images/img_0448.jpg "FIGURE 2")**FIGURE 2**
 
-I’ve drawn more lines like shown in figure 1. Do you see a pattern? (This is the circle theorem learnt in IGCSE) We’ve just proved this ellipse is really a circle, because of the angles in the same segment are equal to one another.
+I’ve drawn more lines like shown in figure 1. Do you see a pattern? (This is the circle theorem taught in IGCSEs) We’ve proved this ellipse is really just a circle, because of the angles in the same segment are equal to one another.
 
 ![](/images/img_0449.jpg)**FIGURE 3**
 
