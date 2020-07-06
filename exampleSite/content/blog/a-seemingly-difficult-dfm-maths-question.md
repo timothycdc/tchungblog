@@ -14,6 +14,8 @@ Just before summer holidays began, a friend of mine reached out and shared this 
 
 ![](/images/image-06-07-2020-at-3-49-pm.JPG)
 
+
+
 It didn't look too difficult at first, being only 5 marks. But what we did not know that the question required Y13 knowledge of polar coordinates (Core Pure 2), so it stumped us for a bit.
 
 It took me overnight to find a creative solution, but it was well worth it in the end.
@@ -38,9 +40,7 @@ I’ve drawn more lines like shown in figure 1. Do you see a pattern? (This is t
 
 Knowing the shape is a circle, finding the largest value of modulus _z_ is easy, as shown in Figure 3. Find the distance from origin to the centre of the circle (A), and add the radius of the circle to it (B). The distance measured must pass through the centre of the circle because it contains the diameter, the longest possible chord/distance between two points on a circle. The centre should have a cartesian y-coordinate of 4.5, as it is between 6 and 3, as shown in figure 3.
 
-![](/images/img_0450.jpg)
-
-**FIGURE 4**
+![](/images/img_0450.jpg)**FIGURE 4**
 
 I've redrawn the lines again in Figure 4, revealing the very geometrically-pleasing properties of the pi/3 radians angle. I picked points that would form equilateral triangles in a hexagon shape. We've now worked out some useful angles.
 
@@ -54,9 +54,7 @@ The centre of the circle can easily be calculated with easy trigonometry, which 
 
 Now, all is left is the calculation of lengths A and B, and adding them together to get our result in Figure 6:
 
-![](/images/img_0452.jpg)
-
-**FIGURE 6**
+![](/images/img_0452.jpg)**FIGURE 6**
 
 \\begin{equation}Length\\ B\\ =\\ \\sqrt{\\left(\\frac{\\sqrt{3}}{2}\\right)^{2}+\\left(4.5\\right)^{2}}\\\\\\\\=\\sqrt{21}\\\\\\\\So\\ Length\\ A\\ +\\ Length\\ B\\\\\\\\=\\sqrt{21}+\\sqrt{3}\\end{equation}
 
