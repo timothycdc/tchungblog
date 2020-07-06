@@ -14,7 +14,7 @@ Just before summer holidays began, a friend of mine reached out and shared this 
 
 ![](/images/image-06-07-2020-at-3-49-pm.JPG)
 
-It didn't look too difficult at first, being only 5 marks. But what we did not know that the question required Y13 knowledge of polar coordinates (Core Pure 2), and it wanted a 
+It didn't look too difficult at first, being only 5 marks. But what we did not know that the question required Y13 knowledge of polar coordinates (Core Pure 2), and it wanted a
 
 It took me overnight to find a creative solution, but it was well worth it in the end.
 
@@ -24,7 +24,7 @@ We know that the difference between the argument of a complex number _z_ from 6i
 
 Now, what? My Y12 knowledge takes me as far as here. It's time to delve deeper.
 
-![](/images/img_0447.jpg "Figure 1")**FIGURE 1**
+**![](/images/img_0447.jpg)FIGURE 1**
 
 Looking at Figure 1, I've chosen a point on the locus and drawn argument lines from 6i and 3i to the point and highlighted the angles. Note that these lines intersect creating an acute angle of pi/3.
 
