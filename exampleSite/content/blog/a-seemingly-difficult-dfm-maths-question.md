@@ -1,5 +1,5 @@
 +++
-author = []
+author = ["Timothy"]
 categories = ["Further Maths"]
 date = 2020-07-06T10:00:00Z
 description = ""
