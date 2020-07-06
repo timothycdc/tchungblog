@@ -21,6 +21,12 @@ After finishing Core Pure 1's Trigonometry chapters, I used some new trigonometr
 
 It's interesting to see the cosine addition formula reduce the number of lines of the working. Also, note how the left hand side of the equation slowly takes the shape of the **dot product.**
 
+The only issue is that using the cosine addition simplifies the formula for 2-dimensional vectors. What about 3-dimensional vectors?
+
+Let's go back to the first equation , but now vectors a and b have a component of (g,h,i) and (j,k,l) respectively.
+
+\\begin{equation}\\vec{a}^{\\,}=\\left(g,\\ h,\\ i\\right) \\and \\\\vec{b}^{\\,}=\\left(j,\\ k,\\ l\\right) \\\\\\\\\\\\left|OA\\right|^{2}+\\left|OB\\right|^{2}-2\\left|OA\\right|\\left|OB\\right|\\cos\\theta=\\left(AB\\right)^{2}\\\\\\left|OA\\right|^{2}+\\left|OB\\right|^{2}-\\left(AB\\right)^{2}=2\\left|OA\\right|\\left|OB\\right|\\cos\\theta\\\\w^{2}+y^{2}+x^{2}+z^{2}-\\left(x+z\\right)^{2}-\\left(w-y\\right)^{2}=2\\left|OA\\right|\\left|OB\\right|\\cos\\theta\\\\w^{2}+y^{2}+x^{2}+z^{2}-\\left(x^{2}+2zx+z^{2}\\right)-\\left(w^{2}-2wy+z^{2}\\right)=2\\left|OA\\right|\\left|OB\\right|\\cos\\theta\\\\2wy-2zx=2\\left|OA\\right|\\left|OB\\right|\\cos\\theta\\\\wy-zx=\\left|A\\right|\\left|B\\right|\\cos\\theta\\\\\\frac{\\left(wy-zx\\right)}{\\left|OA\\right|\\left|OB\\right|}=\\cos\\theta\\\\\\frac{a\\cdot b}{\\left|OA\\right|\\left|OB\\right|}=\\cos\\theta \\end{equation}
+
 I haven't looked much into this, although 3Blue1Brown has a video about it [here](https://www.youtube.com/watch?v=LyGKycYT2v0). At 6:27, the video shows that a dot product of two vectors is simply mapping one onto the other. I will have to look further into this, and also the **cross product,** which was removed from the exam specification for some reason..
 
 Well, that concludes a little bit of proving for today. Stay tuned for more maths posts!
