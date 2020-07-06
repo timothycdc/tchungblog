@@ -10,7 +10,7 @@ title = "A Seemingly Difficult DFM Maths Question"
 +++
 Just before summer holidays began, a friend of mine reached out and shared this question with me. It was an Argand Diagrams question taken from the Dr Frost Maths website.
 
- (Swipe or click+arrow keys to scroll through the workings, it may take a few seconds to load)
+(Swipe or click+arrow keys to scroll through the workings, it may take a few seconds to load)
 
 \\begin{equation}A\\ complex\\ number\\ z\\ is\\ represented\\ by\\ the\\ point\\ P\\ on\\ an\\ Argand\\ Diagram.\\\\\\\\Given\\ that\\ arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\The\\ sketch\\ of\\ the\\ locus\\ of\\ P\\ as\\ z\\ varies\\ is\\ shown\\ below.\\\\\\\\Find\\ the \\ exact\\ maximum\\ value\\ of\\ \\left|z\\right|.\\ (5 \\ marks)\\end{equation}
 
@@ -70,6 +70,6 @@ You're probably wondering how I reverse engineered the graph for this blog post.
 
 And that concludes it for this question! I did learn a lot of problem-solving skills from this one. This question ought to be worth more than 5 marks ;)
 
-\*Answer:  The angle at a centre of a circle is twice the angle at the circumference (Picture from [https://www.onlinemathlearning.com/](https://www.onlinemathlearning.com/ "https://www.onlinemathlearning.com/"))
+\*Answer:  The angle at a centre of a circle is twice the angle at the circumference ([Picture source](https://www.onlinemathlearning.com/))
 
 ![](https://www.onlinemathlearning.com/image-files/circle-theorem.png)
