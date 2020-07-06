@@ -11,7 +11,9 @@ title = "Angle Between Two Vectors Formula"
 +++
 Last term, we learned about vectors in Core Pure Maths. I was curious on how the formula was derived, so after some experimentation, I used IGCSE-Level trigonometry to get to the answer.
 
-![](/images/img_5c8404ec2a3c-1.jpeg)(Swipe or click+arrow keys to scroll through the workings, it may take a few seconds to load)
+![](/images/img_5c8404ec2a3c-1.jpeg)
+FIGURE 1: (w and x are perpendicular, y and z are perpendicular)
+(Swipe or click+arrow keys to scroll through the workings, it may take a few seconds to load)
 
 \\begin{equation} Using\\ the\\ cos\\ rule\\ for\\ Figure\\ 1:\\\\\\left|OA\\right|^{2}+\\left|OB\\right|^{2}-2\\left|OA\\right|\\left|OB\\right|\\cos\\theta=\\left(AB\\right)^{2}\\\\\\left|OA\\right|^{2}+\\left|OB\\right|^{2}-\\left(AB\\right)^{2}=2\\left|OA\\right|\\left|OB\\right|\\cos\\theta\\\\w^{2}+y^{2}+x^{2}+z^{2}-\\left(x+z\\right)^{2}-\\left(w-y\\right)^{2}=2\\left|OA\\right|\\left|OB\\right|\\cos\\theta\\\\w^{2}+y^{2}+x^{2}+z^{2}-\\left(x^{2}+2zx+z^{2}\\right)-\\left(w^{2}-2wy+z^{2}\\right)=2\\left|OA\\right|\\left|OB\\right|\\cos\\theta\\\\2wy-2zx=2\\left|OA\\right|\\left|OB\\right|\\cos\\theta\\\\wy-zx=\\left|A\\right|\\left|B\\right|\\cos\\theta\\\\\\frac{\\left(wy-zx\\right)}{\\left|OA\\right|\\left|OB\\right|}=\\cos\\theta\\\\\\frac{a\\cdot b}{\\left|OA\\right|\\left|OB\\right|}=\\cos\\theta \\end{equation}
 
