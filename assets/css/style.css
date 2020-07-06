@@ -939,6 +939,15 @@ table {
     min-width: inherit;
 
 }
+.tablewrapper::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.MathJax_Display::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
 
 .tablewrapper {
 	overflow: auto;
