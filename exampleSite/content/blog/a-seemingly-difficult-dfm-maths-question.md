@@ -14,9 +14,11 @@ Just before summer holidays began, a friend of mine reached out and shared this 
 
 ![](/images/image-06-07-2020-at-3-49-pm.JPG)
 
-It didn't look too difficult at first, being only 5 marks. But what we did not know that the question required Y13 knowledge of polar coordinates (Core Pure 2), and it wanted a
+It didn't look too difficult at first, being only 5 marks. But what we did not know that the question required Y13 knowledge of polar coordinates (Core Pure 2), so it stumped us for a bit.
 
 It took me overnight to find a creative solution, but it was well worth it in the end.
+
+Let's start:
 
 \\begin{equation}arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\\\therefore \\frac{\\pi}{3}=arg\\left(z-6i\\right)-arg\\left(z-3i\\right)\\\\\\\\\\end{equation}
 
