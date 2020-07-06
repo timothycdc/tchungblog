@@ -24,7 +24,7 @@ We know that the difference between the argument of a complex number _z_ from 6i
 
 Now, what? My Y12 knowledge takes me as far as here. It's time to delve deeper.
 
-**![](/images/img_0447.jpg)FIGURE 1**
+![](/images/img_0447.jpg "Figure 1")**FIGURE 1**
 
 Looking at Figure 1, I've chosen a point on the locus and drawn argument lines from 6i and 3i to the point and highlighted the angles. Note that these lines intersect creating an acute angle of pi/3.
 
@@ -57,6 +57,14 @@ Now, all is left is the calculation of lengths A and B, and adding them together
 **FIGURE 6**
 
 \\begin{equation}Length\\ B\\ =\\ \\sqrt{\\left(\\frac{\\sqrt{3}}{2}\\right)^{2}+\\left(4.5\\right)^{2}}\\\\\\\\=\\sqrt{21}\\\\\\\\So\\ Length\\ A\\ +\\ Length\\ B\\\\\\\\=\\sqrt{21}+\\sqrt{3}\\end{equation}
+
+You're probably wondering how I reverse engineered the graph for this blog post. This is how I got to the answer:
+
+![](/images/img_0456.jpg)
+
+\\begin{equation}Must\\ find\\ a\\ point\\ Z\\ where\\ \\theta-\\alpha\\ =\\ \\frac{\\pi}{3}\\\\\\\\
+
+\\tan^{-1}\\left(\\frac{y-6}{x}\\right)-\\tan^{-1}\\left(\\frac{y-3}{x}\\right)=\\frac{\\pi}{3}\\\\\\\\\\end{equation}
 
 And that concludes it for this question! I did learn a lot of problem-solving skills from this one. This questions ought to be worth more than 5 marks ;)
 
