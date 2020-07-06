@@ -16,9 +16,9 @@ Just before summer holidays began, a friend of mine reached out and shared this 
 
 
 
-It didn't look too difficult at first, being only 5 marks. But what we did not know that the question required Y13 knowledge of polar coordinates (Core Pure 2), so it stumped us for a bit.
+It didn't look too difficult at first, being only 5 marks. But what we did not know that the question required Y13 knowledge of polar coordinates (Core Pure 2) as well as the exact value, so this meant estimations were not allowed. We were stumped for a long time.
 
-It took me overnight to find a creative solution, but it was well worth it in the end.
+It took me overnight to find a (creative?) solution, but it was well worth it in the end.
 
 Let's start:
 
@@ -40,7 +40,7 @@ I’ve drawn more lines like shown in Fig 2. Do you see a pattern? (This is the 
 
 Knowing the shape is a circle, finding the largest value of  |z| is easy, as shown in Figure 3. 
 
-Find the distance from origin to the centre of the circle (A), and add the radius of the circle to it (B).
+Find the distance from origin to the centre of the circle (A), and add the radius of the circle (B). to get |z|.
 
 This measured distance must pass through the centre of the circle because it contains the diameter, the longest possible chord/distance between two points on a circumference. The centre should have a cartesian y-coordinate of 4.5, as it is between 6 and 3, as shown in Fig 3.
 
