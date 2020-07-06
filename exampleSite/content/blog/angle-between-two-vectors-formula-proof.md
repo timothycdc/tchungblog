@@ -11,23 +11,16 @@ title = "Angle Between Two Vectors Formula"
 +++
 Last term, we learned about vectors in Core Pure Maths. I was curious on how the formula was derived, so after some experimentation, I used IGCSE-Level trigonometry to get to the answer.
 
-![](/images/img_add4dfe3265b-1.jpeg)
+![](/images/img_5c8404ec2a3c-1.jpeg)(Swipe or click+arrow keys to scroll through the workings, it may take a few seconds to load)
 
-(Swipe or click+arrow keys to scroll through the workings, it may take a few seconds to load)
-
-\\begin{equation} Using\\ the\\ cos\\ rule\\ for\\ Figure\\ 1:\\\\\\left|OA\\right|^{2}+\\left|OB\\right|^{2}-2\\left|OA\\right|\\left|OB\\right|\\cos\\theta=\\left(AB\\right)^{2}\\\\\\left|OA\\right|^{2}+\\left|OB\\right|^{2}-\\left(AB\\right)^{2}=2\\left|OA\\right|\\left|OB\\right|\\cos\\theta\\\\w^{2}+y^{2}+x^{2}+z^{2}-\\left(x+z\\right)^{2}-\\left(w-y\\right)^{2}=2\\left|OA\\right|\\left|OB\\right|\\cos\\theta\\\\w^{2}+y^{2}+x^{2}+z^{2}-\\left(x^{2}+2zx+z^{2}\\right)-\\left(w^{2}-2wy+z^{2}\\right)=2\\left|OA\\right|\\left|OB\\right|\\cos\\theta\\\\2wy-2zx=2\\left|OA\\right|\\left|OB\\right|\\cos\\theta\\\\wy-zx=\\left|A\\right|\\left|B\\right|\\cos\\theta\\\\\\frac{\\left(wy-zx\\right)}{\\left|OA\\right|\\left|OB\\right|}=\\cos\\theta\\\\\\frac{A\\cdot B}{\\left|OA\\right|\\left|OB\\right|}=\\cos\\theta \\end{equation}
+\\begin{equation} Using\\ the\\ cos\\ rule\\ for\\ Figure\\ 1:\\\\\\left|OA\\right|^{2}+\\left|OB\\right|^{2}-2\\left|OA\\right|\\left|OB\\right|\\cos\\theta=\\left(AB\\right)^{2}\\\\\\left|OA\\right|^{2}+\\left|OB\\right|^{2}-\\left(AB\\right)^{2}=2\\left|OA\\right|\\left|OB\\right|\\cos\\theta\\\\w^{2}+y^{2}+x^{2}+z^{2}-\\left(x+z\\right)^{2}-\\left(w-y\\right)^{2}=2\\left|OA\\right|\\left|OB\\right|\\cos\\theta\\\\w^{2}+y^{2}+x^{2}+z^{2}-\\left(x^{2}+2zx+z^{2}\\right)-\\left(w^{2}-2wy+z^{2}\\right)=2\\left|OA\\right|\\left|OB\\right|\\cos\\theta\\\\2wy-2zx=2\\left|OA\\right|\\left|OB\\right|\\cos\\theta\\\\wy-zx=\\left|A\\right|\\left|B\\right|\\cos\\theta\\\\\\frac{\\left(wy-zx\\right)}{\\left|OA\\right|\\left|OB\\right|}=\\cos\\theta\\\\\\frac{a\\cdot b}{\\left|OA\\right|\\left|OB\\right|}=\\cos\\theta \\end{equation}
 
 After finishing Core Pure 1's Trigonometry chapters, I used some new trigonometry formulas recently learned to simplify the derivation.
 
-\\begin{equation}
-\\cos\\left(a+b\\right)=\\cos a\\cos b-\\sin a\\sin b
-\\\\ =\\left(\\frac{w}{\\sqrt{w^{2}+x^{2}}}\\times\\frac{y}{\\sqrt{y^{2}+z^{2}}}\\right)-\\left(\\frac{x}{\\sqrt{w^{2}+x^{2}}}\\times\\frac{z}{\\sqrt{y^{2}+z^{2}}}\\right)\\\\=\\frac{wy-xz}{\\sqrt{w^{2}+x^{2}}\\sqrt{y^{2}+z^{2}}}\\\\ =\\frac{A\\cdot B}{\\left|A\\right|\\left|B\\right|}
-\\end{equation}
+\\begin{equation} \\cos\\left(a+b\\right)=\\cos a\\cos b-\\sin a\\sin b \\\\ =\\left(\\frac{w}{\\sqrt{w^{2}+x^{2}}}\\times\\frac{y}{\\sqrt{y^{2}+z^{2}}}\\right)-\\left(\\frac{x}{\\sqrt{w^{2}+x^{2}}}\\times\\frac{z}{\\sqrt{y^{2}+z^{2}}}\\right)\\\\=\\frac{wy-xz}{\\sqrt{w^{2}+x^{2}}\\sqrt{y^{2}+z^{2}}}\\\\ =\\frac{a\\cdot b}{\\left|OA\\right|\\left|OB\\right|} \\end{equation}
 
-It's interesting to see the cos addition formula reduce the number of lines of the working. Also, note how the left hand side of the equation slowly takes the shape of the **dot product.**
+It's interesting to see the cosine addition formula reduce the number of lines of the working. Also, note how the left hand side of the equation slowly takes the shape of the **dot product.**
 
 I haven't looked much into this, although 3Blue1Brown has a video about it [here](https://www.youtube.com/watch?v=LyGKycYT2v0). At 6:27, the video shows that a dot product of two vectors is simply mapping one onto the other. I will have to look further into this, and also the **cross product,** which was removed from the exam specification for some reason..
 
 Well, that concludes a little bit of proving for today. Stay tuned for more maths posts!
-
-edit: After some thought, I realise this is more of a derivation than a proof. ([see more](https://www.quora.com/What-is-the-difference-between-a-proof-and-a-derivation?))
