@@ -68,7 +68,7 @@ You're probably wondering how I reverse engineered the graph for this blog post.
 
 \\begin{equation}Must\\ find\\ a\\ point\\ Z\\ where\\ \\theta-\\alpha\\ =\\ \\frac{\\pi}{3}\\\\\\\\\\\\\\tan^{-1}\\left(\\frac{y-6}{x}\\right)-\\tan^{-1}\\left(\\frac{y-3}{x}\\right)=\\frac{\\pi}{3}\\\\\\\\\\end{equation}
 
-And that concludes it for this question! I did learn a lot of problem-solving skills from this one. This question ought to be worth more than 5 marks ;)
+And that concludes it for this question! I did learn a lot of problem-solving skills from this one. This .question ought to be worth more than 5 marks ;)
 
 \*Answer:  The angle at a centre of a circle is twice the angle at the circumference (Picture from [https://www.onlinemathlearning.com/](https://www.onlinemathlearning.com/ "https://www.onlinemathlearning.com/"))
 
