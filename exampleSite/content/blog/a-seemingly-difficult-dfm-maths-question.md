@@ -44,9 +44,7 @@ I've redrawn the lines again in Figure 4, revealing the very geometrically-pleas
 
 Can you spot another circle rule here? The answer will be at the bottom of the post with a reference guide.
 
-![](/images/img_0451.jpg)
-
-**FIGURE 5**
+![](/images/img_0451.jpg)**FIGURE 5**
 
 The centre of the circle can easily be calculated with easy trigonometry, which at this point, is mere peanuts compared to the very difficult start.
 
