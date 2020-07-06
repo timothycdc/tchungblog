@@ -25,6 +25,7 @@ fields:
   label: description
   description: Meta description
 pages:
+- exampleSite/content/blog/a-seemingly-difficult-dfm-maths-question.md
 - exampleSite/content/blog/first-post.md
 - exampleSite/content/blog/first-post.md
 - exampleSite/content/blog/markdown-table-test.md
