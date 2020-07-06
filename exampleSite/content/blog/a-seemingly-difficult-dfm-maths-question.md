@@ -46,7 +46,7 @@ This measured distance must pass through the centre of the circle because it con
 
 ![](/images/img_0450.jpg)**FIGURE 4**
 
-I've redrawn the lines again in Figure 4, revealing the very geometrically-pleasing properties of the pi/3 radians angle. I picked points that would form equilateral triangles in a hexagon shape. We've now worked out some useful angles.
+I've redrawn the lines again in Figure 4, revealing the very geometrically-pleasing properties of the pi/3 radians angle. I picked points that would form equilateral triangles in a hexagon shape. We've now worked out the angle of the isosceles triangle in Figure 5.
 
 Can you spot another circle rule in place here? The answer will be at the bottom of the post.
 
