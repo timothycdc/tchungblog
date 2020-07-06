@@ -3,7 +3,7 @@ author = ["Timothy"]
 categories = ["Further Maths"]
 date = 2020-07-06T10:00:00Z
 description = ""
-image = "/images/image-06-07-2020-at-3-49-pm.JPG"
+image = "/images/img_0457.jpg"
 tags = ["Geometry", "Argand Diagrams", "Trigonometry"]
 title = "A Seemingly Difficult DFM Maths Question"
 
