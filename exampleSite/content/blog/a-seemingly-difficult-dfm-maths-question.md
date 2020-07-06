@@ -24,21 +24,21 @@ We know that the difference between the argument of a complex number _z_ from 6i
 
 Now, what? My Y12 knowledge takes me as far as here. It's time to delve deeper.
 
-![](/images/img_0447.jpg "Figure 1")**FIGURE 1 (above)**
+![](/images/img_0447.jpg "Figure 1")**FIGURE 1**
 
 Looking at Figure 1, I've chosen a point on the locus and drawn argument lines from 6i and 3i to the point and highlighted the angles. Note that these lines intersect creating an acute angle of pi/3.
 
-![](/images/img_0448.jpg "FIGURE 2")**FIGURE 2 (above)**
+![](/images/img_0448.jpg "FIGURE 2")**FIGURE 2**
 
 I’ve drawn more lines like shown in figure 1. Do you see a pattern? (This is the circle theorem learnt in IGCSE) We’ve just proved this ellipse is really a circle, because of the angles in the same segment are equal to one another.
 
-![](/images/img_0449.jpg)**FIGURE 3 (above)**
+![](/images/img_0449.jpg)**FIGURE 3**
 
 Knowing the shape is a circle, finding the largest value of modulus _z_ is easy, as shown in Figure 3. Find the distance from origin to the centre of the circle (A), and add the radius of the circle to it (B). The distance measured must pass through the centre of the circle because that is the diameter, the longest possible chord/distance between two points on a circle. The centre should have a cartesian y-coordinate of 4.5, as it is between 6 and 3, as shown in figure 3.
 
 ![](/images/img_0450.jpg)
 
-**FIGURE 4(above)**
+**FIGURE 4**
 
 I've redrawn the lines again in Figure 4, revealing the very geometrically-pleasing properties of the pi/3 radians angle. I picked points that would form equilateral triangles in a hexagon shape. We've now worked out some useful angles.
 
@@ -46,7 +46,7 @@ Can you spot another circle rule here? The answer will be at the bottom of the p
 
 ![](/images/img_0451.jpg)
 
-**FIGURE 5 (above)**
+**FIGURE 5**
 
 The centre of the circle can easily be calculated with easy trigonometry, which at this point, is mere peanuts compared to the very difficult start.
 
@@ -56,7 +56,7 @@ Now, all is left is the calculation of lengths A and B, and adding them together
 
 ![](/images/img_0452.jpg)
 
-**FIGURE 6 (above)**
+**FIGURE 6**
 
 \\begin{equation}Length\\ B\\ =\\ \\sqrt{\\left(\\frac{\\sqrt{3}}{2}\\right)^{2}+\\left(4.5\\right)^{2}}\\\\\\\\=\\sqrt{21}\\\\\\\\So\\ Length\\ A\\ +\\ Length\\ B\\\\\\\\=\\sqrt{21}+\\sqrt{3}\\end{equation}
 
