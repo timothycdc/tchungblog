@@ -38,7 +38,7 @@ I’ve drawn more lines like shown in Fig. 2. Do you see a pattern? (This is the
 
 ![](/images/img_0449.jpg)**FIGURE 3**
 
-Knowing the shape is a circle, finding the largest value of modulus _z_ is easy, as shown in Figure 3. Find the distance from origin to the centre of the circle (A), and add the radius of the circle to it (B). The distance measured must pass through the centre of the circle because it contains the diameter, the longest possible chord/distance between two points on a circle. The centre should have a cartesian y-coordinate of 4.5, as it is between 6 and 3, as shown in figure 3.
+Knowing the shape is a circle, finding the largest value of  |_z_| is easy, as shown in Figure 3. Find the distance from origin to the centre of the circle (A), and add the radius of the circle to it (B). The distance measured must pass through the centre of the circle because it contains the diameter, the longest possible chord/distance between two points on a circle. The centre should have a cartesian y-coordinate of 4.5, as it is between 6 and 3, as shown in figure 3.
 
 ![](/images/img_0450.jpg)**FIGURE 4**
 
