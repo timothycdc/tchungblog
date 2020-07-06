@@ -3,7 +3,6 @@ author = []
 categories = []
 date = 2020-07-06T10:00:00Z
 description = ""
-draft = true
 image = ""
 tags = []
 title = "A Seemingly Difficult DFM Maths Question"
@@ -92,6 +91,18 @@ Now, all is left is the calculation of lengths A and B, and adding them together
 ![](/images/img_0452.jpg)
 
 **FIGURE 6 (above)**
+
+\\begin{equation}
+
+Length\\ B\\ =\\ \\sqrt{\\left(\\frac{\\sqrt{3}}{2}\\right)^{2}+\\left(4.5\\right)^{2}}\\\\\\\\
+
+=\\sqrt{21}\\\\\\\\
+
+So\\ Length\\ A\\ +\\ Length\\ B\\\\\\\\
+
+=\\sqrt{21}+\\sqrt{3}
+
+\\end{equation}
 
 And that concludes it for this question! I did learn a lot of problem-solving skills from this one. This questions ought to be worth more than 5 marks ;)
 
