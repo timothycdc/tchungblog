@@ -940,7 +940,9 @@ table {
 
 }
 h6 {
-    text-align: right;
+    text-align: left;
+    display: block;
+    margin-top: -2% ! important;
 }
 
 
