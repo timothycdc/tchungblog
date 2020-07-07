@@ -33,7 +33,7 @@ I haven't looked much into the use case of the dot product, although 3Blue1Brown
 
 Using the cosine addition simplifies the formula for 2-dimensional vectors. What about 3-dimensional vectors?  (Prepare for a large chunk of working)
 
-![](/images/img_0462.jpg)**FIGURE 2
+![](/images/img_0462.jpg)**FIGURE 2**
 
 Figure 2 is similar to Figure 1 , but now vectors a and b have a component of (g,h,i) and (j,k,l) respectively. I've used a style similar to Method 1 to work things out:
 
