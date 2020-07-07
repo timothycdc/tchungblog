@@ -926,7 +926,7 @@ input[type="search"]:focus {
 }
 
 
-/* Tables ------------------------------------ */
+/* Tables and Tim's Added Extras ------------------------------------ */
 
 table {
     border: 0.1rem solid #dcd7ca;
@@ -939,6 +939,11 @@ table {
     min-width: inherit;
 
 }
+h6 {
+    text-align: right;
+}
+
+
 .tablewrapper::-webkit-scrollbar {
     width: 0px;
     background: transparent; /* make scrollbar transparent */
