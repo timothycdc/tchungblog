@@ -13,8 +13,7 @@ title = "Angle Between Two Vectors Formula"
 
 Last term, we learned about vectors in Core Pure Maths. I was curious on how the formula was derived, so after some experimentation, I used IGCSE-Level trigonometry to get to the answer.
 
-![](/images/img_5c8404ec2a3c-1.jpeg)
-**FIGURE 1: (w and x are perpendicular, y and z are perpendicular)**
+![](/images/img_5c8404ec2a3c-1.jpeg) **FIGURE 1:**
 (Swipe or click+arrow keys to scroll through the workings, it may take a few seconds to load)
 
 Figure 1 shows two 2-D vectors, |OA| = a, and |OB| = b. Both vectors are at an angle θ.
