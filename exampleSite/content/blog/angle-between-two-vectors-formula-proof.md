@@ -9,7 +9,7 @@ tags = ["Vectors", "Trigonometry", "Maths"]
 title = "Angle Between Two Vectors Formula"
 
 +++
-Foreword: This post has been edited under the advice of my Mathematics teacher for better clarity and rigor.
+Foreword: This post has been edited under the advice of my Mathematics teacher for better clarity and rigor. The URL of this page says call this work a 'proof', however after much thought, it is more of a **derivation.
 
 Last term, we learned about vectors in Core Pure Maths. I was curious on how the formula was derived, so after some experimentation, I used IGCSE-Level trigonometry to get to the answer.
 
