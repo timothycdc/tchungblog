@@ -13,7 +13,7 @@ title = "Angle Between Two Vectors Formula"
 
 Last term, we learned about vectors in Core Pure Maths. I was curious on how the formula was derived, so after some experimentation, I used IGCSE-Level trigonometry to get to the answer.
 
-**![](/images/img_0464.jpg)FIGURE 1:**
+![](/images/img_0464.jpg)**FIGURE 1:**
 (Swipe or click+arrow keys to scroll through the workings, it may take a few seconds to load)
 
 Figure 1 shows two 2-D vectors, |OA| = a, and |OB| = b. Both vectors are at an angle θ.
@@ -30,7 +30,7 @@ I haven't looked much into the use case of the dot product, although 3Blue1Brown
 
 Using the cosine addition simplifies the formula for 2-dimensional vectors. What about 3-dimensional vectors?  (Prepare for a large chunk of working)
 
-**![](/images/img_0465.jpg)FIGURE 2**
+![](/images/img_0465.jpg)**FIGURE 2**
 
 Figure 2 is similar to Figure 1 , but now vectors a and b have a component of (g,h,i) and (j,k,l) respectively. I've used a style similar to Method 1 to work things out:
 
