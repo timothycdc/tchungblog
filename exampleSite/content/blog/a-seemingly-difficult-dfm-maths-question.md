@@ -54,7 +54,7 @@ I've redrawn the lines again in Figure 4, revealing the very geometrically-pleas
 
 Fig 5: The centre of the circle can easily be calculated with easy trigonometry, which at this point, is mere peanuts compared to the very difficult start of this question.
 
-\\begin{equation}\\sin\\left(\\frac{\\pi}{3}\\right)=\\frac{1.5}{radius}\\\\\\\\\\frac{\\sqrt{3}}{2}=\\frac{1.5}{radius}\\\\\\\\radius\\ =\\ \\sqrt{3}\\\\\\\\\\therefore Length\\ A\\ =\\ \\sqrt{3}\\\\\\\\\\tan\\frac{\\pi}{3}=\\frac{1.5}{x}\\\\\\\\\\sqrt{3}=\\frac{1.5}{x}\\\\\\\\x=\\frac{\\sqrt{3}}{2}\\\\\\\\So\\ coordinates\\ of\\ the\\ centre\\ is\\ \\left(-\\frac{\\sqrt{3}}{2},4.5\\right)\\\\\\\\\\end{equation}
+\\begin{equation}\\sin\\left(\\frac{\\pi}{3}\\right)=\\frac{1.5}{radius}\\\\\\\\\\frac{\\sqrt{3}}{2}=\\frac{1.5}{radius}\\\\\\\\radius\\ =\\ \\sqrt{3}\\\\\\\\\\therefore Length\\ A\\ =\\ \\sqrt{3}\\\\\\\\\\tan\\frac{\\pi}{3}=\\frac{1.5}{x}\\\\\\\\\\sqrt{3}=\\frac{1.5}{x}\\\\\\\\x=\\frac{\\sqrt{3}}{2}\\\\\\\\So\\ coordinates\\ of\\ the\\ centre\\ are\\ \\left(-\\frac{\\sqrt{3}}{2},4.5\\right)\\\\\\\\\\end{equation}
 
 Now, all is left is the addition of lengths A and B, to get our result in Figure 6:
 
