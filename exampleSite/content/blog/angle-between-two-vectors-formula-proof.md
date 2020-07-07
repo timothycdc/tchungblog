@@ -25,9 +25,11 @@ It's interesting to see the cosine addition formula reduce the number of lines o
 
 The only issue is that using the cosine addition simplifies the formula for 2-dimensional vectors. What about 3-dimensional vectors?
 
-Let's go back to the first equation , but now vectors a and b have a component of (g,h,i) and (j,k,l) respectively.
+Let's refer back to the Figure 1 , but now take vectors a and b to have a component of (g,h,i) and (j,k,l) respectively.
 
-\\begin{equation} \\vec{a}^{\\,}=\\left(g,\\ h,\\ i\\right) \\and \\\\vec{b}^{\\,}=\\left(j,\\ k,\\ l\\right)\\end{equation}
+\\begin{equation}\\vec{a}^{\\,}=\\left(g,\\ h,\\ i\\right) \\ and \\  \\vec{b}^{\\,}=\\left(j,\\ k,\\ l\\right)\\\\
+
+\\Using\\ the\\ cos\\ rule:\\\\\\\\left|OA\\right|^{2}+\\left|OB\\right|^{2}-2\\left|OA\\right|\\left|OB\\right|\\cos\\theta=\\left(AB\\right)^{2}\\\\\\left|OA\\right|^{2}+\\left|OB\\right|^{2}-\\left(AB\\right)^{2}=2\\left|OA\\right|\\left|OB\\right|\\cos\\theta\\end{equation}
 
 I haven't looked much into this, although 3Blue1Brown has a video about it [here](https://www.youtube.com/watch?v=LyGKycYT2v0). At 6:27, the video shows that a dot product of two vectors is simply mapping one onto the other. I will have to look further into this, and also the **cross product,** which was removed from the exam specification for some reason..
 
