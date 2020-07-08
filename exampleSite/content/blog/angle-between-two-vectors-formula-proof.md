@@ -3,7 +3,7 @@ author = ["Timothy"]
 categories = ["Further Maths"]
 date = 2020-06-04T09:40:24Z
 description = "This is meta description. Can you read this?"
-image = "/images/image-06-07-2020-at-10-49-pm.JPG"
+image = "/images/Image 06-07-2020 at 10.49 PM.JPG"
 tage = ["tags"]
 tags = ["Vectors", "Trigonometry", "Maths"]
 title = "Angle Between Two Vectors Formula"
@@ -13,7 +13,9 @@ title = "Angle Between Two Vectors Formula"
 
 Last term, we learned about vectors in Core Pure Maths. I was curious on how the formula was derived, so after some experimentation, I used IGCSE-Level trigonometry to get to the answer.
 
-###### **![](/images/img_0464.jpg)**FIGURE 1:
+![](/images/IMG_0464.jpg)
+
+###### FIGURE 1:
 
 Figure 1 shows two 2-D vectors, |OA| = a, and |OB| = b. Both vectors are at an angle θ. (Swipe or click+arrow keys to scroll through the workings, it may take a few seconds to load)
 
