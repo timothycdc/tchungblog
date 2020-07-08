@@ -28,13 +28,13 @@ We know that the difference between the argument of a complex number _z_ from 6i
 
 Now, what? My Y12 knowledge takes me as far as here. It's time to delve deeper.
 
-![](/images/img_0447.jpg "Figure 1")
+![](/images/img_0447.jpg)
 
 ###### FIGURE 1
 
 Looking at Figure 1, I've chosen a point on the locus and drawn argument lines from 6i and 3i to the point and highlighted the angles for clarity. Note that these lines intersect creating an acute angle of pi/3.
 
-![](/images/img_0448.jpg "FIGURE 2")
+![](/images/img_0448.jpg)
 
 ###### FIGURE 2
 
