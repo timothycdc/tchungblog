@@ -12,7 +12,7 @@ Just before summer holidays began, a friend of mine reached out and shared this 
 
 (Swipe or click+arrow keys to scroll through the workings, it may take a few seconds to load)
 
-\\begin{equation}A\\ complex\\ number\\ z\\ is\\ represented\\ by\\ the\\ point\\ P\\ on\\ an\\ Argand\\ Diagram.\\\\\\\\ \\Given\\ that\\ arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\The\\ sketch\\ of\\ the\\ locus\\ of\\ P\\ as\\ z\\ varies\\ is\\ shown\\ below.\\\\\\\\Find\\ the \\ exact\\ maximum\\ value\\ of\\ \\left|z\\right|.\\ (5 \\ marks)\\end{equation}
+\\begin{equation}A\\ complex\\ number\\ z\\ is\\ represented\\ by\\ the\\ point\\ P\\ on\\ an\\ Argand\\ Diagram.\\\\\\\\ Given\\ that\\ arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\The\\ sketch\\ of\\ the\\ locus\\ of\\ P\\ as\\ z\\ varies\\ is\\ shown\\ below.\\\\\\\\ Find\\ the \\ exact\\ maximum\\ value\\ of\\ \\left|z\\right|.\\ (5 \\ marks)\\end{equation}
 
 ![](/images/image-06-07-2020-at-3-49-pm.JPG)
 
@@ -22,7 +22,7 @@ It took me overnight to find a (creative?) solution using whatever I had already
 
 Let's start:
 
-\\begin{equation}arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\\\Therefore \\frac{\\pi}{3}=arg\\left(z-6i\\right)-arg\\left(z-3i\\right)\\\\\\\\\\end{equation}
+\\begin{equation}arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\ Therefore \\frac{\\pi}{3}=arg\\left(z-6i\\right)-arg\\left(z-3i\\right)\\\\\\\\\\end{equation}
 
 We know that the difference between the argument of a complex number _z_ from 6i and 3i is equal to pi/3 radians.
 
@@ -66,7 +66,7 @@ Fig 5: The radius and the centre of the circle can easily be calculated with eas
 
 \\begin{equation}\\sin\\left(\\frac{\\pi}{3}\\right)=\\frac{1.5}{radius}\\\\\\\\\\frac{\\sqrt{3}}{2}=\\frac{1.5}{radius}\\\\\\\\radius\\ =\\ \\sqrt{3}\\\\\\end{equation}
 
-\\begin{equation}\\\\therefore Length\\ A\\ =\\ \\sqrt{3}\\\\\\\\\\tan\\frac{\\pi}{3}=\\frac{1.5}{x}\\\\\\\\\\sqrt{3}=\\frac{1.5}{x}\\\\\\\\x=\\frac{\\sqrt{3}}{2}\\\\\\\\So\\ coordinates\\ of\\ the\\ centre\\ are\\ \\left(-\\frac{\\sqrt{3}}{2},4.5\\right)\\\\\\\\\\end{equation}
+\\begin{equation}\\\\Therefore Length\\ A\\ =\\ \\sqrt{3}\\\\\\\\\\tan\\frac{\\pi}{3}=\\frac{1.5}{x}\\\\\\\\\\sqrt{3}=\\frac{1.5}{x}\\\\\\\\x=\\frac{\\sqrt{3}}{2}\\\\\\\\So\\ coordinates\\ of\\ the\\ centre\\ are\\ \\left(-\\frac{\\sqrt{3}}{2},4.5\\right)\\\\\\\\\\end{equation}
 
 Now, all is left is the addition of lengths A and B, to get our result in Figure 6:
 
