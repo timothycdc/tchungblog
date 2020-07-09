@@ -23,7 +23,7 @@ Figure 1 shows two 2-D vectors, |OA| = a, and |OB| = b. Both vectors are at an a
 
 After finishing Core Pure 1's Trigonometry chapters, I used some new trigonometry formulas recently learned to simplify the derivation.
 
-**Method 2: Cosine Addition Rule**\\begin{equation} \\cos\\left(a+b\\right)=\\cos a\\cos b-\\sin a\\sin b \\\\\\\\ =\\left(\\frac{w}{\\sqrt{w^{2}+x^{2}}}\\times\\frac{y}{\\sqrt{y^{2}+z^{2}}}\\right)-\\left(\\frac{x}{\\sqrt{w^{2}+x^{2}}}\\times\\frac{z}{\\sqrt{y^{2}+z^{2}}}\\right)\\\\\\\\=\\frac{wy-xz}{\\sqrt{w^{2}+x^{2}}\\sqrt{y^{2}+z^{2}}}\\\\\\\\ =\\frac{a\\cdot b}{\\left|OA\\right|\\left|OB\\right|} \\end{equation}
+**Method 2: Cosine Addition Rule**\\begin{equation} \\cos\\left(a+b\\right)=\\cos a\\cos b-\\sin a\\sin b \\\\\\\\ \\\\\\\\=\\left(\\frac{w}{\\sqrt{w^{2}+x^{2}}}\\times\\frac{y}{\\sqrt{y^{2}+z^{2}}}\\right)-\\left(\\frac{x}{\\sqrt{w^{2}+x^{2}}}\\times\\frac{z}{\\sqrt{y^{2}+z^{2}}}\\right)\\\\\\\\ \\\\\\\\=\\frac{wy-xz}{\\sqrt{w^{2}+x^{2}}\\sqrt{y^{2}+z^{2}}}\\\\\\\\ \\\\\\\\=\\frac{a\\cdot b}{\\left|OA\\right|\\left|OB\\right|} \\end{equation}
 
 It's interesting to see the cosine addition formula reduces the number of lines of working. Also, note how the left hand side of the equation slowly takes the shape of the **dot product.**
 
