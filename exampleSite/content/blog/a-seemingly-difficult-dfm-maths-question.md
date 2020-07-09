@@ -12,7 +12,7 @@ Just before summer holidays began, a friend of mine reached out and shared this 
 
 (Swipe or click+arrow keys to scroll through the workings, it may take a few seconds to load)
 
-\\begin{equation}A\\ complex\\ number\\ z\\ is\\ represented\\ by\\ the\\ point\\ P\\ on\\ an\\ Argand\\ Diagram.\\\\\\\\ Given\\ that\\ arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\The\\ sketch\\ of\\ the\\ locus\\ of\\ P\\ as\\ z\\ varies\\ is\\ shown\\ below.\\\\\\\\ Find\\ the \\ exact\\ maximum\\ value\\ of\\ \\left|z\\right|.\\ (5 \\ marks)\\end{equation}
+\\begin{equation}A\\ complex\\ number\\ z\\ is\\ represented\\ by\\ the\\ point\\ P\\ on\\ an\\ Argand\\ Diagram.\\\\\\\\ Given\\ that\\ arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\The\\ sketch\\ of\\ the\\ locus\\ of\\ P\\ as\\ z\\ varies\\ is\\ shown\\ below.\\\\\\\\ \\\\\\\\Find\\ the \\ exact\\ maximum\\ value\\ of\\ \\left|z\\right|.\\ (5 \\ marks)\\end{equation}
 
 ![](/images/image-06-07-2020-at-3-49-pm.JPG)
 
@@ -74,7 +74,7 @@ Now, all is left is the addition of lengths A and B, to get our result in Figure
 
 ###### FIGURE 6
 
-\\begin{equation}Length\\ B\\ =\\ \\sqrt{\\left(\\frac{\\sqrt{3}}{2}\\right)^{2}+\\left(4.5\\right)^{2}}\\\\\\\\=\\sqrt{21}\\\\\\\\ \\So\\ Length\\ A\\ +\\ Length\\ B\\\\\\\\=\\sqrt{21}+\\sqrt{3}\\end{equation}
+\\begin{equation}Length\\ B\\ =\\ \\sqrt{\\left(\\frac{\\sqrt{3}}{2}\\right)^{2}+\\left(4.5\\right)^{2}}\\\\\\\\=\\sqrt{21}\\\\\\\\ \\\\\\\\So\\ Length\\ A\\ +\\ Length\\ B\\\\\\\\=\\sqrt{21}+\\sqrt{3}\\end{equation}
 
 You're probably wondering how I reverse engineered the graph for this blog post. This is how I got to the answer:
 
