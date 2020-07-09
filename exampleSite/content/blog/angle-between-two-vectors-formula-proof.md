@@ -1,5 +1,5 @@
 +++
-author = ["Timothy"]
+author = ["Timothy Chung"]
 categories = ["Further Maths"]
 date = 2020-06-04T09:40:24Z
 description = "This is meta description. Can you read this?"
