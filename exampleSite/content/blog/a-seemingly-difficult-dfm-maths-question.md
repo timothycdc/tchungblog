@@ -1,9 +1,8 @@
 +++
-author = ["Timothy"]
+author = ["Timothy Chung"]
 categories = ["Further Maths"]
 date = 2020-07-06T10:00:00Z
 description = ""
-draft = true
 image = "/images/img_0457.jpg"
 tags = ["Geometry", "Argand Diagrams", "Trigonometry"]
 title = "A Seemingly Difficult DFM Maths Question"
