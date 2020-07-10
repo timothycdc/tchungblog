@@ -1,5 +1,5 @@
 +++
-author = []
+author = ["Timothy Chung"]
 categories = ["Technology", "Computer Science"]
 date = 2020-07-10T04:00:00Z
 description = ""
@@ -12,7 +12,7 @@ Gallium nitride, also known as GaN, is a semiconductor material widely used in b
 
 ![](/images/crystal-gan.jpg)
 
-###### Gallium nitride crystal. Image: Wikimedia Commons
+_Gallium nitride crystal. Image: Wikimedia Commons_
 
 **Semiconductor crash-course:**
 
@@ -24,9 +24,7 @@ Gallium nitride, also known as GaN, is a semiconductor material widely used in b
 
 (This crash course is, of course, a simplified explanation. There is a lot more happening at a deeper level! I might do another detailed post about semiconductors.)
 
-![](/images/gandoping.gif)
-
-###### Gallium nitride doped with magnesium. Image: Semiconductor Today
+![](/images/gandoping.gif)_Gallium nitride doped with magnesium. Image: Semiconductor Today_
 
 Semiconductors function as transistors or ‘switches’, that need to be activated by some form of external energy to conduct electricity. This external energy provided is known as the band gap. Transistors form the backbone of processors found in all sorts of electronic devices.
 
@@ -34,9 +32,7 @@ A gallium nitride has a higher band gap than silicon(3.4 eV versus 1.12 eV), so 
 
 GaN processors can withstand more voltage than silicon and have less resistance, so they emit less heat, making them more efficient than silicon. These properties also make GaN circuitry suitable for power electronics, for example, power adapters, inverters, battery circuits, chargers. GaN circuitry can be scaled down yet keep the performance of larger silicon circuits.
 
-![](/images/anker_charger.jpg "Image: Anker")
-
-###### Image: Anker
+![](/images/anker_charger.jpg "Image: Anker")_Image: Anker_
 
 Partially-GaN chargers for phones and laptops are already being sold, being much more compact and about five times more efficient than conventional chargers. However, that is only scratching the surface of GaN circuitry, which could theoretically be a thousand times more efficient than silicon. Electric cars could drive farther, computers would have massive gains in processing power, and data centres would be able to cut down on carbon emissions.
 
@@ -44,7 +40,7 @@ The only difficulty is manipulating GaN to produce complex structures like CPUs,
 
 ![](/images/google-images.jpg)
 
-###### Image: [https://steemit.com/steemstem/@jfermin70/from-sand-to-the-silicon-wafer](https://steemit.com/steemstem/@jfermin70/from-sand-to-the-silicon-wafer "https://steemit.com/steemstem/@jfermin70/from-sand-to-the-silicon-wafer")
+_Image:_ [_https://steemit.com/steemstem/@jfermin70/from-sand-to-the-silicon-wafer_](https://steemit.com/steemstem/@jfermin70/from-sand-to-the-silicon-wafer "https://steemit.com/steemstem/@jfermin70/from-sand-to-the-silicon-wafer")
 
 In CPU production, factories have to produce thin layers of crystals to be cut and fabricated into processors. Scientists still haven’t found the best way to grow GaN crystals, because their defect rate is much higher. There is even no experience yet in manipulating GaN on a nanometer-small scale. Perhaps factories will have to completely revamp the production process, which will require lots of funding and capital.
 
