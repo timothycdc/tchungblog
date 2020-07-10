@@ -1,13 +1,13 @@
 +++
 author = ["Timothy Chung"]
 categories = ["Further Maths"]
-date = "2020-07-06T10:00:00Z"
+date = 2020-07-06T10:00:00Z
 description = ""
 image = "/images/img_0457.jpg"
 tags = ["Geometry", "Argand Diagrams", "Trigonometry"]
 title = "A Seemingly Difficult DFM Maths Question"
-+++
 
++++
 Just before summer holidays began, a friend of mine reached out and shared this question with me. It was an Argand Diagrams question taken from the Dr Frost Maths website.
 
 (Swipe or click+arrow keys to scroll through the workings, it may take a few seconds to load)
