@@ -14,7 +14,7 @@ Just before summer holidays began, a friend of mine reached out and shared this 
 
 \\begin{equation}A\\ complex\\ number\\ z\\ is\\ represented\\ by\\ the\\ point\\ P\\ on\\ an\\ Argand\\ Diagram.\\\\\\\\ \\\\\\\\\\\\\\\\Given\\ that\\ arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\ \\\\\\\\\\\\\\\\The\\ sketch\\ of\\ the\\ locus\\ of\\ P\\ as\\ z\\ varies\\ is\\ shown\\ below.\\\\\\\\ \\\\\\\\\\\\\\\\Find\\ the \\ exact\\ maximum\\ value\\ of\\ \\left|z\\right|.\\ (5 \\ marks)\\end{equation}
 
-![](/images/image-06-07-2020-at-3-49-pm.JPG)
+![](/images/image-06-07-2020-at-3-49-pm.JPG "Title Image")
 
 It didn't look too difficult at first, being only 5 marks. But what we did not know that the question required Y13 knowledge of polar coordinates (Core Pure 2) as well as the exact value answer, so this meant estimations were not allowed. We were stumped for a long time.
 
