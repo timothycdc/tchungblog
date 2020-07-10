@@ -8,7 +8,7 @@
         <span class="screen-reader-text">Categories</span>
         <div class="entry-categories-inner">
           {{ range .Params.Categories }}
-          <a href="{{ `categories/` | relLangURL }}{{ . | urlize | title }}" rel="category tag">{{ . | title }}</a>
+          <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}" rel="category tag">{{ . | title }}</a>
           {{ end }}
         </div>
         <!-- .entry-categories-inner -->
@@ -26,7 +26,7 @@
               </svg> </span>
             <span class="meta-text">
               By {{ range .Params.Author }}
-              <a href="{{ `author/` | relLangURL }}{{ . | urlize | title }}">{{ . | title }}</a>
+              <a href="{{ `author/` | relLangURL }}{{ . | urlize | lower }}">{{ . | title }}</a>
               {{ end }} </span>
           </li>
           <li class="post-date meta-wrapper">
@@ -82,7 +82,7 @@
               </path>
             </svg> </span>
           <span class="meta-text">{{ range $i,$p:= .Params.Tags }}{{if ne $i 0}},{{end}}
-            <a href="{{ `tags/` | relLangURL }}{{ . | urlize | title }}" rel="tag">{{ . | title }}</a>
+            <a href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}" rel="tag">{{ . | title }}</a>
             {{end}} </span>
         </li>
       </ul><!-- .post-meta -->
