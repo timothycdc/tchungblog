@@ -3,12 +3,16 @@ author = []
 categories = ["Technology", "Computer Science"]
 date = 2020-07-10T04:00:00Z
 description = ""
-image = "/images/crystal-gan.jpg"
+image = "/images/gan-wafer.jpg"
 tags = ["Semiconductors", "Gallium Nitride", "Moore's Law"]
 title = "Gallium Nitride – A Silicon Replacement?"
 
 +++
 Gallium nitride, also known as GaN, is a semiconductor material widely used in blue-white LED lights, TV displays, mobile phone screens, Blu-ray players, and more. However, in recent times it is starting to show its potential for revolutionizing the way circuits work, and perhaps, even replacing silicon as a more effective semiconductor alternative.
+
+![](/images/crystal-gan.jpg)
+
+###### Gallium nitride crystal. Image: Wikimedia Commons
 
 **Semiconductor crash-course:**
 
@@ -48,4 +52,4 @@ I’m hopeful that GaN technology will see the light of day - and Moore’s Law 
 
 Moore’s Law? I’ll discuss that in a follow-up article.
 
-_Cover Image: Wikimedia Commons_
+_Cover Image:_ [https://phys.org/](https://phys.org/ "https://phys.org/")
