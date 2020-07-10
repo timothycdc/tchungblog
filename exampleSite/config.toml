@@ -16,12 +16,8 @@ url = "https://timochung.netlify.app"
 weight = 3
 [[menu.main]]
 URL = "blog"
-name = "Blog"
+name = "Feed"
 weight = 2
-[[menu.main]]
-URL = "/"
-name = "Home"
-weight = 1
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
