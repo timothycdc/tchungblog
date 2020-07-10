@@ -18,6 +18,8 @@ Gallium nitride, also known as GaN, is a semiconductor material widely used in b
 >
 > These semiconductors are doped or made ‘impure’ by introducing other substances in a small quantity to induce instability of the electrons, causing the free movement of electrons. This instability allows the semiconductor, at a certain energy level, to conduct electricity.
 
+(This crash course is, of course, a simplified explanation. There is a lot more happening at a deeper level! I might do another detailed post about semiconductors.)
+
 ![](/images/gandoping.gif)
 
 ###### Gallium nitride doped with magnesium. Image: Semiconductor Today
