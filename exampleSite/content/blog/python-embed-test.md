@@ -3,7 +3,7 @@ author = []
 categories = ["Coding", "Computer Science"]
 date = 2020-07-11T00:00:00Z
 description = ""
-image = ""
+image = "/images/python-logo.png"
 tags = ["Python"]
 title = "Python Embed Test"
 
