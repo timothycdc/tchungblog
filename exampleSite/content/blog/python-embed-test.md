@@ -15,6 +15,6 @@ Markdown please allow my iFrame to work thanks
 
 <span class="tablewrapper" markdown="1">
 
-<iframe height="700px" width="100%" src="[https://repl.it/@timothycdc/ConcreteVictoriousTab?lite=true](https://repl.it/@timothycdc/ConcreteVictoriousTab?lite=true "https://repl.it/@timothycdc/ConcreteVictoriousTab?lite=true")" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+{{< pyframe "https://repl.it/@timothycdc/ConcreteVictoriousTab?lite=true" }}
 
 </span>
