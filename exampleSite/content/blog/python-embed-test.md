@@ -15,6 +15,7 @@ Markdown please allow my iFrame to work thanks
 
 <span class="tablewrapper" markdown="1">
 
-{{< pyframe "https://repl.it/@timothycdc/ConcreteVictoriousTab?lite=true" >}}
+{{< pyframe "https://trinket.io/embed/python/69caa9f4ae" >}}
 
 </span>
+
