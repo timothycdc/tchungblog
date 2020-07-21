@@ -13,7 +13,7 @@ unsafe = true
 [[menu.main]]
 URL = "/"
 name = "Blog"
-url = "tchungblog.netlify.app"
+url = "https://www.tchungblog.netlify.app"
 weight = 1
 [[menu.main]]
 name = "About"
