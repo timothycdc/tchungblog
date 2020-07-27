@@ -8,7 +8,7 @@ tags = ["Python"]
 title = "CS50AI Chapter 1: Knowledge"
 
 +++
-At the heart of every algorithm lies its logic process, which forms the core part of decision making. The tricky part is, how do we code a computer to parse logic?
+At the heart of every algorithm lies its logic process, which forms the core part of decision making. The tricky part is, how do we program a computer to parse logic? In this explanation, we would want to give an algorithm a set of rules, and give it and a new rule. The algorithm has to tell us whether the new rule fits in with the old rules. 
 
 ## Prepositional Logic Basics
 
@@ -158,14 +158,17 @@ If (a) entails (b), this means that Harry will go for a run.
 
 We can go through all possible models. For every model where its knowledge base(a) is valid/true, and its query (b) is true, we know that a ⊨ b, or KB ⊨ b. Otherwise, KB does not entail b.
 
+<span class="tablewrapper" markdown="1">
+| P     | Q     | R     | KB    | R(Query)|
+|-------|-------|-------|-------|---------|
+| false | false | false | false | false   |
+| false | false | true  | false | true    |
+| false | true  | false | false | false   |
+| false | true  | true  | false | true    |
+| true  | false | false | false | false   |
+| TRUE  | FALSE | TRUE  | TRUE  | TRUE    |
+| true  | true  | false | false | false   |
+| true  | true  | true  | false | true    |
+</span>
 
-| P     | Q     | R     | KB    |
-|-------|-------|-------|-------|
-| false | false | true  | false |
-| false | false | false | false |
-| false | true  | true  | false |
-| false | true  | false | false |
-| true  | false | true  | false |
-| true  | false | false | true  |
-| true  | true  | true  | false |
-| true  | true  | false | false |
+We don't care about the models where KB evaluates to false. The row in caps is the answer 
