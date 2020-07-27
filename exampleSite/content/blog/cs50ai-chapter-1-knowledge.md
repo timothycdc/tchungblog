@@ -3,7 +3,6 @@ author = []
 categories = ["Computer Science", "Artificial Intelligence"]
 date = 2020-07-19T16:00:00Z
 description = ""
-draft = true
 image = ""
 tags = ["Python"]
 title = "CS50AI Chapter 1: Knowledge"
@@ -149,6 +148,10 @@ Knowledge base (a) : ((Q ^ ¬ P ) → R  )
 
 If it is a Tuesday and it is not raining, Harry will go for a run.
 
-Question (b) : 
+Question (b) : (R)
 
-Now, does the knowledge base entail 
+Will Harry go for a run?
+
+Does our knowledge base entail the query? 
+
+## Method 1: Model Checking
