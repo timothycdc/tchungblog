@@ -11,6 +11,8 @@ title = "CS50AI Chapter 1: Knowledge"
 +++
 At the heart of every algorithm lies its logic process, which forms the core part of decision making. The tricky part is, how do we code a computer to parse logic?
 
+## Prepositional Logic Basics
+
 Let's try and emulate a human's thinking process. Take these three statements:
 
 > 1. If it didn't rain, Harry visited Hagrid today.
@@ -53,7 +55,7 @@ The Not connective returns the inverse of its input.
 
 </span>
 
-The Implication connective is similar to an IF-THEN statement.
+The Implication connective is similar to an IF-THEN statement. If conditions P are met, then outcome Q will occur.
 
 | P | Q | P → Q |
 | --- | --- | --- |
@@ -68,4 +70,85 @@ Example:
 >
 > Q: Harry will go for a run today.
 
-Say we **know** P → Q, then we know that on rain-free days, Harry would surely go for a run. If it did not rain, but Harry did not go for a run, then this sentence
+Say we also **know** that P → Q, then we know that on rain-free days, Harry would surely go for a run. If it did not rain, but Harry did not go for a run, then the sentence  P → Q is false, because the conditions met for P did not affect the outcome Q.
+
+On days where it rained (P is false), it does not matter whether Harry went for a run or not, the sentence  P → Q . This is the interesting part – because there is no **contradiction** between P and Q, True can be returned.
+
+Pay attention to the bolded term as I'll come to that later.
+
+A close relative is the Biconditional connective. It can be understood as an  IF-THEN (AND ONLY IF) statement, meaning that one symbol implicates the other and **vice versa.** A logical equivalent would be  (P → Q)^(Q → P).
+
+<span class="tablewrapper" markdown="1">
+
+| P | Q | P ⇔ Q |
+| --- | --- | --- |
+| false | false | true |
+| false | true | false |
+| true | false | false |
+| true | true | true |
+
+</span>
+
+Let's look back at the previous example.
+
+> P: It did not rain today.
+>
+> Q: Harry will go for a run today.
+
+Say we also **know** that P ⇔ Q, then we know that on rain-free days, Harry would surely go for a run, and whichever day Harry runs, we are 100% sure it did not rain.  In the case of P → Q, Harry could have gone for a run in the rain. This means that the rain is not the sole factor for Harry running. 
+
+For biconditionals, all True instances of (Q) can only result when the condition (P) being met.
+
+## Dealing with Logic
+
+The next step is understanding the definition of a model.
+
+A **model** is an assignment of a truth value to every prepositional symbol. An example: 
+
+> P: It is raining
+>
+> Q: It is a Tuesday
+
+The possible models are:
+
+ {P = false, Q = false} A rain-free day that's not a Tuesday
+
+ {P = true, Q = false} A rainy day that that's not a Tuesday
+
+ {P = false, Q = true} A rain-free Tuesday
+
+ {P = true, Q = true} A rainy Tuesday
+
+A **knowledge base** is a set of sentences that are known to be true for all models.
+
+> P: It is raining
+>
+> Q: It is a Tuesday
+>
+> R: Harry will go for a run.
+
+Example of a knowledge base: 
+
+(Q ^ ¬ P ) → R  
+
+If it is a Tuesday and it is not raining, Harry will go for a run.
+
+## Entailment
+
+a ⊨ b
+
+Entailment means, in every model where sentence a is true, sentence b is also true. This is useful for asking questions to an algorithm and seeing if it is true – if we feed it (a) our knowledge base of rules, we can ask it a question in (b). 
+
+> P: It is raining
+>
+> Q: It is a Tuesday
+>
+> R: Harry will go for a run.
+
+Knowledge base (a) : ((Q ^ ¬ P ) → R  ) 
+
+If it is a Tuesday and it is not raining, Harry will go for a run.
+
+Question (b) : 
+
+Now, does the knowledge base entail 
