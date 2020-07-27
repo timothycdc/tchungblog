@@ -136,7 +136,7 @@ If it is a Tuesday and it is not raining, Harry will go for a run.
 
 a ⊨ b
 
-Entailment means, in every model where sentence a is true, sentence b is also true. This is useful for asking questions to an algorithm and seeing if it is true – if we feed it (a) our knowledge base of rules, we can ask it a question in (b). 
+Entailment means, in every model where sentence a is true, sentence b is also true. This is useful for asking questions to an algorithm and seeing if it is true – if we feed it in (a) our knowledge base of rules, we can ask it a question in (b). 
 
 > P: It is raining
 >
@@ -148,10 +148,24 @@ Knowledge base (a) : ((Q ^ ¬ P ) → R  )
 
 If it is a Tuesday and it is not raining, Harry will go for a run.
 
-Question (b) : (R)
+Query (b) : (R)
 
 Will Harry go for a run?
 
-Does our knowledge base entail the query? 
+If (a) entails (b), this means that Harry will go for a run.
 
 ## Method 1: Model Checking
+
+We can go through all possible models. For every model where its knowledge base(a) is valid/true, and its query (b) is true, we know that a ⊨ b, or KB ⊨ b. Otherwise, KB does not entail b.
+
+
+| P     | Q     | R     | KB    |
+|-------|-------|-------|-------|
+| false | false | true  | false |
+| false | false | false | false |
+| false | true  | true  | false |
+| false | true  | false | false |
+| true  | false | true  | false |
+| true  | false | false | true  |
+| true  | true  | true  | false |
+| true  | true  | false | false |
