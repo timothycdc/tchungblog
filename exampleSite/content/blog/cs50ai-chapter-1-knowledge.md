@@ -1,5 +1,5 @@
 +++
-author = []
+author = ["Timothy Chung"]
 categories = ["Computer Science", "Artificial Intelligence"]
 date = 2020-07-19T16:00:00Z
 description = ""
@@ -8,9 +8,9 @@ tags = ["Python"]
 title = "CS50AI Chapter 1: Knowledge"
 
 +++
-At the heart of every algorithm lies its logic process, which forms the core part of decision making. The tricky part is, how do we program a computer to parse logic? In this explanation, we would want to give an algorithm a set of rules, and give it and a new rule. The algorithm has to tell us whether the new rule fits in with the old rules. 
+At the heart of every algorithm lies its logic process, which forms the core part of decision making. The tricky part is, how do we program a computer to parse logic? In this explanation, we would want to give an algorithm a set of rules, and give it and a new rule. The algorithm has to tell us whether the new rule fits in with the old rules.
 
-## Prepositional Logic Basics
+### Prepositional Logic Basics
 
 Let's try and emulate a human's thinking process. Take these three statements:
 
@@ -94,15 +94,15 @@ Let's look back at the previous example.
 >
 > Q: Harry will go for a run today.
 
-Say we also **know** that P ⇔ Q, then we know that on rain-free days, Harry would surely go for a run, and whichever day Harry runs, we are 100% sure it did not rain.  In the case of P → Q, Harry could have gone for a run in the rain. This means that the rain is not the sole factor for Harry running. 
+Say we also **know** that P ⇔ Q, then we know that on rain-free days, Harry would surely go for a run, and whichever day Harry runs, we are 100% sure it did not rain.  In the case of P → Q, Harry could have gone for a run in the rain. This means that the rain is not the sole factor for Harry running.
 
 For biconditionals, all True instances of (Q) can only result when the condition (P) being met.
 
-## Dealing with Logic
+### Dealing with Logic
 
 The next step is understanding the definition of a model.
 
-A **model** is an assignment of a truth value to every prepositional symbol. An example: 
+A **model** is an assignment of a truth value to every prepositional symbol. An example:
 
 > P: It is raining
 >
@@ -110,13 +110,13 @@ A **model** is an assignment of a truth value to every prepositional symbol. An 
 
 The possible models are:
 
- {P = false, Q = false} A rain-free day that's not a Tuesday
+{P = false, Q = false} A rain-free day that's not a Tuesday
 
- {P = true, Q = false} A rainy day that that's not a Tuesday
+{P = true, Q = false} A rainy day that that's not a Tuesday
 
- {P = false, Q = true} A rain-free Tuesday
+{P = false, Q = true} A rain-free Tuesday
 
- {P = true, Q = true} A rainy Tuesday
+{P = true, Q = true} A rainy Tuesday
 
 A **knowledge base** is a set of sentences that are known to be true for all models.
 
@@ -126,17 +126,17 @@ A **knowledge base** is a set of sentences that are known to be true for all mod
 >
 > R: Harry will go for a run.
 
-Example of a knowledge base: 
+Example of a knowledge base:
 
-(Q ^ ¬ P ) → R  
+(Q ^ ¬ P ) → R
 
 If it is a Tuesday and it is not raining, Harry will go for a run.
 
-## Entailment
+### Entailment
 
 a ⊨ b
 
-Entailment means, in every model where sentence a is true, sentence b is also true. This is useful for asking questions to an algorithm and seeing if it is true – if we feed it in (a) our knowledge base of rules, we can ask it a question in (b). 
+Entailment means, in every model where sentence a is true, sentence b is also true. This is useful for asking questions to an algorithm and seeing if it is true – if we feed it in (a) our knowledge base of rules, we can ask it a question in (b).
 
 > P: It is raining
 >
@@ -144,7 +144,7 @@ Entailment means, in every model where sentence a is true, sentence b is also tr
 >
 > R: Harry will go for a run.
 
-Knowledge base (a) : ((Q ^ ¬ P ) → R  ) 
+Knowledge base (a) : ((Q ^ ¬ P ) → R  )
 
 If it is a Tuesday and it is not raining, Harry will go for a run.
 
@@ -154,21 +154,23 @@ Will Harry go for a run?
 
 If (a) entails (b), this means that Harry will go for a run.
 
-## Method 1: Model Checking
+### Method 1: Model Checking
 
 We can go through all possible models. For every model where its knowledge base(a) is valid/true, and its query (b) is true, we know that a ⊨ b, or KB ⊨ b. Otherwise, KB does not entail b.
 
 <span class="tablewrapper" markdown="1">
-| P     | Q     | R     | KB    | R(Query)|
-|-------|-------|-------|-------|---------|
-| false | false | false | false | false   |
-| false | false | true  | false | true    |
-| false | true  | false | false | false   |
-| false | true  | true  | false | true    |
-| true  | false | false | false | false   |
-| TRUE  | FALSE | TRUE  | TRUE  | TRUE    |
-| true  | true  | false | false | false   |
-| true  | true  | true  | false | true    |
+
+| P | Q | R | KB | R(Query) |
+| --- | --- | --- | --- | --- |
+| false | false | false | false | false |
+| false | false | true | false | true |
+| false | true | false | false | false |
+| false | true | true | false | true |
+| true | false | false | false | false |
+| TRUE | FALSE | TRUE | TRUE | TRUE |
+| true | true | false | false | false |
+| true | true | true | false | true |
+
 </span>
 
-We don't care about the models where KB evaluates to false. The row in caps is the answer 
+We don't care about the models where KB evaluates to false. The row in caps is the answer
