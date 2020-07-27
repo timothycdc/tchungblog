@@ -978,9 +978,9 @@ h3 {
     display: block;
     margin: auto;
 }
-.tablewrappermini table {
+/*.tablewrappermini table {
     margin: auto;
-}
+}*/
 
 
 .tablewrappermini::-webkit-scrollbar {
