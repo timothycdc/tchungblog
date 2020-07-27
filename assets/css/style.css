@@ -974,10 +974,14 @@ h3 {
 }
 
 .tablewrappermini {
-    overflow: none;
+    overflow: hidden;
     display: block;
     margin: auto;
 }
+.tablewrappermini table {
+    margin: auto;
+}
+
 
 .tablewrappermini::-webkit-scrollbar {
     width: 0px;
