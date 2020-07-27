@@ -57,12 +57,13 @@ The Not connective returns the inverse of its input.
 The Implication connective is similar to an IF-THEN statement. If conditions P are met, then outcome Q will occur.
 
 <span class="tablewrappermini" markdown="1">
-| P     | Q     | P → Q |
-|-------|-------|-------|
-| false | false | true  |
-| false | true  | true  |
-| true  | false | false |
-| true  | true  | true  |
+
+| P | Q | P → Q |
+| --- | --- | --- |
+| false | false | true |
+| false | true | true |
+| true | false | false |
+| true | true | true |
 
 </span>
 
@@ -72,7 +73,7 @@ Example:
 >
 > Q: Harry will go for a run today.
 
-Say we also **know** that P → Q, then we know that on rain-free days, Harry would surely go for a run. If it did not rain, but Harry did not go for a run, then the sentence  P → Q is false, because the conditions met for P did not affect the outcome Q.
+Given we **know** that P → Q, then we know that on rain-free days, Harry would surely go for a run. If it did not rain, but Harry did not go for a run, then the sentence  P → Q is false, because the conditions met for P did not affect the outcome Q.
 
 On days where it rained (P is false), it does not matter whether Harry went for a run or not, the sentence  P → Q . This is the interesting part – because there is no **contradiction** between P and Q, True can be returned.
 
@@ -139,7 +140,7 @@ If it is a Tuesday and it is not raining, Harry will go for a run.
 
 a ⊨ b
 
-Entailment means, in every model where sentence a is true, sentence b is also true. This is useful for asking questions to an algorithm and seeing if it is true – if we feed it in (a) our knowledge base of rules, we can ask it a question in (b).
+Entailment means that in every model where sentence a is true, sentence b is also true. This is useful for asking questions to an algorithm and seeing if it is true – if we feed it in (a) our knowledge base of rules, we can ask it a question in (b).
 
 > P: It is raining
 >
@@ -161,7 +162,7 @@ If (a) entails (b), this means that Harry will go for a run.
 
 KB ⊨ q
 
-We check through all possible models. For every model where its knowledge base (KB) is valid/true, and its query (q) is true, we know that KB ⊨ q. Otherwise, KB does not entail q. We do not need to care about models that have a false knowledge base
+We check through all possible models. For every model where its knowledge base (KB) is valid/true, and its query (q) is true, we know that KB ⊨ q. Otherwise, KB does not entail q. We do not need to care about models that have a false knowledge base are not the question we are asking the algorithm.
 
 <span class="tablewrappermini" markdown="1">
 
@@ -178,4 +179,6 @@ We check through all possible models. For every model where its knowledge base (
 
 </span>
 
-In this case, the row in all caps is the only instance of KB that is true, and the
+In this case, the row in all caps is the only instance of KB that is true, and that instance answers true for the query. 
+
+The issue is, finding all the possible combinations for models are 
