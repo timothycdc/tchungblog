@@ -56,12 +56,14 @@ The Not connective returns the inverse of its input.
 
 The Implication connective is similar to an IF-THEN statement. If conditions P are met, then outcome Q will occur.
 
+<span class="tablewrappermini" markdown="1">
 | P | Q | P → Q |
 | --- | --- | --- |
 | false | false | true |
 | false | true | true |
 | true | false | false |
 | true | true | true |
+</span>
 
 Example:
 
@@ -160,7 +162,7 @@ KB ⊨ q
 
 We check through all possible models. For every model where its knowledge base (KB) is valid/true, and its query (q) is true, we know that KB ⊨ q. Otherwise, KB does not entail q. We do not need to care about models that have a false knowledge base
 
-<span class="tablewrapper" markdown="1">
+<span class="tablewrappermini" markdown="1">
 
 | P | Q | R | KB | R(Query) |
 | --- | --- | --- | --- | --- |
