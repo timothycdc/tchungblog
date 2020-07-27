@@ -57,12 +57,13 @@ The Not connective returns the inverse of its input.
 The Implication connective is similar to an IF-THEN statement. If conditions P are met, then outcome Q will occur.
 
 <span class="tablewrappermini" markdown="1">
-| P | Q | P → Q |
-| --- | --- | --- |
-| false | false | true |
-| false | true | true |
-| true | false | false |
-| true | true | true |
+| P     | Q     | P → Q |
+|-------|-------|-------|
+| false | false | true  |
+| false | true  | true  |
+| true  | false | false |
+| true  | true  | true  |
+
 </span>
 
 Example:
