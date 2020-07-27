@@ -32,7 +32,7 @@ Here are some examples of connectives – first, we have the common And, Or, and
 
 The And connective means both symbols have to be True to return True, and Or needs at least one True input to do the same.
 
-<span class="tablewrapper" markdown="1">
+<span class="tablewrappermini" markdown="1">
 
 | P | Q | P ˄ Q (AND) | P ˅ Q (OR) |
 | --- | --- | --- | --- |
@@ -45,7 +45,7 @@ The And connective means both symbols have to be True to return True, and Or nee
 
 The Not connective returns the inverse of its input.
 
-<span class="tablewrapper" markdown="1">
+<span class="tablewrappermini" markdown="1">
 
 | P | ¬ P (NOT) |
 | --- | --- |
@@ -77,7 +77,7 @@ Pay attention to the bolded term as I'll come to that later.
 
 A close relative is the Biconditional connective. It can be understood as an  IF-THEN (AND ONLY IF) statement, meaning that one symbol implicates the other and **vice versa.** A logical equivalent would be  (P → Q)^(Q → P).
 
-<span class="tablewrapper" markdown="1">
+<span class="tablewrappermini" markdown="1">
 
 | P | Q | P ⇔ Q |
 | --- | --- | --- |
@@ -156,7 +156,9 @@ If (a) entails (b), this means that Harry will go for a run.
 
 ### Method 1: Model Checking
 
-We can go through all possible models. For every model where its knowledge base(a) is valid/true, and its query (b) is true, we know that a ⊨ b, or KB ⊨ b. Otherwise, KB does not entail b.
+KB ⊨ q
+
+We check through all possible models. For every model where its knowledge base (KB) is valid/true, and its query (q) is true, we know that KB ⊨ q. Otherwise, KB does not entail q. We do not need to care about models that have a false knowledge base
 
 <span class="tablewrapper" markdown="1">
 
@@ -173,4 +175,4 @@ We can go through all possible models. For every model where its knowledge base(
 
 </span>
 
-We don't care about the models where KB evaluates to false. The row in caps is the answer
+In this case, the row in all caps is the only instance of KB that is true, and the
