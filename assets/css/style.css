@@ -972,6 +972,17 @@ h3 {
     background-color: #353b5a;
 
 }
+
+.tablewrappermini {
+    overflow: none;
+    display: block;
+    margin: auto;
+}
+
+.tablewrappermini::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
 //previously for table, max width 100%, overflow hidden, width 100% margin: 4rem 0;
 
 .alignleft>table {
