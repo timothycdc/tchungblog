@@ -73,13 +73,13 @@ Example:
 >
 > Q: Harry will go for a run today.
 
-Given we **know** that P → Q, then we know that on rain-free days, Harry would surely go for a run. If it did not rain, but Harry did not go for a run, then the sentence  P → Q is false, because the conditions met for P did not affect the outcome Q.
+Given we **know** that **P → Q**, then we know that on rain-free days, Harry would surely go for a run. If it did not rain, but Harry did not go for a run, then the sentence  **P → Q** is false, because the conditions met for P did not affect the outcome **Q**.
 
-On days where it rained (P is false), it does not matter whether Harry went for a run or not, the sentence  P → Q . This is the interesting part – because there is no **contradiction** between P and Q, True can be returned.
+On days where it rained (P is false), it does not matter whether Harry went for a run or not, the sentence  **P → Q** . This is the interesting part – because there is no **contradiction** between P and Q, True can be returned.
 
-Pay attention to the bolded term as I'll come to that later.
+Pay attention to the bolded term as I'll come back to that later.
 
-A close relative is the Biconditional connective. It can be understood as an  IF-THEN (AND ONLY IF) statement, meaning that one symbol implicates the other and **vice versa.** A logical equivalent would be  (P → Q)^(Q → P).
+A close relative is the Biconditional connective. It can be understood as an  IF-THEN (AND ONLY IF) statement, meaning that one symbol implicates the other and **vice versa.** A logical equivalent would be  **(P → Q)^(Q → P)**.
 
 <span class="tablewrappermini" markdown="1">
 
@@ -92,13 +92,15 @@ A close relative is the Biconditional connective. It can be understood as an  IF
 
 </span>
 
-Let's look back at the previous example.
+Let's look back at the previous example's symbols.
 
 > P: It did not rain today.
 >
 > Q: Harry will go for a run today.
 
-Say we also **know** that P ⇔ Q, then we know that on rain-free days, Harry would surely go for a run, and whichever day Harry runs, we are 100% sure it did not rain.  In the case of P → Q, Harry could have gone for a run in the rain. This means that the rain is not the sole factor for Harry running.
+Say we also know that **P ⇔ Q**, then we know that on rain-free days, Harry would surely go for a run, and whichever day Harry runs, we are 100% sure it did not rain.  
+
+In the case of **P → Q,** Harry might gone for a run in the rain. That would imply that the rain is not the sole cause of Harry to go for a run..
 
 For biconditionals, all True instances of (Q) can only result when the condition (P) being met.
 
@@ -132,13 +134,13 @@ A **knowledge base** is a set of sentences that are known to be true for all mod
 
 Example of a knowledge base:
 
-(Q ^ ¬ P ) → R
+**(Q ^ ¬ P ) → R**
 
 If it is a Tuesday and it is not raining, Harry will go for a run.
 
 ### Entailment
 
-a ⊨ b
+**a ⊨ b**
 
 Entailment means that in every model where sentence a is true, sentence b is also true. This is useful for asking questions to an algorithm and seeing if it is true – if we feed it in (a) our knowledge base of rules, we can ask it a question in (b).
 
@@ -148,11 +150,11 @@ Entailment means that in every model where sentence a is true, sentence b is als
 >
 > R: Harry will go for a run.
 
-Knowledge base (a) : ((Q ^ ¬ P ) → R  )
+Knowledge base (a) : **((Q ^ ¬ P ) → R  )**
 
 If it is a Tuesday and it is not raining, Harry will go for a run.
 
-Query (b) : (R)
+Query (b) : **(R)**
 
 Will Harry go for a run?
 
@@ -160,7 +162,7 @@ If (a) entails (b), this means that Harry will go for a run.
 
 ### Method 1: Model Checking
 
-KB ⊨ q
+**KB ⊨ q (KB stands for knowledge base)**
 
 We check through all possible models. For every model where its knowledge base (KB) is valid/true, and its query (q) is true, we know that KB ⊨ q. Otherwise, KB does not entail q. We do not need to care about models that have a false knowledge base are not the question we are asking the algorithm.
 
@@ -179,6 +181,24 @@ We check through all possible models. For every model where its knowledge base (
 
 </span>
 
-In this case, the row in all caps is the only instance of KB that is true, and that instance answers true for the query. 
+In this case, the row in all caps is the only instance of KB that is true, and that instance answers true for the query.
 
-The issue is, finding all the possible combinations for models are 
+The issue is, finding all the possible combinations for models are is a time-consuming task, and for a number n of symbols we will have to iterate through 2^n different models, and a large majority of them are not valid to the knowledge base. 
+
+This brings us to another method:
+
+### Method 2: Inference by Resolution
+
+In Computer Science, a method of proving things is done via contradiction. WE assume that something we want to prove is no true, and then show that the consequences of this logic will fall apart on itself.
+
+> One example of this: Prove that a triangle does not have two right angles.
+>
+> Take a triangle T has 3 angles called X, Y, and Z. Assume that its two sides X and Y are right angles. A triangle, has a total angle of 180°, which means Z would have an angle of 0°. Z cannot be considered a corner as its angle is zero, making T not a triangle.
+
+Back to the entailment question, to determine if **KB ⊨ q:** 
+
+* Check if  **(KB ^ ¬ q)** is a contradiction.
+  * If so, then **KB ⊨ q**
+  * Otherwise, there is no entailment.
+
+If KB entails q, 
