@@ -219,13 +219,13 @@ Let's compute the logic here:
 
 What I did was to convert the sentences in Conjunctive Normal Form.
 
-It is possible to simplify all logic into forms of AND and OR and NOT. 
+It is possible to simplify all logic into forms of AND and OR and NOT.
 
 Before you read on, here is some terminology:
 
 * Clause: A disjunction of literals
 
-<span class = “tablewrapper” markdown = “1”>
+<span class=“tablewrapper” markdown = “1”>
 
 | Elimination Method | Knowledge Base... | ...Inference | Example Knowledge Base | Example Inference with Explanation |
 | :---: | :---: | :---: | :---: | :---: |
