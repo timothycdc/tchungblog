@@ -134,7 +134,7 @@ A **knowledge base** is a set of sentences that are known to be true for all mod
 
 Example of a knowledge base:
 
-**(Q ^ ¬ P ) → R**
+**(( Q ^ ¬ P ) → R), (Q), ¬ (P)**
 
 If it is a Tuesday and it is not raining, Harry will go for a run.
 
@@ -142,21 +142,20 @@ If it is a Tuesday and it is not raining, Harry will go for a run.
 
 **a ⊨ b**
 
-Entailment means that in every model where sentence a is true, sentence b is also true. This is useful for asking questions to an algorithm and seeing if it is true – if we feed it in (a) our knowledge base of rules, we can ask it a question in (b).
+Entailment means that in every model where sentence _a_ is true, sentence _b_ is also true. This is useful for asking questions to an algorithm and seeing if it is true – if we feed it in (_a_) our knowledge base of rules, we can ask it a (True/False) question in (_b_).
 
-> P: It is raining
+**Consider this example:**
+
+> _P: It is raining_
 >
-> Q: It is a Tuesday
+> _Q: It is a Tuesday_
 >
-> R: Harry will go for a run.
+> _R: Harry will go for a run._
 
-Knowledge base (a) : **((Q ^ ¬ P ) → R  )**
-
-If it is a Tuesday and it is not raining, Harry will go for a run.
-
-Query (b) : **(R)**
-
-Will Harry go for a run?
+* (a) Knowledge base: **((Q ^ ¬ P ) → R  ), Q, ¬ P**
+  * If it Tuesday and not raining, Harry will go for a run.
+* (b) Query: **(R)**
+  * Will Harry go for a run?
 
 If (a) entails (b), this means that Harry will go for a run.
 
@@ -164,7 +163,7 @@ If (a) entails (b), this means that Harry will go for a run.
 
 **KB ⊨ q (KB stands for knowledge base)**
 
-We check through all possible models. For every model where its knowledge base (KB) is valid/true, and its query (q) is true, we know that KB ⊨ q. Otherwise, KB does not entail q. We do not need to care about models that have a false knowledge base are not the question we are asking the algorithm.
+We check through all possible models. For every model where its knowledge base (KB) is valid/true, and its query (q) is true, we know that KB ⊨ q. Otherwise, KB does not entail q. We do not need to care about models that have a false knowledge base, e.g rainy days or Fridays for the previous example.
 
 <span class="tablewrappermini" markdown="1">
 
@@ -195,10 +194,27 @@ In Computer Science, a method of proving things is done via contradiction. WE as
 >
 > Take a triangle T has 3 angles called X, Y, and Z. Assume that its two sides X and Y are right angles. A triangle, has a total angle of 180°, which means Z would have an angle of 0°. Z cannot be considered a corner as its angle is zero, making T not a triangle.
 
-Back to the entailment question, to determine if **KB ⊨ q:** 
+Back to the entailment example, to determine if **KB ⊨ q:** 
 
 * Check if  **(KB ^ ¬ q)** is a contradiction.
   * If so, then **KB ⊨ q**
   * Otherwise, there is no entailment.
 
-If KB entails q, 
+If KB entails q, KB and q will always be true. So **(KB ^ ¬ q)** returns false. Let's revisit a question:
+
+> P: It is raining
+>
+> Q: It is a Tuesday
+>
+> R: Harry will go for a run.
+
+* Knowledge base (KB) : **(( Q ^ ¬ P ) → R), (Q), ¬ (P)**
+  * If it Tuesday and not raining, Harry will go for a run.
+* Query (q) : **(R)**
+  * Will Harry go for a run?
+
+Let's do some logic computation here:
+
+\\begin{equation}\\left(KB\\ \\wedge\\ \\neg q\\right)\\\\\\\\Using\\ implication\\ elimination:\\\\\\\\\\\\left(\\left(Q\\ \\wedge\\ \\neg\\ P\\right)\\to\\ R\\right) \\wedge\\ \\left(\\neg R\\right)\\wedge\\ \\left(\\neg P\\right)\\wedge\\ \\left(Q\\right)\\\\\\\\\\\\left(\\neg\\left(Q\\ \\wedge\\ \\neg\\ P\\right)\\vee\\ R\\right) \\wedge\\ \\left(\\neg R\\right)\\wedge\\ \\left(\\neg P\\right)\\wedge\\ \\left(Q\\right)\\\\\\\\\\Using\\ De\\ Morgan's\\ Law:\\\\\\\\\\left(\\left( \\neg Q\\ \\vee\\ \\ P\\right)\\vee\\ R\\right) \\wedge\\ \\left(\\neg R\\right)\\wedge\\ \\left(\\neg P\\right)\\wedge\\ \\left(Q\\right)\\\\\\\\Added\\ new\\ clause:\\\\\\\\\\ \\left(\\neg Q\\ \\vee\\ P\\vee\\ R\\right) \\wedge\\ \\left(\\neg R\\right)\\ \\wedge \\left(\\neg Q\\ \\vee\\ P\\right) \\wedge \\left(\\neg P\\right)\\wedge\\ \\left(Q\\right)\\\\\\\\Added\\ new\\ clause:\\\\\\\\\\ \\left(\\neg Q\\ \\vee\\ P\\vee\\ R\\right) \\wedge\\ \\left(\\neg R\\right)\\ \\wedge \\left(\\neg Q\\ \\vee\\ P\\right) \\wedge \\left(\\neg P\\right)\\wedge\\ \\left(Q\\right)\\wedge\\ \\left(P\\right)\\\\\\\\Contradiction\\ Found:\\\\\\\\\\\\left(\\neg P\\right)\\wedge\\ \\left(P\\right)\\\\\\\\Result:\\ FALSE\\\\\\\\\\ \\end{equation}
+
+Don't 
