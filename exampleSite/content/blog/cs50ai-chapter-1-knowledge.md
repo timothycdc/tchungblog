@@ -223,12 +223,14 @@ It is possible to simplify all logic into forms of AND and OR and NOT.
 
 Before you read on, here is some terminology:
 
-* Clause: A disjunction of literals
+* Clause: A disjunction of literals (symbols)
+  * A disjunction means anything except an 'AND' e.g **(A ˅ B ˅ C)**
+* Conjunctive Normal Form – A logical sentence that is a conjunction of clauses.
 * 
 
 <span class="tablewrapper" markdown = "2">
 
-| Elimination Method | Knowledge Base... | ...Inference | Example Knowledge Base | Example Inference with Explanation |
+| Inference Method | Knowledge Base... | ...Inference | Example Knowledge Base | Example Inference with Explanation |
 | :---: | :---: | :---: | :---: | :---: |
 | Modus Ponens | (a → b), a | b | If it’s raining, Harry is inside. It is raining. | Harry is inside. |
 | And Elimination | a ˄ b | b | Harry is friends with Ron and Hermione. | Harry is friends with Hermione. |
