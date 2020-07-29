@@ -217,4 +217,4 @@ Let's compute some logic here:
 
 <>
 
-\\begin{equation} \\left(KB\\ \\wedge\\ \\neg q\\right)\\\\\\\\Using\\ implication\\ elimination: \\end{equation}
+\\begin{equation} \\left(KB\\ \\wedge\\ \\neg q\\right)\\\\\\\\Using\\ implication\\ elimination: \\end{equation}Using\\ De\\ Morgan's\\ Law:\\\\\\\\\\left(\\left( \\neg Q\\ \\vee\\ \\ P\\right)\\vee\\ R\\right) \\wedge\\ \\left(\\neg R\\right)\\wedge\\ \\left(\\neg P\\right)\\wedge\\ \\left(Q\\right)\\\\\\\\Added\\ new\\ clause:\\\\\\\\\\ \\left(\\neg Q\\ \\vee\\ P\\vee\\ R\\right) \\wedge\\ \\left(\\neg R\\right)\\ \\wedge \\left(\\neg Q\\ \\vee\\ P\\right) \\wedge \\left(\\neg P\\right)\\wedge\\ \\left(Q\\right)\\\\\\\\Added\\ new\\ clause:\\\\\\\\\\ \\left(\\neg Q\\ \\vee\\ P\\vee\\ R\\right) \\wedge\\ \\left(\\neg R\\right)\\ \\wedge \\left(\\neg Q\\ \\vee\\ P\\right) \\wedge \\left(\\neg P\\right)\\wedge\\ \\left(Q\\right)\\wedge\\ \\left(P\\right)\\\\\\\\Contradiction\\ Found:\\\\\\\\\\\\left(\\neg P\\right)\\wedge\\ \\left(P\\right)\\\\\\\\Result:\\ FALSE\\\\\\\\\\
