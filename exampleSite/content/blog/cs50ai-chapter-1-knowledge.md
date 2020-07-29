@@ -98,7 +98,7 @@ Let's look back at the previous example's symbols.
 >
 > Q: Harry will go for a run today.
 
-Say we also know that **P ⇔ Q**, then we know that on rain-free days, Harry would surely go for a run, and whichever day Harry runs, we are 100% sure it did not rain.  
+Say we also know that **P ⇔ Q**, then we know that on rain-free days, Harry would surely go for a run, and whichever day Harry runs, we are 100% sure it did not rain.
 
 In the case of **P → Q,** Harry might gone for a run in the rain. That would imply that the rain is not the sole cause of Harry to go for a run..
 
@@ -182,7 +182,7 @@ We check through all possible models. For every model where its knowledge base (
 
 In this case, the row in all caps is the only instance of KB that is true, and that instance answers true for the query.
 
-The issue is, finding all the possible combinations for models are is a time-consuming task, and for a number n of symbols we will have to iterate through 2^n different models, and a large majority of them are not valid to the knowledge base. 
+The issue is, finding all the possible combinations for models are is a time-consuming task, and for a number n of symbols we will have to iterate through 2^n different models, and a large majority of them are not valid to the knowledge base.
 
 This brings us to another method:
 
@@ -194,7 +194,7 @@ In Computer Science, a method of proving things is done via contradiction. WE as
 >
 > Take a triangle T has 3 angles called X, Y, and Z. Assume that its two sides X and Y are right angles. A triangle, has a total angle of 180°, which means Z would have an angle of 0°. Z cannot be considered a corner as its angle is zero, making T not a triangle.
 
-Back to the entailment example, to determine if **KB ⊨ q:** 
+Back to the entailment example, to determine if **KB ⊨ q:**
 
 * Check if  **(KB ^ ¬ q)** is a contradiction.
   * If so, then **KB ⊨ q**
@@ -213,8 +213,6 @@ If KB entails q, KB and q will always be true. So **(KB ^ ¬ q)** returns false.
 * Query (q) : **(R)**
   * Will Harry go for a run?
 
-Let's do some logic computation here:
+Let's compute some logic here:
 
-\\begin{equation}\\left(KB\\ \\wedge\\ \\neg q\\right)\\\\\\\\Using\\ implication\\ elimination:\\\\\\\\\\\\left(\\left(Q\\ \\wedge\\ \\neg\\ P\\right)\\to\\ R\\right) \\wedge\\ \\left(\\neg R\\right)\\wedge\\ \\left(\\neg P\\right)\\wedge\\ \\left(Q\\right)\\\\\\\\\\\\left(\\neg\\left(Q\\ \\wedge\\ \\neg\\ P\\right)\\vee\\ R\\right) \\wedge\\ \\left(\\neg R\\right)\\wedge\\ \\left(\\neg P\\right)\\wedge\\ \\left(Q\\right)\\\\\\\\\\Using\\ De\\ Morgan's\\ Law:\\\\\\\\\\left(\\left( \\neg Q\\ \\vee\\ \\ P\\right)\\vee\\ R\\right) \\wedge\\ \\left(\\neg R\\right)\\wedge\\ \\left(\\neg P\\right)\\wedge\\ \\left(Q\\right)\\\\\\\\Added\\ new\\ clause:\\\\\\\\\\ \\left(\\neg Q\\ \\vee\\ P\\vee\\ R\\right) \\wedge\\ \\left(\\neg R\\right)\\ \\wedge \\left(\\neg Q\\ \\vee\\ P\\right) \\wedge \\left(\\neg P\\right)\\wedge\\ \\left(Q\\right)\\\\\\\\Added\\ new\\ clause:\\\\\\\\\\ \\left(\\neg Q\\ \\vee\\ P\\vee\\ R\\right) \\wedge\\ \\left(\\neg R\\right)\\ \\wedge \\left(\\neg Q\\ \\vee\\ P\\right) \\wedge \\left(\\neg P\\right)\\wedge\\ \\left(Q\\right)\\wedge\\ \\left(P\\right)\\\\\\\\Contradiction\\ Found:\\\\\\\\\\\\left(\\neg P\\right)\\wedge\\ \\left(P\\right)\\\\\\\\Result:\\ FALSE\\\\\\\\\\ \\end{equation}
-
-Don't 
+\\begin{equation}\\left(KB\\ \\wedge\\ \\neg q\\right)\\\\\\\\Using\\ implication\\ elimination:\\\\\\\\\\\\left(\\left(Q\\ \\wedge\\ \\neg\\ P\\right)\\to\\ R\\right) \\wedge\\ \\left(\\neg R\\right)\\wedge\\ \\left(\\neg P\\right)\\wedge\\ \\left(Q\\right)\\\\\\\\\\\\left(\\neg\\left(Q\\ \\wedge\\ \\neg\\ P\\right)\\vee\\ R\\right) \\wedge\\ \\left(\\neg R\\right)\\wedge\\ \\left(\\neg P\\right)\\wedge\\ \\left(Q\\right)\\\\\\\\\\Using\\ De\\ Morgan's\\ Law:\\\\\\\\\\left(\\left( \\neg Q\\ \\vee\\ \\ P\\right)\\vee\\ R\\right) \\wedge\\ \\left(\\neg R\\right)\\wedge\\ \\left(\\neg P\\right)\\wedge\\ \\left(Q\\right)\\\\\\\\Added\\ new\\ clause:\\\\\\\\\\ \\left(\\neg Q\\ \\vee\\ P\\vee\\ R\\right) \\wedge\\ \\left(\\neg R\\right)\\ \\wedge \\left(\\neg Q\\ \\vee\\ P\\right) \\wedge \\left(\\neg P\\right)\\wedge\\ \\left(Q\\right)\\\\\\\\Added\\ new\\ clause:\\\\\\\\\\ \\left(\\neg Q\\ \\vee\\ P\\vee\\ R\\right) \\wedge\\ \\left(\\neg R\\right)\\ \\wedge \\left(\\neg Q\\ \\vee\\ P\\right) \\wedge \\left(\\neg P\\right)\\wedge\\ \\left(Q\\right)\\wedge\\ \\left(P\\right)\\\\\\\\Contradiction\\ Found:\\\\\\\\\\\\left(\\neg P\\right)\\wedge\\ \\left(P\\right)\\\\\\\\Result:\\ FALSE\\\\\\\\\\\\end{equation}
