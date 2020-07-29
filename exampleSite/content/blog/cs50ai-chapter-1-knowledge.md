@@ -3,7 +3,7 @@ author = ["Timothy Chung"]
 categories = ["Computer Science", "Artificial Intelligence"]
 date = 2020-07-19T16:00:00Z
 description = ""
-image = "/images/e48f4a19-b6b3-4289-9325-4dfa72caa736.jpeg"
+image = "/images/660a2db4-dbc6-499f-99fd-a0e66d59ef49.jpeg"
 tags = ["Python"]
 title = "CS50AI Chapter 1: Knowledge"
 
