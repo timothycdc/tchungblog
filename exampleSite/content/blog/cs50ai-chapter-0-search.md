@@ -80,4 +80,4 @@ And we have reached G! If G wasn't our goal node, this algorithm would end becau
 
 Another variation of this method is the breadth-first-search (BFS) , that uses a first-in-last-out method. It will branch out at every fork and explore each fork at an equal pace. Here is an example of a solving a maze using DFS and BFS:
 
-![](/images/note-30-jul-2020.jpg)
+![](/images/img_ee38e7cdc1a9-1.jpeg)
