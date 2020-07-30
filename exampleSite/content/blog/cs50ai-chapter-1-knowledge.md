@@ -226,7 +226,9 @@ Before you read on, here is some terminology:
 * Clause: A disjunction of literals (symbols)
   * A disjunction means anything except an 'AND' e.g **(A ˅ B ˅ C)**
 * Conjunctive Normal Form – A logical sentence that is a conjunction of clauses.
-* 
+  * A single sentence where clauses are all joined together with ANDs/conjunctions 
+* The Empty Clause – a clause that is always a contradiction, e.g. **( P ^ ¬ P )** 
+  * The empty clause is the proof that we have a contradiction
 
 <span class="tablewrapper" markdown = "2">
 
