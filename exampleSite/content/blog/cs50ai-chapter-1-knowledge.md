@@ -8,6 +8,8 @@ tags = ["Python"]
 title = "CS50AI Chapter 1: Knowledge"
 
 +++
+These posts are a series of my notes taken from the CS50AI course – Introduction to AI with Python. I have explained some areas for easier simplification.
+
 At the heart of every algorithm lies its logic process, which forms the core part of decision making. The tricky part is, how do we program a computer to parse logic? In this explanation, we would want to give an algorithm a set of rules, and give it and a new rule. The algorithm has to tell us whether the new rule fits in with the old rules.
 
 ### Prepositional Logic Basics
@@ -226,8 +228,8 @@ Before you read on, here is some terminology:
 * Clause: A disjunction of literals (symbols)
   * A disjunction means anything except an 'AND' e.g **(A ˅ B ˅ C)**
 * Conjunctive Normal Form – A logical sentence that is a conjunction of clauses.
-  * A single sentence where clauses are all joined together with ANDs/conjunctions 
-* The Empty Clause – a clause that is always a contradiction, e.g. **( P ^ ¬ P )** 
+  * A single sentence where clauses are all joined together with ANDs/conjunctions
+* The Empty Clause – a clause that is always a contradiction, e.g. **( P ^ ¬ P )**
   * The empty clause is the proof that we have a contradiction
 
 <span class="tablewrapper" markdown = "2">
@@ -249,3 +251,17 @@ Before you read on, here is some terminology:
 | Empty Clause | p, ¬p | () \[an empty clause with a false value\] | Harry is in the Great Hall and Harry is not inside the Great Hall | This entire sentence cannot be true because it contradicts itself. |
 
 </span>
+
+Here are two snippets of the CS50AI slides on how to convert sentences into CNF.
+
+![](/images/screenshot-2020-07-30-at-12-32-31-pm.png)
+
+![](/images/screenshot-2020-07-29-at-11-52-48-pm.png)
+
+Once we can infer new clauses from what we have, we can append it it to our knowledge base with an AND connective. With those new clauses we keep trying to compare it against our pre-existing clauses and trying to infer, or 'simplify' them into sentences of AND and OR connectives.
+
+Eventually, if we get the empty clause, we know that regardless of whatever values are held by the symbols, the entire knowledge base with always be false because of that one empty clause. Which causes a contradiction, proving the entailment.
+
+Once everything has been simplified into Conjunctive Normal Form, and there is no contradiction– this means there exists an instance of symbols that proves the knowledge base true but the query false. This is not entailment.
+
+And that concludes this very lengthy post! I hope it aids your learning, regardless whether or not you are taking this course.
