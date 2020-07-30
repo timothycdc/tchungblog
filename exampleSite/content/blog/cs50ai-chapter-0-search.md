@@ -47,3 +47,37 @@ This is how the algorithm works, in more detail:
    3. If the node is the goal state, return the solution.
    4. Add the node to the explored set.
    5. Expand the node, adding more nodes to the frontier if they are not in the explored set.
+
+Let's start with an example: Consider this environment of nodes; we want to get from A to G.
+
+![](/images/img_0495.jpg)
+
+A is our initial node, and B is in our frontier. We now remove B from the frontier...
+
+![](/images/img_0496.jpg)
+
+And get C and D as our new frontier. We are not in G yet, so choose D from the frontier. Note that we pick the most recent node added in the frontier: this action is known as last-in-first-out.
+
+![](/images/img_0497.jpg)
+
+D is removed from the frontier, and C and F is added to the frontier.
+
+![](/images/img_0498.jpg)
+
+F is a dead end. Since C is left in the frontier, we'll go there.
+
+![](/images/img_0499.jpg)
+
+E is next in the frontier.
+
+![](/images/img_0500.jpg)
+
+Which leaves us with G...
+
+![](/images/img_0502.jpg)
+
+And we have reached G! If G wasn't our goal node, this algorithm would end because its frontier is empty. Note that the algorithm explores as far as it can until it reaches a dead end, then goes back to its last fork and tries another path from there. This is also known as depth-first-search (DFS).
+
+Another variation of this method is the breadth-first-search (BFS) , that uses a first-in-last-out method. It will branch out at every fork and explore each fork at an equal pace. Here is an example of a solving a maze using DFS and BFS:
+
+![](/images/note-30-jul-2020.jpg)
