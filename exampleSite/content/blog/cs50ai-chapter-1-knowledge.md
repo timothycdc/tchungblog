@@ -236,7 +236,7 @@ How do we simplify into clauses?
 
 <span class="tablewrapper" markdown = "2">
 
-| Inference Method | Knowledge Base... | ...Inference | Example Knowledge Base | Example Inference with Explanation |
+| Inference Method | Knowledge Base... | ...Inferences from KB | Example Knowledge Base | Example Inference with Explanation |
 | :---: | :---: | :---: | :---: | :---: |
 | Modus Ponens | (a → b), a | b | If it’s raining, Harry is inside. It is raining. | Harry is inside. |
 | And Elimination | a ˄ b | b | Harry is friends with Ron and Hermione. | Harry is friends with Hermione. |
