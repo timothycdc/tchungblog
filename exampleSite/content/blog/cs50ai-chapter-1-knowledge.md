@@ -223,10 +223,10 @@ So now that we know there's a contradiction, we can conclude that KB entails q.
 
 The process I did was converting the sentences in Conjunctive Normal Form. It is possible to simplify all logic into forms of AND and OR and NOT.
 
-Before you read on, here is some terminology:
+Before you read on, here is more terminology:
 
 * Clause: A disjunction of literals (symbols)
-  * A disjunction means anything except an 'AND' e.g **(A ˅ B ˅ C)**
+  * A disjunction– that connectives other than AND are used e.g **(A ˅ B ˅ C)**
 * Conjunctive Normal Form – A logical sentence that is a conjunction of clauses.
   * A single sentence where clauses are all joined together with ANDs/conjunctions
 * The Empty Clause – a clause that is always a contradiction, e.g. **( P ^ ¬ P )**
