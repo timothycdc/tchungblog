@@ -230,7 +230,9 @@ Before you read on, here is some terminology:
 * Conjunctive Normal Form – A logical sentence that is a conjunction of clauses.
   * A single sentence where clauses are all joined together with ANDs/conjunctions
 * The Empty Clause – a clause that is always a contradiction, e.g. **( P ^ ¬ P )**
-  * The empty clause is the proof that we have a contradiction
+  * The empty clause is the proof that we have a contradiction.
+
+How do we simplify into clauses?
 
 <span class="tablewrapper" markdown = "2">
 
