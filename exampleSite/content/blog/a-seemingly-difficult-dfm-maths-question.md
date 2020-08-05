@@ -22,7 +22,7 @@ It took me overnight to find a (creative?) solution using whatever I had already
 
 Let's start:
 
-\\begin{equation}arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\ Therefore \\frac{\\pi}{3}=arg\\left(z-6i\\right)-arg\\left(z-3i\\right)\\\\\\\\\\end{equation}
+\\begin{equation}arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\ \\mathrm{Therefore} \\frac{\\pi}{3}=arg\\left(z-6i\\right)-arg\\left(z-3i\\right)\\\\\\\\\\end{equation}
 
 We know that the difference between the argument of a complex number _z_ from 6i and 3i is equal to pi/3 radians.
 
@@ -64,7 +64,7 @@ I've redrawn the lines again in Figure 4, revealing the very geometrically-pleas
 
 Fig 5: The radius and the centre of the circle can easily be calculated with easy trigonometry, which at this point, is mere peanuts compared to the very difficult start of this question.
 
-\\begin{equation}\\sin\\left(\\frac{\\pi}{3}\\right)=\\frac{1.5}{radius}\\\\\\\\\\frac{\\sqrt{3}}{2}=\\frac{1.5}{radius}\\\\\\\\radius\\ =\\ \\sqrt{3}\\\\\\end{equation}
+\\begin{equation}\\\\begin{equation}\\sin\\left(\\frac{\\pi}{3}\\right)=\\frac{1.5}{\\mathrm{radius}}\\\\\\\\\\frac{\\sqrt{3}}{2}=\\frac{1.5}{\\mathrm{radius}}\\\\\\\\ \\mathrm{radius}\\ =\\ \\sqrt{3}\\\\\\end{equation}\\end{equation}
 
 \\begin{equation}\\\\Therefore Length\\ A\\ =\\ \\sqrt{3}\\\\\\\\\\tan\\frac{\\pi}{3}=\\frac{1.5}{x}\\\\\\\\\\sqrt{3}=\\frac{1.5}{x}\\\\\\\\x=\\frac{\\sqrt{3}}{2}\\\\\\\\So\\ coordinates\\ of\\ the\\ centre\\ are\\ \\left(-\\frac{\\sqrt{3}}{2},4.5\\right)\\\\\\\\\\end{equation}
 
