@@ -74,13 +74,13 @@ Now, all is left is the addition of lengths A and B, to get our result in Figure
 
 ###### FIGURE 6
 
-\\begin{equation}\\mathrm{Length}\\ B\\ =\\ \\sqrt{\\left(\\frac{\\sqrt{3}}{2}\\right)^{2}+\\left(4.5\\right)^{2}}\\\\\\\\=\\sqrt{21}\\\\\\\\ \\mathrm{\\therefore\\ Length} \\ A\\ +\\ \\mathrm{Length} \\ B\\\\\\\\=\\sqrt{21}+\\sqrt{3}\\end{equation}
+\\begin{equation}\\mathrm{Length}\\ B\\ =\\ \\sqrt{\\left(\\frac{\\sqrt{3}}{2}\\right)^{2}+\\left(4.5\\right)^{2}}\\\\\\\\=\\sqrt{21}\\\\\\\\ \\mathrm{\\therefore\\ Length} \\ A\\ +\\ \\mathrm{Length} \\ B\\\\\\\\=\\sqrt{21}+\\sqrt{3}\end{equation}
 
 You're probably wondering how I reverse engineered the graph for this blog post. This is how I got to the answer:
 
 ![](/images/img_0456.jpg)
 
-\\begin{equation}\\mathrm{Must\\ find\\ a\\ point\\ Z\\ where} \\ \\ \\ \\theta-\\alpha\\ =\\ \\frac{\\pi}{3}\\\\\\\\\\\\\\tan^{-1}\\left(\\frac{y-6}{x}\\right)-\\tan^{-1}\\left(\\frac{y-3}{x}\\right)=\\frac{\\pi}{3}\\\\\\\\\\end{equation}
+\begin{equation}\\mathrm{Must\\ find\\ a\\ point\\ Z\\ where} \\ \\ \\ \\theta-\\alpha\\ =\\ \\frac{\\pi}{3}\\\\\\\\\\\\\\tan^{-1}\\left(\\frac{y-6}{x}\\right)-\\tan^{-1}\\left(\\frac{y-3}{x}\\right)=\\frac{\\pi}{3}\ \end{equation}
 
 And that concludes it for this question! I did learn a lot of problem-solving skills from this one. This question ought to be worth more than 5 marks ;)
 
