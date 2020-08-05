@@ -12,7 +12,7 @@ Just before summer holidays began, a friend of mine reached out and shared this 
 
 (Swipe or click+arrow keys to scroll through the workings, it may take a few seconds to load)
 
-\\begin{equation})\\mathrm{A\\ complex\\ number\\ z\\ is\\ represented\\ by\\ the\\ point\\ P\\ on\\ an\\ Argand\\ Diagram.}\\\\ \\mathrm{Given\\ that\\ }arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\ \\\\ \\mathrm{The\\ sketch\\ of\\ the\\ locus\\ of\\ P\\ as\\ z\\ varies\\ is\\ shown\\ below.}\\\\\\\\ \\\\ \\mathrm{Find\\ the \\ exact\\ maximum\\ value\\ of\\ } \\left|z\\right|.\\  \\mathrm{(5 \\ marks ) }\\end{equation}
+\\begin{equation}\\mathrm{A\\ complex\\ number\\ z\\ is\\ represented\\ by\\ the\\ point\\ P\\ on\\ an\\ Argand\\ Diagram.}\\\\ \\mathrm{Given\\ that\\ }arg\\left(\\frac{z-6i}{z-3i}\\right)=\\frac{\\pi}{3}\\\\\\\\ \\\\ \\mathrm{The\\ sketch\\ of\\ the\\ locus\\ of\\ P\\ as\\ z\\ varies\\ is\\ shown\\ below.}\\\\\\\\ \\\\ \\mathrm{Find\\ the \\ exact\\ maximum\\ value\\ of\\ } \\left|z\\right|.\\  \\mathrm{(5 \\ marks ) }\\end{equation}
 
 ![](/images/image-06-07-2020-at-3-49-pm.JPG "Title Image")
 
