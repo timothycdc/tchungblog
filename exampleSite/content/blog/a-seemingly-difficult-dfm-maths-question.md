@@ -74,7 +74,7 @@ Now, all is left is the addition of lengths A and B, to get our result in Figure
 
 ###### FIGURE 6
 
-\\begin{equation}\\begin{equation}\\mathrm{Length}\\ B\\ =\\ \\sqrt{\\left(\\frac{\\sqrt{3}}{2}\\right)^{2}+\\left(4.5\\right)^{2}}\\\\\\\\=\\sqrt{21}\\\\\\\\ \\mathrm{\\therefore\\ Length} \\ A\\ +\\ \\mathrm{Length} \\ B\\\\\\\\=\\sqrt{21}+\\sqrt{3}\\end{equation}\\end{equation}
+\\begin{equation}\\mathrm{Length}\\ B\\ =\\ \\sqrt{\\left(\\frac{\\sqrt{3}}{2}\\right)^{2}+\\left(4.5\\right)^{2}}\\\\\\\\=\\sqrt{21}\\\\\\\\ \\mathrm{\\therefore\\ Length} \\ A\\ +\\ \\mathrm{Length} \\ B\\\\\\\\=\\sqrt{21}+\\sqrt{3}\\end{equation}
 
 You're probably wondering how I reverse engineered the graph for this blog post. This is how I got to the answer:
 
