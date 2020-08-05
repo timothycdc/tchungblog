@@ -66,7 +66,7 @@ Fig 5: The radius and the centre of the circle can easily be calculated with eas
 
 \\begin{equation}\\sin\\left(\\frac{\\pi}{3}\\right)=\\frac{1.5}{\\mathrm{radius}}\\\\\\\\\\frac{\\sqrt{3}}{2}=\\frac{1.5}{\\mathrm{radius}}\\\\\\\\ \\mathrm{radius}\\ =\\ \\sqrt{3}\\\\\\end{equation}
 
-\\begin{equation}\\begin{equation}\\\\ \\therefore Length\\ A\\ =\\ \\sqrt{3}\\\\\\\\\\tan\\frac{\\pi}{3}=\\frac{1.5}{x}\\\\\\\\\\sqrt{3}=\\frac{1.5}{x}\\\\\\\\x=\\frac{\\sqrt{3}}{2}\\\\\\\\ \\mathrm{So\\ coordinates\\ of\\ the\\ centre\\ are}\\ \\left(-\\frac{\\sqrt{3}}{2},4.5\\right)\\\\\\\\\\end{equation}\\end{equation}
+\\begin{equation}\\\\ \\therefore Length\\ A\\ =\\ \\sqrt{3}\\\\\\\\\\tan\\frac{\\pi}{3}=\\frac{1.5}{x}\\\\\\\\\\sqrt{3}=\\frac{1.5}{x}\\\\\\\\x=\\frac{\\sqrt{3}}{2}\\\\\\\\ \\mathrm{So\\ coordinates\\ of\\ the\\ centre\\ are}\\ \\left(-\\frac{\\sqrt{3}}{2},4.5\\right)\\\\\\\\\\end{equation}
 
 Now, all is left is the addition of lengths A and B, to get our result in Figure 6:
 
