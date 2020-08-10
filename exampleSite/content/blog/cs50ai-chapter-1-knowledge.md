@@ -226,10 +226,14 @@ The process I did was converting the sentences in Conjunctive Normal Form. It is
 Before you read on, here is more terminology:
 
 * Clause: A disjunction of literals (symbols)
-  * A disjunction means that connectives other than AND are used e.g **(A ˅ B ˅ C)**
+  * A disjunction means that connectives other than AND are used
+
+    e.g. **(A ˅ B ˅ C)**
 * Conjunctive Normal Form – A logical sentence that is a conjunction of clauses.
   * A single sentence where clauses are all joined together with ANDs/conjunctions
-* The Empty Clause – a clause that is always a contradiction, e.g. **( P ^ ¬ P )**
+* The Empty Clause – a clause that is always a contradiction
+
+  e.g. **( P ^ ¬ P )**
   * The empty clause is the proof that we have a contradiction.
 
 How do we simplify into clauses?
