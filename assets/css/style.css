@@ -511,12 +511,12 @@ ul {
 
 ul ul {
     list-style: circle;
-    font-size: 90%;
+
 }
 
 ul ul ul {
     list-style: square;'
-    font-size: 90%;
+
 }
 
 ol {
@@ -526,18 +526,18 @@ ol {
 
 ol ol {
     list-style: lower-alpha;
-    font-size: 90%;
+
 }
 
 ol ol ol {
     list-style: lower-roman;
-    font-size: 90%;
+
 }
 
 li {
     line-height: 1.5;
     margin: 0.5rem 0 0 2rem;
-    font-size: 90%;
+
 }
 
 li>ul,
@@ -4827,7 +4827,7 @@ a.to-the-top>* {
 	
     ul,
     ol {
-        margin-bottom: 4rem;
+        margin-bottom: 0rem;
     }
     pre {
         padding: 3rem;
