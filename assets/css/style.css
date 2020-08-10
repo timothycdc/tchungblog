@@ -506,7 +506,7 @@ ol {
 
 ul {
     list-style: disc;
-    font-size: 90%;
+
 }
 
 ul ul {
@@ -521,7 +521,7 @@ ul ul ul {
 
 ol {
     list-style: decimal;
-    font-size: 90%;
+
 }
 
 ol ol {
