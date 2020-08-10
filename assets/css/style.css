@@ -506,31 +506,38 @@ ol {
 
 ul {
     list-style: disc;
+    font-size: 90%;
 }
 
 ul ul {
     list-style: circle;
+    font-size: 90%;
 }
 
 ul ul ul {
-    list-style: square;
+    list-style: square;'
+    font-size: 90%;
 }
 
 ol {
     list-style: decimal;
+    font-size: 90%;
 }
 
 ol ol {
     list-style: lower-alpha;
+    font-size: 90%;
 }
 
 ol ol ol {
     list-style: lower-roman;
+    font-size: 90%;
 }
 
 li {
     line-height: 1.5;
     margin: 0.5rem 0 0 2rem;
+    font-size: 90%;
 }
 
 li>ul,
