@@ -115,7 +115,7 @@ blockquote::after {
 /* -------------------------------------------------------------------------- */
 
 html {
-    font-size: 62.5%;
+    font-size: 55%;
     /* 1rem = 10px */
     scroll-behavior: smooth;
 }
