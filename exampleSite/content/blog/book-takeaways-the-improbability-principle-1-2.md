@@ -137,7 +137,7 @@ The Law of Large Numbers shows that it is important to have many participants in
 
 Imagine choosing values at random from the set {1, 2, 3, 4, 5, 6}, where the selection is done by a fair 6-sided die. Five values are to be drawn and their average calculated. Another 5 values are drawn and another average is also calculated. These two averages are likely to be different. Once we repeat the calculation of the averages many times, we end up with a distribution of averages for a sample size of five (which you could plot on a graph.)
 
-Well, we could have used different sample sizes instead of 5. But the central limit theorem describes the shape of distribution that we would achieve as larger and larger sample sizes are used. This is known as the **normal** **distribution**, which takes the shape of a bell.m
+Well, we could have used different sample sizes instead of 5. But the central limit theorem describes the shape of distribution that we would achieve as larger and larger sample sizes are used. This is known as the **normal** **distribution**, which takes the shape of a bell.
 
 ![](/images/6f933d89-070f-4e3b-b3aa-d0d0a5ba072b.jpeg)
 
@@ -145,7 +145,7 @@ Well, we could have used different sample sizes instead of 5. But the central li
 
 ### End of Part 1
 
-What we've covered so far: We've gone through limitations of the human mind when it comes to probabilities, the concept of chaos, and large numbers, and how we get the normal distribution. You can read part 2 here:
+What we've covered so far: We've gone through limitations of the human mind when it comes to probabilities, the concept of chaos, and large numbers, and how we get the normal distribution. You can read part 2 [here](https://tchungblog.netlify.app/blog/book-takeaways-the-improbability-principle-2-2/):
 
 [^1]: Carl G Jung, “An Acausal Connecting Principle, in _Synchronicity,_ Vol 8. (New Jersey: Princeton University Press, 1960), 15
 [^2]: T. Footman, in _Guinness World Records 2001_. Guinness World Records. (New York: Guinness World Record Ltd, 2000), 36
