@@ -137,7 +137,7 @@ The Law of Large Numbers shows that it is important to have many participants in
 
 Imagine choosing values at random from the set {1, 2, 3, 4, 5, 6}, where the selection is done by a fair 6-sided die. Five values are to be drawn and their average calculated. Another 5 values are drawn and another average is also calculated. These two averages are likely to be different. Once we repeat the calculation of the averages many times, we end up with a distribution of averages for a sample size of five (which you could plot on a graph.)
 
-Well, we could have used different sample sizes instead of 5. But the central limit theorem describes the shape of distribution that we would achieve as larger and larger sample sizes are used. This is known as the **normal** **distribution**, which takes the shape of a bell.
+Well, we could have used different sample sizes instead of 5. But the central limit theorem describes the shape of distribution that we would achieve as larger and larger sample sizes are used. This is known as the **normal** **distribution**, which takes the shape of a bell.m
 
 ![](/images/6f933d89-070f-4e3b-b3aa-d0d0a5ba072b.jpeg)
 
