@@ -169,7 +169,7 @@ If the lottery only ran twice, there would only be one possible pair (2**C**2 = 
 
 Keep in mind we are talking about repeated numbers based on the history of all numbers of the lottery, and not two consecutive correct draws (otherwise that probability would be the same as the one mentioned in the top paragraph.)
 
-What if the lottery had been held 1000 times? That would mean 1000 draws of the numbers. This translates to 1000**C**2, or 499,500 possible pairs that could be found. (1&2, 1&3, 1&4...) The probability having two repeated draws would be (1/13,983,816_499,500) ≈ 0.036. Sounds plausible.
+What if the lottery had been held 1000 times? That would mean 1000 draws of the numbers. This translates to 1000**C**2, or 499,500 possible pairs that could be found. (1&2, 1&3, 1&4...) The probability having two repeated draws would be (1/13,983,816\*499,500) ≈ 0.036. Sounds plausible.
 
 If the number of possible pairs exceeded the 13,983,816, you can guarantee that there would be a repeated draw eventually (once you exhaust the entire set of configurations the next draw will match any configuration that exists in the set).
 
