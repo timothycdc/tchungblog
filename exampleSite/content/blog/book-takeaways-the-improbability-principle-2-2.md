@@ -10,7 +10,7 @@ title = "Book Takeaways: The Improbability Principle (2/2)"
 +++
 ### Recap
 
-We've covered the basics in Part 1 – how the human mind is not used to dealing with random numbers, how large numbers are used to even out probabilities, and we introduced the normal distribution. Let's continue–
+We've covered the basics in Part 1 – how the human mind is not used to dealing with random numbers, how large numbers are used to even out probabilities, and we introduced the normal distribution. Let's continue:
 
 ### The Law of Inevitability
 
