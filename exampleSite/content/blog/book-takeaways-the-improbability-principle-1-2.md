@@ -209,7 +209,7 @@ This is why a pair of tall parents are perceived tall because they reached close
 
 Their child will inherit their genetics that account for a certain range in height – and it will simply be up to chance/environmental factors to decide whether the child occupies the upper or lower part of the height range.
 
-# Selection/Publication Bias
+### Selection/Publication Bias
 
 Scientific journals are more preferable to be published when they successfully show a phenomenon, instead of those that fail to show one.
 
@@ -225,7 +225,7 @@ A group of scientific studies once studied links between whether eating breakfas
 
 Another effect of the Law of Selection bias is the dropout bias in regards to clinical drug trials. It is not uncommon for patients to drop out of a clinical study. Sometimes patients drop out of the trials because they are starting to feel better early on and do not wish to stay in the study any longer. Their cases may not be tabulated, and as a result, may make the drug seem like it is not effective.
 
-# The Probability Lever
+### The Probability Lever
 
 On October 19, 1987, the S&P 500 stock price fell by 22.6% That days was also called Black Monday, the largest percentage drop in all history of the American Stock Market, that sparked fears of worldwide economic instability.
 
@@ -271,7 +271,7 @@ The double pendulum is another example of a chaotic system:
 
 Changing the initial conditions a tiny bit will greatly alter the path and movement. It will be impossible to replicate the path of a double pendulum as the angle is continous (infinite decimal places of accuracy), although it is deterministic– you can theoretically predict the movement of the pendulumn from a given initial condition.
 
-# My Probability or Yours?
+### My Probability or Yours?
 
 Major Walter Summerford was struck by lightning thrice over twelve years of his life. His gravestone was struck in 1936, four years after his death.
 
@@ -281,7 +281,7 @@ At the time of writing, there are 20,827,622 cases of the coronavirus and 747,58
 
 Most probably not. Otherwise, we would see much less deaths. The probability of dying from coronavirus would be greatly increased in the elderly and weaker patients with an underlying health conditions [^13], and in the citizens of countries with less access to advanced health care. In a coronavirus-free country such as Montenegro, the probability would be almost zero.
 
-# The Law of Near Enough
+### The Law of Near Enough
 
 Let’s say we are trying to guess the output of a 100-sided die. I choose 42, and the dice rolls 43.
 
@@ -299,7 +299,7 @@ What about conspiracy theorists claiming that the Egyptians were enlightened by 
 
 The Law of Near Enough is in play here. First, we can place the decimal place anywhere, and the coordinates given are too specific– we only need 4 decimal places 29.9729˚N to roughly pinpoint the location of the pyramid (The law of selection applies here too). It does not help that the pyramid is extremely large and Egyptians did not use metres or latitude coordinates in 2500B.C!
 
-# Bayesianism, Science, and Religion
+### Bayesianism, Science, and Religion
 
 The Bayesian approach to believing things – eliminate the more improbable, and choose the outcome that is more probable. The great philosopher David Hume, wrote that “no testimony is sufficient to establish a miracle, unless the testimony be of such a kind, that its falsehood would be more miraculous, than the fact which it endeavours to establish“. [^14]
 
