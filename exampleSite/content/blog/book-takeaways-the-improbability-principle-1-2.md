@@ -1,7 +1,7 @@
 +++
 author = ["Timothy Chung"]
 categories = ["Psychology", "Statistics"]
-date = 2020-08-13T16:00:00Z
+date = 2020-08-12T16:00:00Z
 description = ""
 image = "/images/img_0541.jpg"
 tags = ["Philosophy", "Physics", "Probabilities", "Mathematics"]
@@ -10,7 +10,7 @@ title = "Book Takeaways: The Improbability Principle (1/2)"
 +++
 ### The Improbability Principle
 
-This is part one of my takeaways I've learnt from the book _The Improbability Principle_ by David J Hand. It explores the reasons behind why very rare things do occur. I've selected quotes and explanations from the book, paraphrased them and added my own findings to the mix. Enjoy!
+This is part one of my takeaways I've learnt from the book _The Improbability Principle_ by David J. Hand. It explores the reasons behind why very rare things do occur. I've selected quotes and explanations from the book, paraphrased them and added my own findings to the mix. Enjoy!
 
 ### Introduction
 
@@ -145,12 +145,12 @@ Well, we could have used different sample sizes instead of 5. But the central li
 
 ### End of Part 1
 
-What we've covered so far: We've gone through limitations of the human mind when it comes to probabilities, the concept of chaos, and large numbers, and how we get the normal distribution. You can read part 2 here: 
+What we've covered so far: We've gone through limitations of the human mind when it comes to probabilities, the concept of chaos, and large numbers, and how we get the normal distribution. You can read part 2 here:
 
-[^1]: Carl G Jung, “An Acausal Connecting Principle, in _Synchronicity,_ Vol 8. (New Jersey: Princeton University Press, 1960), 15
-[^2]: T. Footman, in _Guinness World Records 2001_. Guinness World Records. (New York: Guinness World Record Ltd, 2000), 36
-[^3]: Émile Borel, in _Probabilities and Life, trans. Maurice Baudin._ (New York: Dover Publications, 1962), 2–3.
-[^4]: Ibid., 26.
-[^5]: Robert K. Merton, _On Social Structure and Science_ (Chicago: University of Chicago Press, 1996), 196.
-[^6]: Dax Hamman. _Apple Made Their Shuffle Feature Less Random, to Make It More Random._ DaxThink. 1-3-2017 [https://www.daxthink.com/think/2017/2/27/apple-made-itunes-shuffle-less-random-to-make-it-more-random](https://www.daxthink.com/think/2017/2/27/apple-made-itunes-shuffle-less-random-to-make-it-more-random)
-[^7]: Lorenz, Edward N. 1963. "Deterministic non-periodic flow". _Journal of the Atmospheric Sciences. 20 (2): 130–141._
+\[^1\]: Carl G Jung, “An Acausal Connecting Principle, in _Synchronicity,_ Vol 8. (New Jersey: Princeton University Press, 1960), 15
+\[^2\]: T. Footman, in _Guinness World Records 2001_. Guinness World Records. (New York: Guinness World Record Ltd, 2000), 36
+\[^3\]: Émile Borel, in _Probabilities and Life, trans. Maurice Baudin._ (New York: Dover Publications, 1962), 2–3.
+\[^4\]: Ibid., 26.
+\[^5\]: Robert K. Merton, _On Social Structure and Science_ (Chicago: University of Chicago Press, 1996), 196.
+\[^6\]: Dax Hamman. _Apple Made Their Shuffle Feature Less Random, to Make It More Random._ DaxThink. 1-3-2017 [https://www.daxthink.com/think/2017/2/27/apple-made-itunes-shuffle-less-random-to-make-it-more-random](https://www.daxthink.com/think/2017/2/27/apple-made-itunes-shuffle-less-random-to-make-it-more-random)
+\[^7\]: Lorenz, Edward N. 1963. "Deterministic non-periodic flow". _Journal of the Atmospheric Sciences. 20 (2): 130–141._
