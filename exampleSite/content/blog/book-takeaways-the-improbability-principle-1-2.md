@@ -132,6 +132,8 @@ Supposing we choose randomly pick a number from the set (we don’t take it out,
 
 If you only pick out a few numbers, the average of the values start to jump around, for from the value of 3.5 we’re looking for. But gradually, as more throws are made, the more the average settles down and converges towards 3.5. We learn the proper terminology in A-Level Statistics; that the average of the picks is E(X)/n, where E(X) is the expected value of the throws added together and n is the number of throws. (Given that the probabilities are spread across a discrete uniform distribution).
 
+The Law of Large Numbers shows that it is important to have many participants in a clinical trial – a smaller number of participants allows for greater variability (from the mean performance of the drug), which may not be an accurate representation of how effective a drug is. A greater number of participants dilutes any variability and improves the accuracy of the trial.
+
 # Central Limit Theorem
 
 Imagine choosing values at random from the set {1, 2, 3, 4, 5, 6}, where the selection is done by a fair 6-sided die. Five values are to be drawn and their average calculated. Another 5 values are drawn and another average is also calculated. These two averages are likely to be different. Once we repeat the calculation of the averages many times, we end up with a distribution of averages for a sample size of five (which you could plot on a graph.)
@@ -238,7 +240,7 @@ Keep in mind the quote of Mallaby’s takes the normal distribution into account
 
 The normal distribution has very nice mathematical probabilities, making theories and predictions easy to calculate. However, measurements often follow the normal distribution to an approximate extent.
 
-
+![](/images/519ccbb7-9cf7-4213-a4fe-a38e5656e9b3.jpeg)
 
 (Photo taken from The Improbability Principle by David J. Hand)
 
@@ -252,7 +254,7 @@ This shows that a slight change to the shape of distribution can greatly impact 
 
 Another way to name events is by using the sigma – for example, a 5-sigma event is the probability of getting a value 5 standard deviations smaller/larger than the mean(where the distribution curve peaks). Now compare the table below of probabilities in the normal and cauchy distributions.
 
-
+![](/images/ee97ccb5-d7f9-45d3-bef5-403852a8a564.jpeg)
 
 (Photo taken from The Improbability Principle by David J. Hand)
 
@@ -264,7 +266,7 @@ Chaos, as described earlier, is extremely sensitive to initial conditions. And i
 
 The double pendulum is another example of a chaotic system:
 
-
+![](/images/6b67598c328c476f536d9749641d4b37.gif)
 
 (Photo taken from [fouriestseries.tumblr.com](http://fouriestseries.tumblr.com/))
 
