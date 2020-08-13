@@ -95,7 +95,7 @@ Humans are naturally curious and will look for patterns – however, sometimes, 
    2. “There is no reason for any individual to have a computer in his home.” – Ken Olson, president of the Digital Equipment Corporation
    3. “There’s no chance that the iPhone is going to get any significant market share.” Steve Ballmer, 2007
 
-# Gambler’s fallacy
+### Gambler’s fallacy
 
 When tossing a coin repeatedly, in the event one side keeps getting tossed more than the other, many people expect the other side of the coin to have a higher chance of being tossed to ‘counterbalance‘ the disparity. However, this is not the case. What happens is that the later tosses should have roughly equal numbers of head and tails, and this equality dilutes the earlier disparity, given a large number of tosses.
 
