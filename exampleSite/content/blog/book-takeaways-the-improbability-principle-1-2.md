@@ -307,7 +307,7 @@ Religion is absolute truth because it is faith in concrete and defined tenets. S
 
 Now, a personal opinion from me – how do I tie science and my faith together? If we consider the perspective of science,
 
-### REFERENCES
+
  [^1]:1. Carl G Jung, “An Acausal Connecting Principle, in _Synchronicity,_ Vol 8. (New Jersey: Princeton University Press, 1960), 15
  [^2]: 2. T. Footman, in _Guinness World Records 2001_. Guinness World Records. (New York: Guinness World Record Ltd, 2000), 36
  [^3]: 3. Émile Borel, in _Probabilities and Life, trans. Maurice Baudin._ (New York: Dover Publications, 1962), 2–3.
