@@ -3,7 +3,6 @@ author = ["Timothy Chung"]
 categories = ["Psychology", "Statistics"]
 date = 2020-08-13T16:00:00Z
 description = ""
-draft = true
 image = "/images/img_0541.jpg"
 tags = ["Philosophy", "Physics", "Probabilities", "Mathematics"]
 title = "Book Takeaways: The Improbability Principle (1/2)"
