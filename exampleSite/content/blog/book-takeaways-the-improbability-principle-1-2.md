@@ -32,9 +32,9 @@ But perhaps coincidences are the reason behind our reality as we know it –
 
 **Borel’s Law** is in regards to the Infinite Monkey Theorem – a monkey who randomly presses letters on a typewriter, given an infinite amount of time would be able to reproduce any works of literature exactly, like the complete works of Shakespeare.
 
-However, without an infinite amount of time, this event would could not be rationally demonstrated, and could be considered actually impossible. This law relates to probabilities so small that it would be irrational to witness it ever happen within the span of human existence. [^3]
+However, without an infinite amount of time, this event would could not be rationally demonstrated, and could be considered actually impossible. This law relates to probabilities so small that it would be irrational to witness it ever happen within the span of human existence.[^3]
 
-But this threshold still applies to the less far-fetched. Borel’s writes, “For every Parisian who circulates for one day, the probability of being killed in the course of the day in a traffic accident is about one-millionth. If, in order to avoid this slight risk, a man renounced all external activity and cloistered himself in his house, or imposed such confinement on his wife or his son, he would be considered mad.” [^4]
+But this threshold still applies to the less far-fetched. Borel’s writes, “For every Parisian who circulates for one day, the probability of being killed in the course of the day in a traffic accident is about one-millionth. If, in order to avoid this slight risk, a man renounced all external activity and cloistered himself in his house, or imposed such confinement on his wife or his son, he would be considered mad.”[^4]
 
 Borel’s Law takes a practicality stance when it comes to probabilities – treat very tiny probabilities as if they were zero. He also gives a scale of negligence and names for each extent of improbability.
 
@@ -308,11 +308,10 @@ Religion is absolute truth because it is faith in concrete and defined tenets. S
 Now, a personal opinion from me – how do I tie science and my faith together? If we consider the perspective of science,
 
 ### REFERENCES
-
  [^1]:1. Carl G Jung, “An Acausal Connecting Principle, in _Synchronicity,_ Vol 8. (New Jersey: Princeton University Press, 1960), 15
- [^1]: 2. T. Footman, in _Guinness World Records 2001_. Guinness World Records. (New York: Guinness World Record Ltd, 2000), 36
- [^1]: 3. Émile Borel, in _Probabilities and Life, trans. Maurice Baudin._ (New York: Dover Publications, 1962), 2–3.
- [^1]: 4. Ibid., 26.
+ [^2]: 2. T. Footman, in _Guinness World Records 2001_. Guinness World Records. (New York: Guinness World Record Ltd, 2000), 36
+ [^3]: 3. Émile Borel, in _Probabilities and Life, trans. Maurice Baudin._ (New York: Dover Publications, 1962), 2–3.
+ [^4]: 4. Ibid., 26.
  [^1]: 5. Robert K. Merton, _On Social Structure and Science_ (Chicago: University of Chicago Press, 1996), 196.
  [^1]: 6. Dax Hamman. _Apple Made Their Shuffle Feature Less Random, to Make It More Random._ DaxThink. 1-3-2017 [https://www.daxthink.com/think/2017/2/27/apple-made-itunes-shuffle-less-random-to-make-it-more-random](https://www.daxthink.com/think/2017/2/27/apple-made-itunes-shuffle-less-random-to-make-it-more-random)
  [^1]: 7. Lorenz, Edward N. 1963. "Deterministic non-periodic flow". _Journal of the Atmospheric Sciences. 20 (2): 130–141._
