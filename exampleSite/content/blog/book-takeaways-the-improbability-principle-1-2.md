@@ -17,8 +17,8 @@ This is part one of my takeaways I've learnt from the book _The Improbability Pr
 
 * As humans, we are naturally curious and tend to be on the lookout for coincidences and patterns we find in everyday life.
 * Of course, there are many interesting coincidences.
-  * From Carl Jung’s _Synchronity_: Writer Wilhelm von Scholz tells the story of a mother who photographed her son in 1914 and sent the film to be developed in Strassburg. However war broke out and she could not retrieve it. Two years later, in Frankfurt, she bought a roll of film to photograph her daughter – when she developed the film she found another picture overlaid on the film – it was the photograph of her son in 1914! The old film must have been accidentally recirculated to be sold with the new films. \[1\]
-  * Or Major Summerford, who was struck by lightning 3 times over the course of his life \[2\] – and lightning struck his gravestone as well. The probability of being struck by lightning outdoors is 1 in 750,000.
+  * From Carl Jung’s _Synchronity_: Writer Wilhelm von Scholz tells the story of a mother who photographed her son in 1914 and sent the film to be developed in Strassburg. However war broke out and she could not retrieve it. Two years later, in Frankfurt, she bought a roll of film to photograph her daughter – when she developed the film she found another picture overlaid on the film – it was the photograph of her son in 1914! The old film must have been accidentally recirculated to be sold with the new films. [^1]
+  * Or Major Summerford, who was struck by lightning 3 times over the course of his life [^2] – and lightning struck his gravestone as well. The probability of being struck by lightning outdoors is 1 in 750,000.
 
 But perhaps coincidences are the reason behind our reality as we know it –
 
@@ -33,9 +33,9 @@ But perhaps coincidences are the reason behind our reality as we know it –
 
 **Borel’s Law** is in regards to the Infinite Monkey Theorem – a monkey who randomly presses letters on a typewriter, given an infinite amount of time would be able to reproduce any works of literature exactly, like the complete works of Shakespeare.
 
-However, without an infinite amount of time, this event would could not be rationally demonstrated, and could be considered actually impossible. This law relates to probabilities so small that it would be irrational to witness it ever happen within the span of human existence. \[3\]
+However, without an infinite amount of time, this event would could not be rationally demonstrated, and could be considered actually impossible. This law relates to probabilities so small that it would be irrational to witness it ever happen within the span of human existence. [^3]
 
-But this threshold still applies to the less far-fetched. Borel’s writes, “For every Parisian who circulates for one day, the probability of being killed in the course of the day in a traffic accident is about one-millionth. If, in order to avoid this slight risk, a man renounced all external activity and cloistered himself in his house, or imposed such confinement on his wife or his son, he would be considered mad.” \[4\]
+But this threshold still applies to the less far-fetched. Borel’s writes, “For every Parisian who circulates for one day, the probability of being killed in the course of the day in a traffic accident is about one-millionth. If, in order to avoid this slight risk, a man renounced all external activity and cloistered himself in his house, or imposed such confinement on his wife or his son, he would be considered mad.” [^4]
 
 Borel’s Law takes a practicality stance when it comes to probabilities – treat very tiny probabilities as if they were zero. He also gives a scale of negligence and names for each extent of improbability.
 
@@ -60,7 +60,7 @@ Humans are naturally curious and will look for patterns – however, sometimes, 
 
    Take Nostradamus’s prophecies, foretelling future natural disasters and wars, as an example. The reasons why some people believe his claims are legitimate are because of **confirmation bias** and **the law of near-enough.** I’ll cover on the latter cause, but for now, the name is self-explanatory – Prophecies are usually ambiguous and can be interpreted to be correct. Confirmation bias is at work here – his supporters only focus on/publish the prophecies he got right, leaving out the untrue prophecies, which actually outnumbered his correct prophecies.
 
-   There are also self-fulfilling prophecies – a term coined by sociologist Robert K. Merton, for example, a student who believes he will fail an exam, will spend more time worrying than studying, which will affect his mental performance; he ends up failing the exam. \[5\]
+   There are also self-fulfilling prophecies – a term coined by sociologist Robert K. Merton, for example, a student who believes he will fail an exam, will spend more time worrying than studying, which will affect his mental performance; he ends up failing the exam. [^5]
 
    Optimists tend to put themselves in positions with favourable outcomes and the opposite happens for pessimists. But perhaps optimists spent more time looking for improvements in outcomes than their negative counterparts, and were more likely to find it.
 4. **Conjunction Fallacy.**
@@ -90,7 +90,7 @@ Humans are naturally curious and will look for patterns – however, sometimes, 
    Now, the judge might focus too much on the second probability because it would be a 1 in 77,777,7779 chance – very suspicious.
 
    But the more important probability we should focus on is the 0.9 value – he is more likely to be innocent!
-7. We are not good at generating random numbers. If were asked to imitate a random number generator from 1-10 we would avoid repeating the same number, trying to balance everything out. Humans are not used to repeated digits in random sequences. Apple had a 'shuffle' feature on their iPods, and in 2008 some people complained that the shuffle wasn't 'random enough' \[7\], as they would hear songs from the same artist or album played consecutively. Although these sequences were expected from random list of songs, Apple had to tweak it so similar songs wouldn't play together.
+7. We are not good at generating random numbers. If were asked to imitate a random number generator from 1-10 we would avoid repeating the same number, trying to balance everything out. Humans are not used to repeated digits in random sequences. Apple had a 'shuffle' feature on their iPods, and in 2008 some people complained that the shuffle wasn't 'random enough' [^6], as they would hear songs from the same artist or album played consecutively. Although these sequences were expected from random list of songs, Apple had to tweak it so similar songs wouldn't play together.
 8. Hindsight bias – It is easy to see the signs leading to an event once know it has happened. Take the 9/11 tragedy for example, it is possible to see the events hinting the attack, but that is in retrospect. There are simply too many combinations to fit the pieces together, but knowing the outcome makes it much easier to come up with a explanation. In fact, we see many inverse examples – people making confident predictions that with hindsight turned out to be the opposite.
    1. “The horse is here to stay, but the automobile is only a novelty, a fad.” – President of Michigan Savings Bank, advising Henry Ford’s lawyer not to invest in the Ford Motor Company
    2. “There is no reason for any individual to have a computer in his home.” – Ken Olson, president of the Digital Equipment Corporation
@@ -110,7 +110,7 @@ His view of nature is also known as as a _clockwork universe_ – describing a d
 
 However, over the 20th century, this ironic theory, or rather, ignorance eroded away. Quantum physics became a debated new topic, and it seemed that the universe was run by random chance and uncertainties. The term chaos comes into place here.
 
-Edward Lorenz, the founder of chaos theory, summarised this: ”Chaos: when the present determines the future, but the approximate present does not approximately determine the future.” \[7\]
+Edward Lorenz, the founder of chaos theory, summarised this: ”Chaos: when the present determines the future, but the approximate present does not approximately determine the future.” [^7]
 
 We only have approximate knowledge about the present. The system of physics as we know it is an intrinsically unstable at its core – given the quantum properties of nature on an atomic scale. For example, trying to balance a pencil on its point. It will eventually fall, and the direction of how it falls is dependent on its minute differences in its position at the start. Also, think of cue balls on a snooker table – how they collide and rebound off each other is dependent on the angle of attack, speed, the surface of the table, and even the wear and tear on the stick and the cue ball. Minute differences in initial conditions will influence the outcome, making prediction impossible.
 
@@ -162,7 +162,7 @@ Suppose I have a random number generator that generates numbers between 1-1000. 
 
 The probability of never getting 481 at all in 10,000 trials is equal to 0.0000451, or a 1 in 22173 chance. And 10,000 trials isn’t considered a _truly large_ number.
 
-Take the 2009 Bulgarian Lottery for an example. The lottery made national headlines when the winning numbers were drawn, and they turned out to be the exact same winning numbers as last week’s – 4, 15, 23, 24, 35 and 42. \[8\]
+Take the 2009 Bulgarian Lottery for an example. The lottery made national headlines when the winning numbers were drawn, and they turned out to be the exact same winning numbers as last week’s – 4, 15, 23, 24, 35 and 42. [^8]
 
 This lottery was a 6/49 lottery, where a player chooses six numbers from 1-49 with no duplicates. If the numbers raffled matches the player’s number (regardless of order) the player wins the jackpot. There would be 49**C**6 combinations, or 13,983,816 possible choices for numbers.
 
@@ -222,17 +222,17 @@ If placebos are not accounted for, even if patients get better purely by chance,
 
 Because of publication bias, not all discoveries/studies are valid, and hence after a certain period findings from newer studies will refute or conflict with their older counterparts.
 
-A group of scientific studies once studied links between whether eating breakfast or not led to weight gain. The general consensus was that eating breakfast in the morning would not influence weight gain, although most of the studies were published and funded by food manufacturing companies – and were conducted without double blinding \[10\]. Double blinding means that every participant and the scientist who collects the data are unaware of treatment procedures and hypotheses to minimise bias.
+A group of scientific studies once studied links between whether eating breakfast or not led to weight gain. The general consensus was that eating breakfast in the morning would not influence weight gain, although most of the studies were funded and published by food manufacturing companies [^9] – and were conducted without double blinding [^10]. Double blinding means that every participant and the scientist who collects the data are unaware of treatment procedures and hypotheses to minimise bias.
 
-Another effect of the Law of Selction bias is the dropout bias in regards to clinical drug trials. It is not uncommon for patients to drop out of a clinical study. Sometimes patients drop out of the trials because they are starting to feel better early on and do not wish to stay in the study any longer. Their cases may not be tabulated, and as a result, may make the drug seem like it is not effective.
+Another effect of the Law of Selection bias is the dropout bias in regards to clinical drug trials. It is not uncommon for patients to drop out of a clinical study. Sometimes patients drop out of the trials because they are starting to feel better early on and do not wish to stay in the study any longer. Their cases may not be tabulated, and as a result, may make the drug seem like it is not effective.
 
 # The Probability Lever
 
 On October 19, 1987, the S&P 500 stock price fell by 22.6% That days was also called Black Monday, the largest percentage drop in all history of the American Stock Market, that sparked fears of worldwide economic instability.
 
-Sebastian Mallaby claimed that the probability of the plunge was 1 in 10^160. “In terms of the normal probability distribution, to put that probability into perspective, it meant that an event such as the crash would not be anticipated to occur even if the stock market were to remain open for twenty billion years, the upper end of the expected duration of the universe, or even if it were to be reopened for further sessions of twenty billion years following each of twenty successive big bangs.” \[10\]
+Sebastian Mallaby claimed that the probability of the plunge was 1 in 10^160. “In terms of the normal probability distribution, to put that probability into perspective, it meant that an event such as the crash would not be anticipated to occur even if the stock market were to remain open for twenty billion years, the upper end of the expected duration of the universe, or even if it were to be reopened for further sessions of twenty billion years following each of twenty successive big bangs.” [^11]
 
-Borel’s Law states that we should not see events as improbable as Mallaby’s example. Why did it occur? David J. Hand, the author fo the Improbability Principle, calls the hidden cause “the law of the probability lever.” \[12\]
+Borel’s Law states that we should not see events as improbable as Mallaby’s example. Why did it occur? David J. Hand, the author fo the Improbability Principle, calls the hidden cause “the law of the probability lever.” [^12]
 
 > A slight change in circumstances can have a huge impact on probabilities.
 
@@ -280,7 +280,7 @@ The probability of being struck by lightning is 1 in 700,000. To be struck thric
 
 At the time of writing, there are 20,827,622 cases of the coronavirus and 747,584 deaths from coronavirus. Does my probability of dying from coronavirus equal the deaths over earth’s population? (747,584/7,594,000,000) ≈ 1 in 10158.
 
-Most probably not. Otherwise, we would see much less deaths. The probability of dying from coronavirus would be greatly increased in the elderly and weaker patients with an underlying health conditions \[13\], and in the citizens of countries with less access to advanced health care. In a coronavirus-free country such as Montenegro, the probability would be almost zero.
+Most probably not. Otherwise, we would see much less deaths. The probability of dying from coronavirus would be greatly increased in the elderly and weaker patients with an underlying health conditions [^13], and in the citizens of countries with less access to advanced health care. In a coronavirus-free country such as Montenegro, the probability would be almost zero.
 
 # The Law of Near Enough
 
@@ -302,7 +302,7 @@ The Law of Near Enough is in play here. First, we can place the decimal place an
 
 # Bayesianism, Science, and Religion
 
-The Bayesian approach to believing things – eliminate the more improbable, and choose the outcome that is more probable. The great philosopher David Hume, wrote that “no testimony is sufficient to establish a miracle, unless the testimony be of such a kind, that its falsehood would be more miraculous, than the fact which it endeavours to establish“. \[14\]
+The Bayesian approach to believing things – eliminate the more improbable, and choose the outcome that is more probable. The great philosopher David Hume, wrote that “no testimony is sufficient to establish a miracle, unless the testimony be of such a kind, that its falsehood would be more miraculous, than the fact which it endeavours to establish“. [^14]
 
 Religion is absolute truth because it is faith in concrete and defined tenets. Science is about looking for explanations – but not for finding absolute truth. Science depends on probabilities – the collection of data and gaining greater and grater understanding. We may chance upon data or evidence that disproves what we already know. Conclusions are not set – truths are not absolute. This allows for science to adapt itself, improving its accuracy.
 
