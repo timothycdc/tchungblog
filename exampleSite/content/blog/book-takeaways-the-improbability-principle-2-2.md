@@ -3,7 +3,6 @@ author = []
 categories = ["Statistics", "Psychology"]
 date = 2020-08-14T16:00:00Z
 description = ""
-draft = true
 image = "/images/img_0541.jpg"
 tags = ["Mathematics", "Physics", "Philosophy", "Probability", "Religion"]
 title = "Book Takeaways: The Improbability Principle (2/2)"
