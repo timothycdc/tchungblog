@@ -8,6 +8,10 @@ tags = ["Mathematics", "Physics", "Philosophy", "Probability", "Religion"]
 title = "Book Takeaways: The Improbability Principle (2/2)"
 
 +++
+### Recap
+
+We've covered the basics in Part 1 – how the human mind is not used to dealing with random numbers, how large numbers are used to even out probabilities, and we introduced the normal distribution. Let's continue–
+
 ### The Law of Inevitability
 
 > One out of all possible outcomes must occur.
@@ -26,7 +30,7 @@ Suppose I have a random number generator that generates numbers between 1-1000. 
 
 The probability of never getting 481 at all in 10,000 trials is equal to 0.0000451, or a 1 in 22173 chance. And 10,000 trials isn’t considered a _truly large_ number.
 
-Take the 2009 Bulgarian Lottery for an example. The lottery made national headlines when the winning numbers were drawn, and they turned out to be the exact same winning numbers as last week’s – 4, 15, 23, 24, 35 and 42. [^8]
+Take the 2009 Bulgarian Lottery for an example. The lottery made national headlines when the winning numbers were drawn, and they turned out to be the exact same winning numbers as last week’s – 4, 15, 23, 24, 35 and 42. \[^8\]
 
 This lottery was a 6/49 lottery, where a player chooses six numbers from 1-49 with no duplicates. If the numbers raffled matches the player’s number (regardless of order) the player wins the jackpot. There would be 49**C**6 combinations, or 13,983,816 possible choices for numbers.
 
@@ -34,7 +38,7 @@ If the lottery only ran twice, there would only be one possible pair (2**C**2 = 
 
 Keep in mind we are talking about repeated numbers based on the history of all numbers of the lottery, and not two consecutive correct draws (otherwise that probability would be the same as the one mentioned in the top paragraph.)
 
-What if the lottery had been held 1000 times? That would mean 1000 draws of the numbers. This translates to 1000**C**2, or 499,500 possible pairs that could be found. (1&2, 1&3, 1&4...) The probability having two repeated draws would be (1/13,983,816\*499,500) ≈ 0.036. Sounds plausible.
+What if the lottery had been held 1000 times? That would mean 1000 draws of the numbers. This translates to 1000**C**2, or 499,500 possible pairs that could be found. (1&2, 1&3, 1&4...) The probability having two repeated draws would be (1/13,983,816*499,500) ≈ 0.036. Sounds plausible.
 
 If the number of possible pairs exceeded the 13,983,816, you can guarantee that there would be a repeated draw eventually (once you exhaust the entire set of configurations the next draw will match any configuration that exists in the set).
 
@@ -86,7 +90,7 @@ If placebos are not accounted for, even if patients get better purely by chance,
 
 Because of publication bias, not all discoveries/studies are valid, and hence after a certain period findings from newer studies will refute or conflict with their older counterparts.
 
-A group of scientific studies once studied links between whether eating breakfast or not led to weight gain. The general consensus was that eating breakfast in the morning would not influence weight gain, although most of the studies were funded and published by food manufacturing companies [^9] – and were conducted without double blinding [^10]. Double blinding means that every participant and the scientist who collects the data are unaware of treatment procedures and hypotheses to minimise bias.
+A group of scientific studies once studied links between whether eating breakfast or not led to weight gain. The general consensus was that eating breakfast in the morning would not influence weight gain, although most of the studies were funded and published by food manufacturing companies \[^9\] – and were conducted without double blinding \[^10\]. Double blinding means that every participant and the scientist who collects the data are unaware of treatment procedures and hypotheses to minimise bias.
 
 Another effect of the Law of Selection bias is the dropout bias in regards to clinical drug trials. It is not uncommon for patients to drop out of a clinical study. Sometimes patients drop out of the trials because they are starting to feel better early on and do not wish to stay in the study any longer. Their cases may not be tabulated, and as a result, may make the drug seem like it is not effective.
 
@@ -94,9 +98,9 @@ Another effect of the Law of Selection bias is the dropout bias in regards to cl
 
 On October 19, 1987, the S&P 500 stock price fell by 22.6% That days was also called Black Monday, the largest percentage drop in all history of the American Stock Market, that sparked fears of worldwide economic instability.
 
-Sebastian Mallaby claimed that the probability of the plunge was 1 in 10^160. “In terms of the normal probability distribution, to put that probability into perspective, it meant that an event such as the crash would not be anticipated to occur even if the stock market were to remain open for twenty billion years, the upper end of the expected duration of the universe, or even if it were to be reopened for further sessions of twenty billion years following each of twenty successive big bangs.” [^11]
+Sebastian Mallaby claimed that the probability of the plunge was 1 in 10^160. “In terms of the normal probability distribution, to put that probability into perspective, it meant that an event such as the crash would not be anticipated to occur even if the stock market were to remain open for twenty billion years, the upper end of the expected duration of the universe, or even if it were to be reopened for further sessions of twenty billion years following each of twenty successive big bangs.” \[^11\]
 
-Borel’s Law states that we should not see events as improbable as Mallaby’s example. Why did it occur? David J. Hand, the author fo the Improbability Principle, calls the hidden cause “the law of the probability lever.” [^12]
+Borel’s Law states that we should not see events as improbable as Mallaby’s example. Why did it occur? David J. Hand, the author fo the Improbability Principle, calls the hidden cause “the law of the probability lever.” \[^12\]
 
 > A slight change in circumstances can have a huge impact on probabilities.
 
@@ -144,7 +148,7 @@ The probability of being struck by lightning is 1 in 700,000. To be struck thric
 
 At the time of writing, there are 20,827,622 cases of the coronavirus and 747,584 deaths from coronavirus. Does my probability of dying from coronavirus equal the deaths over earth’s population? (747,584/7,594,000,000) ≈ 1 in 10158.
 
-Most probably not. Otherwise, we would see much less deaths. The probability of dying from coronavirus would be greatly increased in the elderly and weaker patients with an underlying health conditions [^13], and in the citizens of countries with less access to advanced health care. In a coronavirus-free country such as Montenegro, the probability would be almost zero.
+Most probably not. Otherwise, we would see much less deaths. The probability of dying from coronavirus would be greatly increased in the elderly and weaker patients with an underlying health conditions \[^13\], and in the citizens of countries with less access to advanced health care. In a coronavirus-free country such as Montenegro, the probability would be almost zero.
 
 ### The Law of Near Enough
 
@@ -166,16 +170,16 @@ The Law of Near Enough is in play here. First, we can place the decimal place an
 
 ### Bayesianism, Science, and Religion
 
-The Bayesian approach to believing things – eliminate the more improbable, and choose the outcome that is more probable. The great philosopher David Hume, wrote that “no testimony is sufficient to establish a miracle, unless the testimony be of such a kind, that its falsehood would be more miraculous, than the fact which it endeavours to establish“. [^14]
+The Bayesian approach to believing things – eliminate the more improbable, and choose the outcome that is more probable. The great philosopher David Hume, wrote that “no testimony is sufficient to establish a miracle, unless the testimony be of such a kind, that its falsehood would be more miraculous, than the fact which it endeavours to establish“. \[^14\]
 
 Religion is absolute truth because it is faith in concrete and defined tenets. Science is about looking for explanations – but not for finding absolute truth. Science depends on probabilities – the collection of data and gaining greater and grater understanding. We may chance upon data or evidence that disproves what we already know. Conclusions are not set – truths are not absolute. This allows for science to adapt itself, improving its accuracy.
 
 Now, a personal opinion from me – how do I tie science and my faith together? If we consider the perspective of science,
 
-[^8]: Reuters, 2009. “Identical Lottery Draw Was Coincidence.” Reuters. 18-9-2009. [https://www.reuters.com/article/us-lottery/identical-lottery-draw-was-coincidence-idUSTRE58H4AM20090918](https://www.reuters.com/article/us-lottery/identical-lottery-draw-was-coincidence-idUSTRE58H4AM20090918)
- [^9]: Kelloggs. "Best Start to the Day", Kelloggs. Accessed 5-8-2020. [https://www.kelloggs.com/en_US/nutrition/best-start-to-the-day.html](https://www.kelloggs.com/en_US/nutrition/best-start-to-the-day.html#3)
- [^10]: BMJ. "Effect of breakfast on weight and energy intake: systematic review and meta-analysis of randomised controlled trials", BMJ. 30-1-2019 [https://www.bmj.com/content/364/bmj.l42](https://www.bmj.com/content/364/bmj.l42)
- [^11]: Sebastian Mallaby. In _More Money Than God: Hedge Funds and the Making of a New Elite_ (New York: The Penguin Press, 2010), chapter 4.
- [^12]: David J Hand, “The Law of the Probability Lever”. _The Improbability Principle: Why Coincidences, Miracles, and Rare Events Happen Every Day_(New York: Scientific American / Farrer, Straus and Giroux ,2015), chapter 7.
- [^13]: WHO Europe. _Statement – Older people are at highest risk from COVID-19, but all must act to prevent community spread_, World Health Organisation. Published 2-4-2020, para 4-6. [https://www.euro.who.int/en/health-topics/health-emergencies/coronavirus-covid-19/statements/statement-older-people-are-at-highest-risk-from-covid-19,-but-all-must-act-to-prevent-community-spread](https://www.euro.who.int/en/health-topics/health-emergencies/coronavirus-covid-19/statements/statement-older-people-are-at-highest-risk-from-covid-19,-but-all-must-act-to-prevent-community-spread)
- [^14]: David Hume, _An Enquiry Concerning Human Understanding, 2nd ed_. (Indianapolis, IN: Hackett Publishing 1993), 77. First published 1777.
+\[^8\]: Reuters, 2009. “Identical Lottery Draw Was Coincidence.” Reuters. 18-9-2009. [https://www.reuters.com/article/us-lottery/identical-lottery-draw-was-coincidence-idUSTRE58H4AM20090918](https://www.reuters.com/article/us-lottery/identical-lottery-draw-was-coincidence-idUSTRE58H4AM20090918)
+\[^9\]: Kelloggs. "Best Start to the Day", Kelloggs. Accessed 5-8-2020. [https://www.kelloggs.com/en_US/nutrition/best-start-to-the-day.html](https://www.kelloggs.com/en_US/nutrition/best-start-to-the-day.html#3)
+\[^10\]: BMJ. "Effect of breakfast on weight and energy intake: systematic review and meta-analysis of randomised controlled trials", BMJ. 30-1-2019 [https://www.bmj.com/content/364/bmj.l42](https://www.bmj.com/content/364/bmj.l42)
+\[^11\]: Sebastian Mallaby. In _More Money Than God: Hedge Funds and the Making of a New Elite_ (New York: The Penguin Press, 2010), chapter 4.
+\[^12\]: David J Hand, “The Law of the Probability Lever”. _The Improbability Principle: Why Coincidences, Miracles, and Rare Events Happen Every Day_(New York: Scientific American / Farrer, Straus and Giroux ,2015), chapter 7.
+\[^13\]: WHO Europe. _Statement – Older people are at highest risk from COVID-19, but all must act to prevent community spread_, World Health Organisation. Published 2-4-2020, para 4-6. [https://www.euro.who.int/en/health-topics/health-emergencies/coronavirus-covid-19/statements/statement-older-people-are-at-highest-risk-from-covid-19,-but-all-must-act-to-prevent-community-spread](https://www.euro.who.int/en/health-topics/health-emergencies/coronavirus-covid-19/statements/statement-older-people-are-at-highest-risk-from-covid-19,-but-all-must-act-to-prevent-community-spread)
+\[^14\]: David Hume, _An Enquiry Concerning Human Understanding, 2nd ed_. (Indianapolis, IN: Hackett Publishing 1993), 77. First published 1777.
