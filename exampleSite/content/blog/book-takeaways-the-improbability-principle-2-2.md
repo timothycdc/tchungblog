@@ -1,5 +1,5 @@
 +++
-author = []
+author = ["Timothy Chung"]
 categories = ["Statistics", "Psychology"]
 date = 2020-08-13T16:00:00Z
 description = ""
@@ -30,7 +30,7 @@ Suppose I have a random number generator that generates numbers between 1-1000. 
 
 The probability of never getting 481 at all in 10,000 trials is equal to 0.0000451, or a 1 in 22173 chance. And 10,000 trials isn’t considered a _truly large_ number.
 
-Take the 2009 Bulgarian Lottery for an example. The lottery made national headlines when the winning numbers were drawn, and they turned out to be the exact same winning numbers as last week’s – 4, 15, 23, 24, 35 and 42. \[^8\]
+Take the 2009 Bulgarian Lottery for an example. The lottery made national headlines when the winning numbers were drawn, and they turned out to be the exact same winning numbers as last week’s – 4, 15, 23, 24, 35 and 42. [^8]
 
 This lottery was a 6/49 lottery, where a player chooses six numbers from 1-49 with no duplicates. If the numbers raffled matches the player’s number (regardless of order) the player wins the jackpot. There would be 49**C**6 combinations, or 13,983,816 possible choices for numbers.
 
@@ -90,7 +90,7 @@ If placebos are not accounted for, even if patients get better purely by chance,
 
 Because of publication bias, not all discoveries/studies are valid, and hence after a certain period findings from newer studies will refute or conflict with their older counterparts.
 
-A group of scientific studies once studied links between whether eating breakfast or not led to weight gain. The general consensus was that eating breakfast in the morning would not influence weight gain, although most of the studies were funded and published by food manufacturing companies \[^9\] – and were conducted without double blinding \[^10\]. Double blinding means that every participant and the scientist who collects the data are unaware of treatment procedures and hypotheses to minimise bias.
+A group of scientific studies once studied links between whether eating breakfast or not led to weight gain. The general consensus was that eating breakfast in the morning would not influence weight gain, although most of the studies were funded and published by food manufacturing companies [^9] – and were conducted without double blinding [^10]. Double blinding means that every participant and the scientist who collects the data are unaware of treatment procedures and hypotheses to minimise bias.
 
 Another effect of the Law of Selection bias is the dropout bias in regards to clinical drug trials. It is not uncommon for patients to drop out of a clinical study. Sometimes patients drop out of the trials because they are starting to feel better early on and do not wish to stay in the study any longer. Their cases may not be tabulated, and as a result, may make the drug seem like it is not effective.
 
@@ -98,9 +98,9 @@ Another effect of the Law of Selection bias is the dropout bias in regards to cl
 
 On October 19, 1987, the S&P 500 stock price fell by 22.6% That days was also called Black Monday, the largest percentage drop in all history of the American Stock Market, that sparked fears of worldwide economic instability.
 
-Sebastian Mallaby claimed that the probability of the plunge was 1 in 10^160. “In terms of the normal probability distribution, to put that probability into perspective, it meant that an event such as the crash would not be anticipated to occur even if the stock market were to remain open for twenty billion years, the upper end of the expected duration of the universe, or even if it were to be reopened for further sessions of twenty billion years following each of twenty successive big bangs.” \[^11\]
+Sebastian Mallaby claimed that the probability of the plunge was 1 in 10^160. “In terms of the normal probability distribution, to put that probability into perspective, it meant that an event such as the crash would not be anticipated to occur even if the stock market were to remain open for twenty billion years, the upper end of the expected duration of the universe, or even if it were to be reopened for further sessions of twenty billion years following each of twenty successive big bangs.” [^11]
 
-Borel’s Law states that we should not see events as improbable as Mallaby’s example. Why did it occur? David J. Hand, the author fo the Improbability Principle, calls the hidden cause “the law of the probability lever.” \[^12\]
+Borel’s Law states that we should not see events as improbable as Mallaby’s example. Why did it occur? David J. Hand, the author fo the Improbability Principle, calls the hidden cause “the law of the probability lever.” [^12]
 
 > A slight change in circumstances can have a huge impact on probabilities.
 
@@ -148,7 +148,7 @@ The probability of being struck by lightning is 1 in 700,000. To be struck thric
 
 At the time of writing, there are 20,827,622 cases of the coronavirus and 747,584 deaths from coronavirus. Does my probability of dying from coronavirus equal the deaths over earth’s population? (747,584/7,594,000,000) ≈ 1 in 10158.
 
-Most probably not. Otherwise, we would see much less deaths. The probability of dying from coronavirus would be greatly increased in the elderly and weaker patients with an underlying health conditions \[^13\], and in the citizens of countries with less access to advanced health care. In a coronavirus-free country such as Montenegro, the probability would be almost zero.
+Most probably not. Otherwise, we would see much less deaths. The probability of dying from coronavirus would be greatly increased in the elderly and weaker patients with an underlying health conditions [^13], and in the citizens of countries with less access to advanced health care. In a coronavirus-free country such as Montenegro, the probability would be almost zero.
 
 ### The Law of Near Enough
 
@@ -170,7 +170,7 @@ The Law of Near Enough is in play here. First, we can place the decimal place an
 
 ### Bayesianism, Science, and Religion
 
-The Bayesian approach to believing things – eliminate the more improbable, and choose the outcome that is more probable. The great philosopher David Hume, wrote that “no testimony is sufficient to establish a miracle, unless the testimony be of such a kind, that its falsehood would be more miraculous, than the fact which it endeavours to establish“. \[^14\]
+The Bayesian approach to believing things – eliminate the more improbable, and choose the outcome that is more probable. The great philosopher David Hume, wrote that “no testimony is sufficient to establish a miracle, unless the testimony be of such a kind, that its falsehood would be more miraculous, than the fact which it endeavours to establish“. [^14]
 
 Religion is absolute truth because it is faith in concrete and defined tenets. Science is about looking for explanations – but not for finding absolute truth. Science depends on probabilities – the collection of data and gaining greater and grater understanding. We may chance upon data or evidence that disproves what we already know. Conclusions are not set – truths are not absolute. This allows for science to adapt itself, improving its accuracy.
 
