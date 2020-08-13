@@ -308,17 +308,17 @@ Religion is absolute truth because it is faith in concrete and defined tenets. S
 Now, a personal opinion from me – how do I tie science and my faith together? If we consider the perspective of science,
 
 
- [^1] Carl G Jung, “An Acausal Connecting Principle, in _Synchronicity,_ Vol 8. (New Jersey: Princeton University Press, 1960), 15
- [^2] T. Footman, in _Guinness World Records 2001_. Guinness World Records. (New York: Guinness World Record Ltd, 2000), 36
- [^3] Émile Borel, in _Probabilities and Life, trans. Maurice Baudin._ (New York: Dover Publications, 1962), 2–3.
- [^4] Ibid., 26.
- [^5] Robert K. Merton, _On Social Structure and Science_ (Chicago: University of Chicago Press, 1996), 196.
- [^6] Dax Hamman. _Apple Made Their Shuffle Feature Less Random, to Make It More Random._ DaxThink. 1-3-2017 [https://www.daxthink.com/think/2017/2/27/apple-made-itunes-shuffle-less-random-to-make-it-more-random](https://www.daxthink.com/think/2017/2/27/apple-made-itunes-shuffle-less-random-to-make-it-more-random)
- [^7] Lorenz, Edward N. 1963. "Deterministic non-periodic flow". _Journal of the Atmospheric Sciences. 20 (2): 130–141._
- [^8] Reuters, 2009. “Identical Lottery Draw Was Coincidence.” Reuters. 18-9-2009. [https://www.reuters.com/article/us-lottery/identical-lottery-draw-was-coincidence-idUSTRE58H4AM20090918](https://www.reuters.com/article/us-lottery/identical-lottery-draw-was-coincidence-idUSTRE58H4AM20090918)
- [^9] Kelloggs. "Best Start to the Day", Kelloggs. Accessed 5-8-2020. [https://www.kelloggs.com/en_US/nutrition/best-start-to-the-day.html](https://www.kelloggs.com/en_US/nutrition/best-start-to-the-day.html#3)
- [^10] BMJ. "Effect of breakfast on weight and energy intake: systematic review and meta-analysis of randomised controlled trials", BMJ. 30-1-2019 [https://www.bmj.com/content/364/bmj.l42](https://www.bmj.com/content/364/bmj.l42)
- [^12] Sebastian Mallaby. In _More Money Than God: Hedge Funds and the Making of a New Elite_ (New York: The Penguin Press, 2010), chapter 4.
- [^12] David J Hand, “The Law of the Probability Lever”. _The Improbability Principle: Why Coincidences, Miracles, and Rare Events Happen Every Day_(New York: Scientific American / Farrer, Straus and Giroux ,2015), chapter 7.
- [^13] WHO Europe. _Statement – Older people are at highest risk from COVID-19, but all must act to prevent community spread_, World Health Organisation. Published 2-4-2020, para 4-6. [https://www.euro.who.int/en/health-topics/health-emergencies/coronavirus-covid-19/statements/statement-older-people-are-at-highest-risk-from-covid-19,-but-all-must-act-to-prevent-community-spread](https://www.euro.who.int/en/health-topics/health-emergencies/coronavirus-covid-19/statements/statement-older-people-are-at-highest-risk-from-covid-19,-but-all-must-act-to-prevent-community-spread)
- [^14] David Hume, _An Enquiry Concerning Human Understanding, 2nd ed_. (Indianapolis, IN: Hackett Publishing 1993), 77. First published 1777.
+ [^1]: Carl G Jung, “An Acausal Connecting Principle, in _Synchronicity,_ Vol 8. (New Jersey: Princeton University Press, 1960), 15
+ [^2]: T. Footman, in _Guinness World Records 2001_. Guinness World Records. (New York: Guinness World Record Ltd, 2000), 36
+ [^3]: Émile Borel, in _Probabilities and Life, trans. Maurice Baudin._ (New York: Dover Publications, 1962), 2–3.
+ [^4]: Ibid., 26.
+ [^5]: Robert K. Merton, _On Social Structure and Science_ (Chicago: University of Chicago Press, 1996), 196.
+ [^6]: Dax Hamman. _Apple Made Their Shuffle Feature Less Random, to Make It More Random._ DaxThink. 1-3-2017 [https://www.daxthink.com/think/2017/2/27/apple-made-itunes-shuffle-less-random-to-make-it-more-random](https://www.daxthink.com/think/2017/2/27/apple-made-itunes-shuffle-less-random-to-make-it-more-random)
+ [^7]: Lorenz, Edward N. 1963. "Deterministic non-periodic flow". _Journal of the Atmospheric Sciences. 20 (2): 130–141._
+ [^8]: Reuters, 2009. “Identical Lottery Draw Was Coincidence.” Reuters. 18-9-2009. [https://www.reuters.com/article/us-lottery/identical-lottery-draw-was-coincidence-idUSTRE58H4AM20090918](https://www.reuters.com/article/us-lottery/identical-lottery-draw-was-coincidence-idUSTRE58H4AM20090918)
+ [^9]: Kelloggs. "Best Start to the Day", Kelloggs. Accessed 5-8-2020. [https://www.kelloggs.com/en_US/nutrition/best-start-to-the-day.html](https://www.kelloggs.com/en_US/nutrition/best-start-to-the-day.html#3)
+ [^10]: BMJ. "Effect of breakfast on weight and energy intake: systematic review and meta-analysis of randomised controlled trials", BMJ. 30-1-2019 [https://www.bmj.com/content/364/bmj.l42](https://www.bmj.com/content/364/bmj.l42)
+ [^11]: Sebastian Mallaby. In _More Money Than God: Hedge Funds and the Making of a New Elite_ (New York: The Penguin Press, 2010), chapter 4.
+ [^12]: David J Hand, “The Law of the Probability Lever”. _The Improbability Principle: Why Coincidences, Miracles, and Rare Events Happen Every Day_(New York: Scientific American / Farrer, Straus and Giroux ,2015), chapter 7.
+ [^13]: WHO Europe. _Statement – Older people are at highest risk from COVID-19, but all must act to prevent community spread_, World Health Organisation. Published 2-4-2020, para 4-6. [https://www.euro.who.int/en/health-topics/health-emergencies/coronavirus-covid-19/statements/statement-older-people-are-at-highest-risk-from-covid-19,-but-all-must-act-to-prevent-community-spread](https://www.euro.who.int/en/health-topics/health-emergencies/coronavirus-covid-19/statements/statement-older-people-are-at-highest-risk-from-covid-19,-but-all-must-act-to-prevent-community-spread)
+ [^14]: David Hume, _An Enquiry Concerning Human Understanding, 2nd ed_. (Indianapolis, IN: Hackett Publishing 1993), 77. First published 1777.
