@@ -183,15 +183,16 @@ Now, a personal opinion from me – how do I tie science and my faith together? 
 ### Conclusion
 
 Why do very rare events occur in real life? With our recently gained paradigm, let's sum things up:
-**We live in a chaotic universe; due to the universe's quantum nature it is impossible to predict the future because we do not have complete knowledge of the present.
 
-**Correlation is not causation. As humans we find ourselves cherry-picking and focusing on 'anomalous' data that occurs by chance (Law of Near-Enough, Law of Selection, Publication Bias, Regression to the Mean) and concluding it as the truth.
+**We live in a chaotic universe; due to the universe's quantum nature it is impossible to predict the future because we do not have complete knowledge of the present.**
 
-**The Law of Truly Large Numbers: There are 7.6 billion people on the Earth, endowed with 86,400 seconds a day. The Law of Inevitably states that with enough trials and opportunities, rare events will and do happen.
+**Correlation is not causation. As humans we find ourselves cherry-picking and focusing on 'anomalous' data that occurs by chance (Law of Near-Enough, Law of Selection, Publication Bias, Regression to the Mean) and concluding it as the truth.**
 
-**Probabilities for each person are different. This is why probabilities, on average, can be reduced when they could be greater in different people. Using the wrong distribution (e.g. Normal vs Cauchy) also disguises reasonable probabilities as virtually impossible.
+**The Law of Truly Large Numbers: There are 7.6 billion people on the Earth, endowed with 86,400 seconds a day. The Law of Inevitably states that with enough trials and opportunities, rare events will and do happen.**
 
-**The Probability Lever means that in certain circumstanes and in certain individuals, the probability of a rare event happening can wildly increase to the point where it is likely to happen. 
+**Probabilities for each person are different. This is why probabilities, on average, can be reduced when they could be greater in different people. Using the wrong distribution (e.g. Normal vs Cauchy) also disguises reasonable probabilities as virtually impossible.**
+
+**The Probability Lever means that in certain circumstanes and in certain individuals, the probability of a rare event happening can wildly increase to the point where it is likely to happen.**
 
 
 
