@@ -146,9 +146,13 @@ Major Walter Summerford was struck by lightning thrice over twelve years of his 
 
 The probability of being struck by lightning is 1 in 700,000. To be struck thrice in your lifetime and once more on your gravestone is virtually zero chance – but not for Summerford. He was an outdoor person – and every time he was struck by lightning he was outside walking around during a thunderstorm. The probability of him getting struck would massively increase if he was outdoors, compared to most people who spend a majority of time indoors. Couple that with a 2-billion population(at the time), there would be many people happening to be outside during a thunderstorm.
 
-At the time of writing, there are 20,827,622 cases of the coronavirus and 747,584 deaths from coronavirus. Does my probability of dying from coronavirus equal the deaths over earth’s population? (747,584/7,594,000,000) ≈ 1 in 10158.
+At the time of writing, there are 20,827,622 cases of the coronavirus and 747,584 deaths from coronavirus. As a college student who spends most of my summer indoors, does my probability of dying from coronavirus equal the deaths over earth’s population? (747,584/7,594,000,000) ≈ 1 in 10158.
 
-Most probably not. Otherwise, we would see much less deaths. The probability of dying from coronavirus would be greatly increased in the elderly and weaker patients with an underlying health conditions [^13], and in the citizens of countries with less access to advanced health care. In a coronavirus-free country such as Montenegro, the probability would be almost zero.
+Most probably not. The probability of dying from coronavirus would be greatly increased in those who spend their times outdoors (essential workers), the elderly, weaker patients with an underlying health conditions [^13], and in the citizens of countries with less access to advanced health care. In a coronavirus-free country such as Montenegro, the probability would be almost zero.
+
+There is a joke where your temperature will be the average, if your feet are in an oven and your head is in a freezer.
+
+Here's another example: 8% of the world's population has blue eyes. Does that mean I have a 0.08 probabilty of being born with blue eyes? Not neccessarily. If you study biology, we know that that probability depends on your parents and the genes they carry.
 
 ### The Law of Near Enough
 
@@ -175,6 +179,23 @@ The Bayesian approach to believing things – eliminate the more improbable, and
 Religion is absolute truth because it is faith in concrete and defined tenets. Science is about looking for explanations – but not for finding absolute truth. Science depends on probabilities – the collection of data and gaining greater and grater understanding. We may chance upon data or evidence that disproves what we already know. Conclusions are not set – truths are not absolute. This allows for science to adapt itself, improving its accuracy.
 
 Now, a personal opinion from me – how do I tie science and my faith together? If we consider the perspective of science, they should be separate. There will always be scientific explanations to explain the cause of miracles, which I accept, but there will always be a deeper driving force behind it that we don't know yet.  So far, we cannot fundamentally define the fabric of reality as it exists outside of what we can perceive. Faith in a set of absolute truths may provide respite from the relavistic theories that are not fully proven true yet, but should not interfere with advancements in the field of science. 
+
+### Conclusion
+
+Why do very rare events occur in real life? With our recently gained paradigm, let's sum things up:
+**We live in a chaotic universe; due to the universe's quantum nature it is impossible to predict the future because we do not have complete knowledge of the present.
+
+**Correlation is not causation. As humans we find ourselves cherry-picking and focusing on 'anomalous' data that occurs by chance (Law of Near-Enough, Law of Selection, Publication Bias, Regression to the Mean) and concluding it as the truth.
+
+**The Law of Truly Large Numbers: There are 7.6 billion people on the Earth, endowed with 86,400 seconds a day. The Law of Inevitably states that with enough trials and opportunities, rare events will and do happen.
+
+**Probabilities for each person are different. This is why probabilities, on average, can be reduced when they could be greater in different people. Using the wrong distribution (e.g. Normal vs Cauchy) also disguises reasonable probabilities as virtually impossible.
+
+**The Probability Lever means that in certain circumstanes and in certain individuals, the probability of a rare event happening can wildly increase to the point where it is likely to happen. 
+
+
+
+
 
 [^8]: Reuters, 2009. “Identical Lottery Draw Was Coincidence.” Reuters. 18-9-2009. [https://www.reuters.com/article/us-lottery/identical-lottery-draw-was-coincidence-idUSTRE58H4AM20090918](https://www.reuters.com/article/us-lottery/identical-lottery-draw-was-coincidence-idUSTRE58H4AM20090918)
 [^9]: Kelloggs. "Best Start to the Day", Kelloggs. Accessed 5-8-2020. [https://www.kelloggs.com/en_US/nutrition/best-start-to-the-day.html](https://www.kelloggs.com/en_US/nutrition/best-start-to-the-day.html#3)
