@@ -145,7 +145,11 @@ Well, we could have used different sample sizes instead of 5. But the central li
 
 ### End of Part 1
 
-What we've covered so far: We've gone through limitations of the human mind when it comes to probabilities, the concept of chaos, and large numbers, and how we get the normal distribution. You can read part 2 [here](https://tchungblog.netlify.app/blog/book-takeaways-the-improbability-principle-2-2/):
+We've gone through limitations of the human mind when it comes to probabilities.
+I've set the stage by explaining the concept of chaos, large numbers, and how to obtain the normal distribution. This knowledge of the normal distribution may come in useful for part 2.
+
+
+You can read part 2 [here](https://tchungblog.netlify.app/blog/book-takeaways-the-improbability-principle-2-2/):
 
 [^1]: Carl G Jung, “An Acausal Connecting Principle, in _Synchronicity,_ Vol 8. (New Jersey: Princeton University Press, 1960), 15
 [^2]: T. Footman, in _Guinness World Records 2001_. Guinness World Records. (New York: Guinness World Record Ltd, 2000), 36
