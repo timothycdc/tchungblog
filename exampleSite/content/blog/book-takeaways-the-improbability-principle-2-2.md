@@ -176,10 +176,18 @@ The Law of Near Enough is in play here. First, we can place the decimal place an
 
 The Bayesian approach to believing things – eliminate the more improbable, and choose the outcome that is more probable. The great philosopher David Hume, wrote that “no testimony is sufficient to establish a miracle, unless the testimony be of such a kind, that its falsehood would be more miraculous, than the fact which it endeavours to establish“. [^14]
 
+Science is about looking for explanations – not necessarily the absolute truth. Science depends on probabilities – the collection of data and gaining greater and grater understanding. Conclusions are not set – truths are not absolute. This allows for science to improve its accuracy as we gain better data, allowing us compare probabilities and choose the outcome with the greatest likelihood.
+
+Classical physics is one example – it was widely accepted in the scientific community before the 20th century. Classical physics, as implied by the name, had limits to its understanding – such as the photoelectric effect. Along came modern physics that revamped the paradigm – introducing uncertaintites and even more particles at a subatomic level. Modern physics had an explanation for phenomena such as the quantum behaviour of light, that classical physics could not explain.
+
+We replaced the older theories with the quantum-based theories that had better data to support it. And thus continues the cycle of self-improvement.
+
+
+<!---
 Religion is absolute truth because it is faith in concrete and defined tenets. Science is about looking for explanations – but not for finding absolute truth. Science depends on probabilities – the collection of data and gaining greater and grater understanding. We may chance upon data or evidence that disproves what we already know. Conclusions are not set – truths are not absolute. This allows for science to adapt itself, improving its accuracy.
 
 Now, a personal opinion from me – how do I tie science and my faith together? If we consider the perspective of science, they should be separate. There will always be scientific explanations to explain the cause of miracles, which I accept, but there will always be a deeper driving force behind it that we don't know yet.  So far, we cannot fundamentally define the fabric of reality as it exists outside of what we can perceive. Faith in a set of absolute truths may provide respite from the relavistic theories that are not fully proven true yet, but should not interfere with advancements in the field of science. 
-
+--->
 ### Conclusion
 
 Why do very rare events occur in real life? With our recently gained paradigm, let's sum things up:
