@@ -178,7 +178,7 @@ The Bayesian approach to believing things – eliminate the more improbable, and
 
 Science is about looking for explanations – not necessarily the absolute truth. Science depends on probabilities – the collection of data and gaining greater and grater understanding. Conclusions are not set – truths are not absolute. This allows for science to improve its accuracy as we gain better data, allowing us compare probabilities and choose the outcome with the greatest likelihood.
 
-Classical physics is one example – it was widely accepted in the scientific community before the 20th century. Classical physics, as implied by the name, had limits to its understanding – such as the photoelectric effect. Along came modern physics that revamped the paradigm – introducing uncertaintites and even more particles at a subatomic level. Modern physics had an explanation for phenomena such as the quantum behaviour of light, that classical physics could not explain.
+Classical physics is one example – it was widely accepted in the scientific community before the 20th century. Classical physics, as implied by the name, had limits to its understanding – such as the photoelectric effect. Along came modern physics that revamped the paradigm, introducing uncertaintites and more particles at a subatomic level. Modern physics had an explanation for phenomena such as the quantum behaviour of light, that classical physics could not explain.
 
 We replaced the older theories with the quantum-based theories that had better data to support it. And thus continues the cycle of self-improvement.
 
