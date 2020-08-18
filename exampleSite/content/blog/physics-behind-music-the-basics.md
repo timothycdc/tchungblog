@@ -3,7 +3,7 @@ author = []
 categories = ["Music", "Physics"]
 date = 2020-08-15T16:00:00Z
 description = ""
-image = "/images/img_595657108b26-1.jpeg"
+image = "/images/img_e1c316de3e13-1.jpeg"
 tags = ["Standing Waves", "Harmonic Series"]
 title = "Physics behind Music – The Basics"
 
