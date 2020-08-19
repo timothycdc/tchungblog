@@ -1,7 +1,7 @@
 +++
 author = ["Timothy Chung"]
 categories = []
-date = ""
+date = 2020-08-18T16:00:00Z
 description = ""
 image = "/images/img_0568.jpg"
 tags = []
