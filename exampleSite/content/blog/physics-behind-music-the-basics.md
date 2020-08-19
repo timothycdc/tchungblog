@@ -1,9 +1,9 @@
 +++
-author = []
+author = ["Timothy Chung"]
 categories = ["Music", "Physics"]
 date = 2020-08-15T16:00:00Z
 description = ""
-image = "/images/img_4cbaeb683df8-1.jpeg"
+image = "/images/img_0568.jpg"
 tags = ["Standing Waves", "Harmonic Series"]
 title = "Physics behind Music – The Basics"
 
