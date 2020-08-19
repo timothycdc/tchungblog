@@ -1,5 +1,5 @@
 +++
-author = []
+author = ["Timothy Chung"]
 categories = []
 date = ""
 description = ""
