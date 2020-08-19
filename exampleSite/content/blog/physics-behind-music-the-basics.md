@@ -3,7 +3,7 @@ author = []
 categories = ["Music", "Physics"]
 date = 2020-08-15T16:00:00Z
 description = ""
-image = "/images/img_e1c316de3e13-1.jpeg"
+image = "/images/img_4cbaeb683df8-1.jpeg"
 tags = ["Standing Waves", "Harmonic Series"]
 title = "Physics behind Music – The Basics"
 
@@ -26,9 +26,7 @@ Standing waves have nodes and antinodes – the nodes are the fixed points that 
 
 Imagine a guitar – when a string is plucked, it forms its fundamental frequency, or the 1st harmonic. It is the simplest possible standing wave. However, that is not the only frequency. Overtones are also formed in the string. They add more nodes and antinodes that are related to the fundamental frequency.
 
-![](/images/2f2b6c53066b589674b9fec84b60d4c3d9248cce.png)
-
-(Image from Khan Academy)
+![](/images/img_0565.JPG)
 
 In closed strings or open pipes, the first harmonic (fundamental frequency) has a wavelength that is half the length of the string. The second harmonic's frequency has a wavelength equal to the length of the string. The third harmonic's wavelength would be three-halves the string's length, and so on. Note that as the harmonics get higher, so does the frequency. Calculations are slightly different for the closed pipe as the there is an antinode at the open end and a node at the closed end.
 
