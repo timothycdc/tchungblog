@@ -31,7 +31,7 @@ Perfect 5th: (440Hz and 660Hz)
 Major 3rd: (440Hz and 550Hz)
 {{< audioplayer "/harm3.mp3" >}}
 
-Why do harmonies sound so pleasant to the human ear? Scientists believe that the brain is drawn to patterned, regular signals. Dissonance, on the other hand, causes a 'beating' sound [1], which is caused when two waves irregularly interfere with each other, causing a haphazard signal that puts people off.
+Why do harmonies sound so pleasant to the human ear? Scientists believe that the brain is drawn to patterned, regular signals. Dissonance, on the other hand, causes a 'beating' sound [1], which is caused when two waves irregularly interfere with each other, causing a haphazard signal that sounds off-putting and discomforting.
 
 Quarter-Step: (440Hz and 453Hz)
 {{< audioplayer "/harm4.mp3" >}}
