@@ -115,7 +115,7 @@ blockquote::after {
 /* -------------------------------------------------------------------------- */
 
 html {
-    font-size: 55%;
+    font-size: 56%;
     /* 1rem = 10px */
     scroll-behavior: smooth;
 }
@@ -2683,7 +2683,7 @@ h2.entry-title {
 .singular .featured-media-inner {
     position: relative;
     left: calc(50% - 50vw);
-    width: 90vw;
+    width: 88vw;
 }
 
 .singular .featured-media::before {
@@ -4882,7 +4882,7 @@ a.to-the-top>* {
     }
     h1,
     .heading-size-1 {
-        font-size: 6.4rem;
+        font-size: 5.4rem;
     }
     h2,
     .heading-size-2 {
@@ -4890,7 +4890,7 @@ a.to-the-top>* {
     }
     h3,
     .heading-size-3 {
-        font-size: 4rem;
+        font-size: 3.6rem;
     }
     h4,
     .heading-size-4 {
@@ -5885,7 +5885,7 @@ a.to-the-top>* {
     /* TITLES */
     h1,
     .heading-size-1 {
-        font-size: 8.4rem;
+        font-size: 7.4rem;
     }
     /* Helper Classes ------------------------ */
     /* Site Header --------------------------- */
