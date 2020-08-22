@@ -20,17 +20,21 @@ Figure 1 shows all the possible ratios using the multiples of wavelengths on a s
 
 ###### FIGURE 1
 
-Playing any combination of the waves in the given ratios together produces the sound of perfect harmony. Here are a few examples pleasant to the ear:
+Playing any combination of the waves in the given ratios together produces the sound of perfect harmony. Here are a few examples pleasant to the ear (notes are played separately, then together):
 
 Octave: (440Hz and 880Hz)
+{{< audioplayer "/harm1.mp3" >}}
 
 Perfect 5th: (440Hz and 660Hz)
+{{< audioplayer "/harm2.mp3" >}}
 
 Major 3rd: (440Hz and 550Hz)
+{{< audioplayer "/harm3.mp3" >}}
 
 Why do harmonies sound so pleasant to the human ear? Scientists believe that the brain is drawn to patterned, regular signals. Dissonance, on the other hand, causes a 'beating' sound [1], which is caused when two waves irregularly interfere with each other, causing a haphazard signal that puts people off.
 
 Quarter-Step: (440Hz and 453Hz)
+{{< audioplayer "/harm4.mp3" >}}
 
 ### Tuning a Piano
 
