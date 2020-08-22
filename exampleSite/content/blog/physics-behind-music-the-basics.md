@@ -38,6 +38,4 @@ Musical instruments do not produce a pure tone upon playing; the sounds that are
 
 Look at the graph – it shows a pure sine tone, a guitar (being plucked five times), and a piano (being pressed five times), over a certain period of time. The guitar's waveform is higher than the piano toward the end of the period; this is why a guitar strum sound sustains louder than the piano. The piano has a slightly earlier initial peak than the guitar, which could be attributed to the hammer action of the keys.
 
-Despite the frequencies at over hundreds of oscillations per second, we can easily differentiate between instruments and tell that the pitches are the same!
-
-It is surprising that all these tiny differences in the overtones are easily discerned by the ears!
+Despite the frequencies at over hundreds of oscillations per second, we can easily differentiate between instruments and tell that the pitches are the same. It is surprising that all these tiny differences in the overtones are easily discerned by the ears!
