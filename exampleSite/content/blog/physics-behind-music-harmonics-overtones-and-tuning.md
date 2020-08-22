@@ -80,6 +80,7 @@ Certain notes sound nice together, not because they are (close to rational) rati
 
 ![](/images/img_646125c59a6b-1.jpeg)
 
-###### FIGURE 5 (Image by Andrew Huang [https://www.youtube.com/watch?v=Wx_kugSemfY](https://www.youtube.com/watch?v=Wx_kugSemfY "https://www.youtube.com/watch?v=Wx_kugSemfY"))
+###### FIGURE 5 
+(Image by Andrew Huang [https://www.youtube.com/watch?v=Wx_kugSemfY](https://www.youtube.com/watch?v=Wx_kugSemfY "https://www.youtube.com/watch?v=Wx_kugSemfY"))
 
 [^1]: Elizabeth Norton, 2012. “Human Brain Is Wired for Harmony”. WIRED. 13-11-2012. [https://www.wired.com/2012/11/human-brain-harmony/](https://www.wired.com/2012/11/human-brain-harmony/ "https://www.wired.com/2012/11/human-brain-harmony/")
