@@ -1,7 +1,7 @@
 +++
 author = ["Timothy Chung"]
 categories = ["Music", "Physics"]
-date = 2020-08-15T16:00:00Z
+date = 2020-08-16T16:00:00Z
 description = ""
 draft = true
 image = "/images/img_0568.jpg"
@@ -9,34 +9,66 @@ tags = ["Standing Waves", "Harmonic Series"]
 title = "Physics behind Music – Harmonics, Overtones, and Tuning"
 
 +++
-Musical instruments produce sound with standing waves.
+### Harmonics – Why Does it Sound Nice?
 
-Standing waves are formed when a continuous wave is sent down a path and becomes reflected. The reflected wave is in phase and of the same frequency. as the incident wave; both waves superpose or interfere with one another, forming standing waves.
+Let's recap on the harmonic series. A string vibrates at its fundamental frequency (determined by its wavelength) usually followed by a combination of overtones at different amplitudes, which constructively interfere with the fundamental frequency.
 
-![](/images/310px-waventerference.gif)
+The interference is constructive (relative to the fundamental frequency) because the wavelengths are whole number ratios of one another.
 
-(Image from Wikipedia)
+Figure 1 shows all the possible ratios using the multiples of wavelengths on a string. The ratios have been given names according to the traditional Western Scale. Each ratio represents an interval from one note to the next.
 
-They oscillate – bounding up and down, but their profile does move in space. The standing waves alter the air pressure as they oscillate, transferring their kinetic energy to the air particles, creating a longitudinal wave of air that reaches our ears – sound.
 
-![](/images/standing.gif)
 
-(Image from [acs.psu.edu](http://acs.psu.edu))
+Playing any combination of the waves in the given ratios together produces the sound of perfect harmony. Here are a few examples pleasant to the ear:
 
-Standing waves have nodes and antinodes – the nodes are the fixed points that have zero amplitude, and the antinodes oscillate with the greatest amplitude – the forming the wave's peaks.
+Octave: (440Hz and 880Hz)
 
-Imagine a guitar – when a string is plucked, it forms its fundamental frequency, or the 1st harmonic. It is the simplest possible standing wave. However, that is not the only frequency. Overtones are also formed in the string. They add more nodes and antinodes that are related to the fundamental frequency.
+Perfect 5th: (440Hz and 660Hz)
 
-![](/images/img_0565.JPG)
+Major 3rd: (440Hz and 550Hz)
 
-In closed strings or open pipes, the first harmonic (fundamental frequency) has a wavelength that is half the length of the string. The second harmonic's frequency has a wavelength equal to the length of the string. The third harmonic's wavelength would be three-halves the string's length, and so on. Note that as the harmonics get higher, so does the frequency. Calculations are slightly different for the closed pipe as the there is an antinode at the open end and a node at the closed end.
+Why do harmonies sound so pleasant to the human ear? Scientists believe that the brain is drawn to patterned, regular signals. Dissonance, on the other hand, causes a 'beating' sound \[1\], which is caused when two waves irregularly interfere with each other, causing a haphazard signal that puts people off.
 
-![](/images/diagram-blog-waves.jpg)
+Quarter-Step: (440Hz and 453Hz)
 
-Musical instruments do not produce a pure tone upon playing; the sounds that are produced are a combination of overtones at different volumes over the fundamental frequency. This is called 'timbre'. Different instruments will sound slightly different even though they are playing the same note. The overtones are always in a whole number ratio – i.e. quantised.
+### Tuning a Piano
 
-![](/images/graphs.jpg)
+The piano has 12 keys per octave, and we need to calculate the correct frequencies for each key, and their ratios stay true to the harmonic series.
 
-Look at the graph – it shows a pure sine tone, a guitar (being plucked five times), and a piano (being pressed five times), over a certain period of time. The guitar's waveform is higher than the piano toward the end of the period; this is why a guitar strum sound sustains louder than the piano. The piano has a slightly earlier initial peak than the guitar, which could be attributed to the hammer action of the keys.
+To find the frequency of a note, we multiply the frequency of the note an interval before it with the ratio of that interval. Suppose I have a note that is 440Hz. To find the Major 3rd of 440Hz, we'd multiply it with 5/4, the ratio of the Major 3rd. This gives me 550Hz, which is the Major 3rd to 440Hz. There will be multiplication aplenty as this article continues.
 
-Despite the frequencies at over hundreds of oscillations per second, we can easily differentiate between instruments and tell that the pitches are the same. It is surprising that all these tiny differences in the overtones are easily discerned by the ears!
+See Figure 2. Using the nice, pure whole number ratios from Figure 1. There are a few ways to theoretically to achieve this. Perhaps we could use the Major 3rd ratio (raising 4 half-steps, or piano keys) three times to climb to the next octave; or maybe the Minor 3rd (a raise of 3 half-steps) four times to get to the next octave. Besides, why not try using the whole-step six times to reach the next octave?
+
+In fact, we can do some logarithmic math and theoretically calculate the ratios of the next octave for the Perfect 4th and 5th interval.
+
+But something's wrong here. An octave is a ratio with factor 2. However, we are getting all sorts of different final ratios that are pretty close to 2, but not 2. It is apparent that we cannot scale all the harmonics to meet the octave, at least using integers.
+
+Why does this happen? The numbers were never going to look pretty anyway– because the ratios are fractions, and at some point, any frequency, no matter how large, would get divided by the ratios to form a decimal.
+
+There is also more maths behind this – the Rational Root Theorem:
+
+For any integers a, b, and n, and n > 1, (a/b)^n ≠ 2
+
+This is because all roots of 2 (except the first) are irrational and cannot be represented with the fraction a/b, as a and b are rational integers.
+
+What can we do? Now, let's introduce Equal Temperament Tuning...
+
+
+
+Nice numbers are impossible to get ahold of, so we have gone completely opposite and called upon irrational numbers to help us.
+
+The 12-Equal Temperament is quite simple – it uses octaves as a reference point, denoting a half-step with a ratio of 2^(1/12), ≈1.05946. Since there are 12 keys in the piano, every twelve keys (octave) we have multiplied the ratio 12 times, which gives us a final ratio of x2, which is the same as the octave!
+
+
+
+How does the 12-ET tuning compare to the other tuning methods? Figure 4 shows the ratio differences, and surprisingly, they numbers are very close! 12-ET tuning can be described as the best compromise between all tunings. This means that harmonies will not be exact, but will be a tiny bit off. The effect is negligible to the ear, although purists may disagree. A majority of modern music is composed using the 12-ET tuning, and we experience it so much in our daily lives that it doesn't seem to stand out.
+
+It can be said that humans prefer ratios that are sufficiently close to a rational number with a lower denominator.
+
+### Overtones are in Harmony too!
+
+Certain notes sound nice together, not because they are (close to rational) ratios of each other, because the overtones of the notes are similar and constructively interfere with each other!
+
+(Image by Andrew Huang [https://www.youtube.com/watch?v=Wx_kugSemfY](https://www.youtube.com/watch?v=Wx_kugSemfY "https://www.youtube.com/watch?v=Wx_kugSemfY"))
+
+1: Elizabeth Norton, 2012. “Human Brain Is Wired for Harmony”. WIRED. 13-11-2012. [https://www.wired.com/2012/11/human-brain-harmony/](https://www.wired.com/2012/11/human-brain-harmony/ "https://www.wired.com/2012/11/human-brain-harmony/")
