@@ -1,6 +1,6 @@
 +++
-author = []
-categories = []
+author = ["Timothy Chung"]
+categories = ["Muahaha"]
 date = 2020-08-30T16:00:00Z
 description = ""
 image = ""
