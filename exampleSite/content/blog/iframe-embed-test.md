@@ -10,8 +10,4 @@ title = "iFrame Embed Test"
 +++
 PLEASE WORK WHY WON't YOU EMBED???!!!
 
-<span class="tablewrapper" markdown="1">
-
 {{< youtube "https://www.youtube.com/embed/Ro_AiGdwoWU" >}}
-
-</span>
