@@ -132,7 +132,7 @@ Also, binaural recordings are meant to be played back on earphones, not small sp
 
 When you play back the binaural recordings on earphones, they skip the pinna of your ear and the pre-applied HRTF recording is sent straight into your ear canal, allowing your brain to properly process the locations present in the recording.
 
-Binaural recordings are not only created in post-production – they can be created using microphones that mimic the human head – these microphones are called binaural microphones, and they mimic the shape of the human ear to apply HRTF to the incoming They are commercially available, but I made my own! That's for the next post.
+Binaural recordings are not only created in post-production – they can be created using microphones that mimic the human head and ears – these microphones are called binaural microphones, and they mimic the shape of the human ear to apply HRTF to the incoming They are commercially available, but I made my own! That's for the next post.
 
 [^1]:Møller, Henrik; Friis Sørensen, Michael; Hammershøi, Dorte; Jensen, Clemen Boje: Head-Related Transfer Functions of Human Subjects. J. Audio Eng. Soc., Vol 43, No 5, 1995 May.
 
