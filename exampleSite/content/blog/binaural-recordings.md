@@ -68,13 +68,13 @@ In the frequency domain we will denote the responses by corresponding capital le
 
 ![](/images/binaural-uni.png)
 
-\[^2\] Image from the University of Ljubljana Faculty of Mathematics and Physics
+[^2] Image from the University of Ljubljana Faculty of Mathematics and Physics
 
-Let the function x(t) describe the pressure of the sound source and let functions xL(t) and xR(t) be the pressure at the left and the right ear, respectively. In the time domain, the pressure at the ears can be written as a convolution of the sound signal and the HRIR of the corresponding ear: \[^2\]
+Let the function x(t) describe the pressure of the sound source and let functions xL(t) and xR(t) be the pressure at the left and the right ear, respectively. In the time domain, the pressure at the ears can be written as a convolution of the sound signal and the HRIR of the corresponding ear: [^2]
 
 \\begin{equation}x_{L, R}(t)=h_{L, R}(t) * x(t)=\\int_{-\\infty}^{\\infty} h_{L, R}(t-\\tau) x(\\tau) \\mathrm{d} \\tau\\end{equation}
 
-In the frequency domain, convolution is transformed into multiplication: \[^2\]
+In the frequency domain, convolution is transformed into multiplication: [^2]
 
 \\begin{equation}X_{L, R}(\\omega)=\\mathcal{F}\\left(h_{L, R}(t) * x(t)\\right)=H_{L, R}(\\omega) X(\\omega)\\end{equation}
 
@@ -94,13 +94,13 @@ Regardless of varying HRTFs, they seem to have similar patterns as shown in the 
 
 ![](/images/screenshot-2020-08-30-at-6-18-07-pm-copy.jpg)
 
-Fig. 1. HRTFs of left ears of all subjects, covering median plane. \[^1\]
+Fig. 1. HRTFs of left ears of all subjects, covering median plane. [^1]
 
 In Figure 1 it can be observed the highest amplitudes (10-15dB) are in the frequency range of 3-5KHz in the frontal directions, meaning sounds directly in front of the listener sound "sharper". The opposite is observed for sounds from the back, where amplitudes are lower at the higher frequencies. If someone were to call your name from behind you, it wouldn't sound as clear as someone calling your name in front of you.
 
 ![](/images/screenshot-2020-08-30-at-6-18-30-pm-copy.jpg)
 
-Fig. 2. HRTFs of left ears of all subjects, covering horizontal plane. \[^1\]
+Fig. 2. HRTFs of left ears of all subjects, covering horizontal plane. [^1]
 
 For Figure 2, the directional variation is greater compared to the median plane in Figure 1. This is due to the shadowing effect of the head which blocks and attenuates frequencies that are coming from the right side (to the left ear, passing through the head).
 
@@ -108,11 +108,13 @@ The HRTFs also appear to vary more when coming from the behind (compare the seco
 
 ![](/images/screenshot-2020-08-30-at-6-19-19-pm-copy.jpg)
 
-Fig. 3. HRTFs of left ears of all subjects, covering frontal plane. \[^1\]
+Fig. 3. HRTFs of left ears of all subjects, covering frontal plane. [^1]
 
 The HRTFs in the frontal plane are similar to their horizontal plain counterparts, by attenuating high frequencies for HRTFs on the side opposite to the source of sound. It is observed that the HRTFs for directions above the head vary less than HRTFs for directions below the horizontal plane. This is probably why we're good at distinguishing the source of footsteps or speech, but if someone calls us from a floor above (e.g. in a shopping mall or balcony) it's difficult to locate the sound from above. A funny thought: maybe that's why our ears are more adapted to hearing predators sneak up from below rather than hearing the birds fly above us.
 
-\[END OF TECHNICAL PART\]
+\[END OF TECHNICAL PART 2\]
+
+### Applications
 
 TL:DR; The HRTF is a function that is applied to the sound waves that enter the ear. We can calculate HRTF by placing a microphone in the human ear, record a nearby source of audio with it, and compare it to the actual source sound. HRTFs vary from person to person, based on height, head width, and the shape of the ears.
 
@@ -132,6 +134,6 @@ When you play back the binaural recordings on earphones, they skip the pinna of 
 
 Binaural recordings are not only created in post-production – they can be created using microphones that mimic the human head – these microphones are called binaural microphones, and they mimic the shape of the human ear to apply HRTF to the incoming They are commercially available, but I made my own! That's for the next post.
 
-\[^1\]:Møller, Henrik; Friis Sørensen, Michael; Hammershøi, Dorte; Jensen, Clemen Boje: Head-Related Transfer Functions of Human Subjects. J. Audio Eng. Soc., Vol 43, No 5, 1995 May.
+[^1]:Møller, Henrik; Friis Sørensen, Michael; Hammershøi, Dorte; Jensen, Clemen Boje: Head-Related Transfer Functions of Human Subjects. J. Audio Eng. Soc., Vol 43, No 5, 1995 May.
 
-\[^2\]:Potisk, Tilen: Head-Related Transfer Function. University of Ljubljana., Seminar Ia - 1. year, 2nd cycle; 2015 January. [Link](https://pdfs.semanticscholar.org/2397/14fced9554364fb1dfdd2cd071a89f72bcd5.pdf)
+[^2]:Potisk, Tilen: Head-Related Transfer Function. University of Ljubljana., Seminar Ia - 1. year, 2nd cycle; 2015 January. [Link](https://pdfs.semanticscholar.org/2397/14fced9554364fb1dfdd2cd071a89f72bcd5.pdf)
