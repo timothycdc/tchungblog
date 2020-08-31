@@ -12,7 +12,7 @@ title = "Binaural Recordings"
 
 A Binaural recording means recording a sound with two microphones for 'stereo' sound. It creates the effect of music being played in the same room as the listener. Most modern songs are recorded in stereo – if you play music with proper earphones, you can discern that some instruments are closer to the left or the right side of your ear.
 
-I was always fascinated with the Jambox (see title image) – arguably one of the best bluetooth speakers released in the early 2010s that sparked a trend of more portable boom boxes to come. I had both models, the original Jambox and the mini Jambox.
+I was always fascinated with the Jambox (see first image) – arguably one of the best bluetooth speakers released in the early 2010s that sparked a trend of more portable boom boxes to come. I had both models, the original Jambox and the mini Jambox.
 
 The latter of these two speakers had a special feature mode called LiveAudio that promised depth, detail, and “unprecedented spatial realism”. Whenever I turned on LiveAudio while listening to music, the sound suddenly became spatial – I felt that I hearing in the recording live right on front of me. 12-year old me was very impressed. This seemed to work with every song that I played, and I was extremely curious to how it worked. 
 
