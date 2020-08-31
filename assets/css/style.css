@@ -55,11 +55,7 @@ with others.
 /*	0. CSS Reset
 /* -------------------------------------------------------------------------- */
 
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
-}
+
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -4684,6 +4680,13 @@ a.to-the-top>* {
 /* -------------------------------------------------------------------------- */
 
 @media (max-width: 479px) {
+    .videoWrapper {
+    position: relative;
+    padding-bottom: calc(56% - 2rem);
+    }
+	
+	
+	
     /* Blocks -------------------------------- */
     .wp-block-pullquote.alignleft,
     .wp-block-pullquote.alignright {
@@ -4703,9 +4706,17 @@ a.to-the-top>* {
     .post-nav-links {
         margin: 3em 0 0 0;
     }
+
 }
 
 @media (min-width: 480px) {
+    .videoWrapper {
+    position: relative;
+    padding-bottom: calc(56% - 2rem);
+    }	
+	
+	
+	
     /* Blocks -------------------------------- */
     /* BLOCK: BASE ALIGNMENT WIDTH */
     .wp-block-pullquote.alignleft,
@@ -4739,6 +4750,8 @@ a.to-the-top>* {
 }
 
 @media (max-width: 599px) {
+	
+	
     /* Blocks -------------------------------- */
     /* BLOCK: COLUMNS */
     /* While columns are stacked */
@@ -4768,6 +4781,12 @@ a.to-the-top>* {
 }
 
 @media (min-width: 600px) {
+    .videoWrapper {
+    position: relative;
+    padding-bottom: calc(31rem + 7%);
+    }	
+	
+	
     /* Blocks -------------------------------- */
     /* BLOCK: COLUMNS */
     .wp-block-columns.alignwide+.wp-block-columns.alignwide,
@@ -4779,9 +4798,15 @@ a.to-the-top>* {
     .post-nav-links {
         margin: 3em 0 0 0;
     }
+	
 }
 
 @media (min-width: 660px) {
+    .videoWrapper {
+    position: relative;
+    padding-bottom: 36.69rem;
+    }
+	
     /* Blocks -------------------------------- */
     /* BLOCK: GALLERY */
     figure.wp-block-gallery.alignleft {
@@ -4832,6 +4857,8 @@ a.to-the-top>* {
 }
 
 @media (min-width: 700px) {
+	
+
     /* Element Base ------------------------- */
     .faux-heading1 {
 	display:none;    
