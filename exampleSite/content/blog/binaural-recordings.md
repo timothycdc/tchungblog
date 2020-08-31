@@ -16,7 +16,7 @@ I was always fascinated with the Jambox (see title image) – arguably one of th
 
 The latter of these two speakers had a special feature mode called LiveAudio that promised depth, detail, and “unprecedented spatial realism”. Whenever I turned on LiveAudio while listening to music, the sound suddenly became spatial – I felt that I hearing in the recording live right on front of me. 12-year old me was very impressed. This seemed to work with every song that I played, and I was extremely curious to how it worked. 
 
-{{< youtube "https://www.youtube.com/watch?v=SO-j-bi1KRo" >}}
+{{< youtube "https://www.youtube.com/embed/SO-j-bi1KRo" >}}
 
 (ABOVE) An advertisement for Jambox's LiveAudio feature. Listen with earphones for the surround effect.
 
@@ -118,11 +118,11 @@ TL:DR; The HRTF is a function that is applied to the sound waves that enter the 
 
 This HRTF can be reverse-engineered and applied to post-production methods to allow for true, 3-D binaural audio that allows for us to perceive direction using just two speakers. Below are some demos of binaural audio:
 
-{{< youtube "https://www.youtube.com/watch?v=MkVyFZi8ClE" >}}
+{{< youtube "https://www.youtube.com/embed/MkVyFZi8ClE" >}}
 
-{{< youtube "https://www.youtube.com/watch?v=91BUM3WhCfo" >}}
+{{< youtube "https://www.youtube.com/embed/91BUM3WhCfo" >}}
 
-{{< youtube "https://www.youtube.com/watch?v=51za5u3LtEc" >}}
+{{< youtube "https://www.youtube.com/embed/51za5u3LtEc" >}}
 
 Back to LiveAudio, the special 'surround' feature in the Jambox bluetooth speaker: It was simply digital signal processing (DSP) applied to the music being played out of the speaker. It wasn't true binaural sound, rather it was some form of HRTF being applied to enhance the stereo effect. Real binaural recordings have to be purposefully recorded with the right equipment or synthesised in post. They cannot be adapted from original stereo recordings.
 
