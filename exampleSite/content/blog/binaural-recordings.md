@@ -3,7 +3,6 @@ author = []
 categories = ["Physics", "Mathematics"]
 date = 2020-08-29T16:00:00Z
 description = ""
-draft = true
 image = "/images/img_4386.jpg"
 tags = ["Sound", "HRTF", "Binaural Recordings"]
 title = "Binaural Recordings"
@@ -13,7 +12,7 @@ title = "Binaural Recordings"
 
 A Binaural recording means recording a sound with two microphones for 'stereo' sound. It creates the effect of music being played in the same room as the listener. Most modern songs are recorded in stereo – if you play music with proper earphones, you can discern that some instruments are closer to the left or the right side of your ear.
 
-I was always fascinated with the Jambox – arguably one of the best bluetooth speakers released in the early 2010s that sparked a trend of more portable boom boxes to come. I had both models, the original Jambox and the mini Jambox.
+I was always fascinated with the Jambox (see title image) – arguably one of the best bluetooth speakers released in the early 2010s that sparked a trend of more portable boom boxes to come. I had both models, the original Jambox and the mini Jambox.
 
 The latter of these two speakers had a special feature mode called LiveAudio that promised depth, detail, and “unprecedented spatial realism”. Whenever I turned on LiveAudio while listening to music, the sound suddenly became spatial – I felt that I hearing in the recording live right on front of me. 12-year old me was very impressed. This seemed to work with every song that I played, and I was extremely curious to how it worked.
 
@@ -53,7 +52,7 @@ The terms is still being used to wrongly label earphones in the Chinese market, 
 
 ![](/images/screenshot-2020-08-31-at-10-29-19-am-copy.jpg)
 
-######  I don't want cheap earphones! I want the good stuff!
+###### I don't want cheap earphones! I want the good stuff!
 
 We know from Part 1 that binaural hearing refers to using two ears to hear. Note the importance of ears as they play a part in modifying frequencies before entering the ear. The modification of frequencies can be shown as a Head-Related Transfer Function (HRTF), a response that shows how an ear receives a sound from a point in space.
 
@@ -65,13 +64,13 @@ In the frequency domain we will denote the responses by corresponding capital le
 
 ![](/images/binaural-uni.png)
 
-\[2\] Image from the University of Ljubljana Faculty of Mathematics and Physics
+[^2] Image from the University of Ljubljana Faculty of Mathematics and Physics
 
-Let the function x(t) describe the pressure of the sound source and let functions xL(t) and xR(t) be the pressure at the left and the right ear, respectively. In the time domain, the pressure at the ears can be written as a convolution of the sound signal and the HRIR of the corresponding ear: \[2\]
+Let the function x(t) describe the pressure of the sound source and let functions xL(t) and xR(t) be the pressure at the left and the right ear, respectively. In the time domain, the pressure at the ears can be written as a convolution of the sound signal and the HRIR of the corresponding ear: [^2]
 
 \\begin{equation}x_{L, R}(t)=h_{L, R}(t) * x(t)=\\int_{-\\infty}^{\\infty} h_{L, R}(t-\\tau) x(\\tau) \\mathrm{d} \\tau\\end{equation}
 
-In the frequency domain, convolution is transformed into multiplication: \[2\]
+In the frequency domain, convolution is transformed into multiplication: [^2]
 
 \\begin{equation}X_{L, R}(\\omega)=\\mathcal{F}\\left(h_{L, R}(t) * x(t)\\right)=H_{L, R}(\\omega) X(\\omega)\\end{equation}
 
@@ -91,13 +90,13 @@ Regardless of varying HRTFs, they seem to have similar patterns as shown in the 
 
 ![](/images/screenshot-2020-08-30-at-6-18-07-pm-copy.jpg)
 
-Fig. 1. HRTFs of left ears of all subjects, covering median plane. \[1\]
+Fig. 1. HRTFs of left ears of all subjects, covering median plane. [^1]
 
 In Figure 1 it can be observed the highest amplitudes (10-15dB) are in the frequency range of 3-5KHz in the frontal directions, meaning sounds directly in front of the listener sound "sharper". The opposite is observed for sounds from the back, where amplitudes are lower at the higher frequencies. If someone were to call your name from behind you, it wouldn't sound as clear as someone calling your name in front of you.
 
 ![](/images/screenshot-2020-08-30-at-6-18-30-pm-copy.jpg)
 
-Fig. 2. HRTFs of left ears of all subjects, covering horizontal plane. \[1\]
+Fig. 2. HRTFs of left ears of all subjects, covering horizontal plane. [^1]
 
 For Figure 2, the directional variation is greater compared to the median plane in Figure 1. This is due to the shadowing effect of the head which blocks and attenuates frequencies that are coming from the right side (to the left ear, passing through the head).
 
@@ -105,7 +104,7 @@ The HRTFs also appear to vary more when coming from the behind (compare the seco
 
 ![](/images/screenshot-2020-08-30-at-6-19-19-pm-copy.jpg)
 
-Fig. 3. HRTFs of left ears of all subjects, covering frontal plane. \[1\]
+Fig. 3. HRTFs of left ears of all subjects, covering frontal plane. [^1]
 
 The HRTFs in the frontal plane are similar to their horizontal plain counterparts, by attenuating high frequencies for HRTFs on the side opposite to the source of sound. It is observed that the HRTFs for directions above the head vary less than HRTFs for directions below the horizontal plane. This is probably why we're good at distinguishing the source of footsteps or speech, but if someone calls us from a floor above (e.g. in a shopping mall or balcony) it's difficult to locate the sound from above. A funny thought: maybe that's why our ears are more adapted to hearing predators sneak up from below rather than hearing the birds fly above us.
 
@@ -123,6 +122,6 @@ When you play back the binaural recordings on earphones, they skip the pinna of 
 
 Binaural recordings are not only created in post-production – they can be created using microphones that mimic the human head – these microphones are called binaural microphones, and they mimic the shape of the human ear to apply HRTF to the incoming They are commercially available, but I made my own! That's for the next post.
 
-\[1\]Møller, Henrik; Friis Sørensen, Michael; Hammershøi, Dorte; Jensen, Clemen Boje: Head-Related Transfer Functions of Human Subjects. J. Audio Eng. Soc., Vol 43, No 5, 1995 May.
+[^1]:Møller, Henrik; Friis Sørensen, Michael; Hammershøi, Dorte; Jensen, Clemen Boje: Head-Related Transfer Functions of Human Subjects. J. Audio Eng. Soc., Vol 43, No 5, 1995 May.
 
-\[2\]Potisk, Tilen: Head-Related Transfer Function. University of Ljubljana., Seminar Ia - 1. year, 2nd cycle; 2015 January. [Link](https://pdfs.semanticscholar.org/2397/14fced9554364fb1dfdd2cd071a89f72bcd5.pdf)
+[^2]:Potisk, Tilen: Head-Related Transfer Function. University of Ljubljana., Seminar Ia - 1. year, 2nd cycle; 2015 January. [Link](https://pdfs.semanticscholar.org/2397/14fced9554364fb1dfdd2cd071a89f72bcd5.pdf)
