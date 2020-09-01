@@ -1,10 +1,10 @@
 +++
 author = []
-categories = []
+categories = ["Engineering", "Physics"]
 date = 2020-08-30T16:00:00Z
 description = ""
 image = "/images/img_2199-copy-resized.jpg"
-tags = []
+tags = ["3-D Print", "Microphone", "Binaural"]
 title = "3D-Printed Binaural Microphone"
 
 +++
