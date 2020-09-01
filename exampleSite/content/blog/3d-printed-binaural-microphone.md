@@ -34,7 +34,9 @@ Figure 3 shows two ear-coverings in black and red cover the ears to further prot
 
 ![](/images/img_1200-copy-resized.jpg)
 
-###### Figure 4: Some cable management later, and I'm done!
+###### Figure 4: Back View
+
+Some cable management later, and I'm done! I stuffed as much cable as possible into the housing to deaden the vibrations as much as possible.
 
 ![](/images/img_0807-copy-resized.jpg)
 
@@ -54,7 +56,7 @@ The gold RCA-to-3.5mm adapters are heavy and metallic. If the camera moves too m
 
 The 3-D printing material was PLA, which creates topological artefacts (looking like a contour map) that reduces the effect of the HRTF and ruins the acoustics.
 
-The microphone design does not incorporate the shape of the head like other commercial binaural microphones (see below). The area of the head is known to contribute to the binaural effect, although not as much as the ears. 
+The microphone design does not incorporate the shape of the head like other commercial binaural microphones (see below). The area of the head is known to contribute to the binaural effect, although not as much as the ears.
 
 ![](/images/screenshot-2020-08-31-at-11-58-09-am-copy.jpg)
 
