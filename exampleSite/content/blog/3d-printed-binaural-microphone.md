@@ -1,5 +1,5 @@
 +++
-author = []
+author = ["Timothy Chung"]
 categories = ["Engineering", "Physics"]
 date = 2020-08-30T16:00:00Z
 description = ""
