@@ -56,7 +56,7 @@ The terms is still being used to wrongly label earphones in the Chinese market, 
 
 ![](/images/screenshot-2020-08-31-at-10-29-19-am-copy.jpg)
 
-###### I don't want cheap earphones! I want the good stuff!
+(ABOVE) I don't want cheap earphones! I want the good stuff!
 
 We know from Part 1 that binaural hearing refers to using two ears to hear. Note the importance of ears as they play a part in modifying frequencies before entering the ear. The modification of frequencies can be shown as a Head-Related Transfer Function (HRTF), a response that shows how an ear receives a sound from a point in space.
 
