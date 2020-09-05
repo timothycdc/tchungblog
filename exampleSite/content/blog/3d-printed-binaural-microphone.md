@@ -10,6 +10,8 @@ title = "3D-Printed Binaural Microphone"
 +++
 This is a DIY, makeshift binaural microphone. If you wish to understand the reasons for making this and the science behind the scenes, read this [post](https://tchungblog.netlify.app/blog/binaural-recordings/).
 
+### The Process:
+
 ![](/images/img_7490-copy-resized.jpg)
 
 ###### Figure 1: The beginning
@@ -41,6 +43,10 @@ Some cable management later, and I'm done! I stuffed as much cable as possible i
 ![](/images/img_0807-copy-resized.jpg)
 
 ###### Figure 5: Front View
+
+### The Results:
+
+(Sound/Video files to be uploaded by 13th Sept)
 
 What went well:
 
