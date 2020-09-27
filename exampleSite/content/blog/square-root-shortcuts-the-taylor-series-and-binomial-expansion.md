@@ -10,7 +10,7 @@ title = "Square Root Shortcuts, the Taylor Series, and Binomial Expansion"
 +++
 In the past few weeks I've come up with lots of new realisation of the topics thought to us in Maths.
 
-{{< youtube "[https://www.youtube.com/embed/PJHtqMjrStk](https://www.youtube.com/embed/PJHtqMjrStk "https://www.youtube.com/embed/PJHtqMjrStk")" >}}
+{{< youtube "https://www.youtube.com/embed/PJHtqMjrStk" >}}
 
 I came across this square root shortcut video a year ago. It is a simple way of estimating a square root of a non-square number using square numbers that are close in value to it. It gets more accurate for larger numbers and if the nearest square numbers are more close.
 
@@ -95,7 +95,7 @@ x\\ \\mathrm{is\\ the\\ number\\ whose\\ square\\ root\\ we\\ wish\\ to\\ find\\
 
 At this point of research, I am intrigued by how similar the Taylor Series is similar to the binomial expansion formula (a+b)^n. Most of my understanding is credited to 3Blue1Brown, who has done an amazing video on the Taylor Series.
 
-[https://www.youtube.com/embed/3d6DsjIBzJ4](https://www.youtube.com/embed/3d6DsjIBzJ4 "https://www.youtube.com/embed/3d6DsjIBzJ4")
+{{< youtube "https://www.youtube.com/embed/3d6DsjIBzJ4" >}}
 
 Back to my point, how does the Taylor Series relate to the binomial expansion? And because the Taylor Series an infinite series, why does binomial expansion terminate for positive integer power values, and not for negative non-integer power values? (This was a question I had while doing Pure Year 2)
 
