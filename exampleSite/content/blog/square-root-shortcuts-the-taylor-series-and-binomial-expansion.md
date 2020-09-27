@@ -59,22 +59,17 @@ Well, the secret lies in differentiation.
 
 Back to the drawing board:
 
-$\\mathrm{Using\\ the\\ Taylor\\ Series\\ Expansion:}\\\\ \\\\\\\\f(x) = f(a)+\\frac{f'(a)}{1!}(x-a)+\\frac{f''(a)}{2!}(x-a)^{2}+\\frac{f'''(a)}{3!}(x-a)^{3}+\\dots,
-
-\\\\Let:\\\\ \\\\ g(x) = x^{\\frac{3}{2}}\\\\h(x) = x^{3}\\\\ x = (a+b)\\\\$
+\begin{equation}\\mathrm{Using\\ the\\ Taylor\\ Series\\ Expansion:}\\\\ \\\\\\\\f(x) = f(a)+\\frac{f'(a)}{1!}(x-a)+\\frac{f''(a)}{2!}(x-a)^{2}+\\frac{f'''(a)}{3!}(x-a)^{3}+\\dots, \\\\Let:\\\\ \\\\ g(x) = x^{\\frac{3}{2}}\\\\h(x) = x^{3}\\\\ x = (a+b)\\\\$ \end{equation}
 
 Here are their respective expansions:
 
-$g(x) = a^{\\frac{3}{2}}+\\frac{\\frac{3}{2}a^{\\frac{1}{2}}}{1!}(b)+\\frac{\\frac{3}{4}a^{-\\frac{1}{2}}}{2!}(b^{2})+\\frac{-\\frac{3}{8}a^{-\\frac{3}{2}}}{3!}(b^{3})+\\dots,
-
-\\\\h(x) = a^{3}+\\frac{3a^{2}}{1!}(b)+\\frac{6a^{1}}{2!}(b^{2})+\\frac{6}{3!}(b^{3})+\\dots,$
+\begin{equation}g(x) = a^{\\frac{3}{2}}+\\frac{\\frac{3}{2}a^{\\frac{1}{2}}}{1!}(b)+\\frac{\\frac{3}{4}a^{-\\frac{1}{2}}}{2!}(b^{2})+\\frac{-\\frac{3}{8}a^{-\\frac{3}{2}}}{3!}(b^{3})+\\dots,
+\\\\h(x) = a^{3}+\\frac{3a^{2}}{1!}(b)+\\frac{6a^{1}}{2!}(b^{2})+\\frac{6}{3!}(b^{3})+\\dots,\end{equation}
 
 But hold on! Shouldn't h(x) terminate?
 
 It does: As powers of _a_ decrease by 1, they should reach a^0, which is 1. Differentiating to any higher orders will return zero, so the expression terminates.
 
-$\\\\h(x) = a^{3}+\\frac{3a^{2}}{1!}(b)+\\frac{6a^{1}}{2!}(b^{2})+\\frac{6}{3!}(b^{3})+\\frac{f'(6)}{4!}(b^{4})+ \\frac{f''(6)}{5!}(b^{5})+\\dots,
-
-\\\\h(x) = a^{3}+\\frac{3a^{2}}{1!}(b)+\\frac{6a^{1}}{2!}(b^{2})+\\frac{6}{3!}(b^{3})+0(b^{4})+ 0(b^{5})+\\dots,$
+\begin{equation}\\\\h(x) = a^{3}+\\frac{3a^{2}}{1!}(b)+\\frac{6a^{1}}{2!}(b^{2})+\\frac{6}{3!}(b^{3})+\\frac{f'(6)}{4!}(b^{4})+ \\frac{f''(6)}{5!}(b^{5})+\\dots,\\\\h(x) = a^{3}+\\frac{3a^{2}}{1!}(b)+\\frac{6a^{1}}{2!}(b^{2})+\\frac{6}{3!}(b^{3})+0(b^{4})+ 0(b^{5})+\\dots, \end{equation}
 
 Looking at g(x), if the power is negative, it keeps on differentiating infinitely. Even though it is positive, if it is non-integer differentiating it causes it to skip past 0 from positive to negative, and it goes on forever as well.
