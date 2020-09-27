@@ -59,7 +59,7 @@ Well, the secret lies in differentiation.
 
 Back to the drawing board:
 
-\begin{equation}\\mathrm{Using\\ the\\ Taylor\\ Series\\ Expansion:}\\\\ \\\\\\\\f(x) = f(a)+\\frac{f'(a)}{1!}(x-a)+\\frac{f''(a)}{2!}(x-a)^{2}+\\frac{f'''(a)}{3!}(x-a)^{3}+\\dots, \\\\Let:\\\\ \\\\ g(x) = x^{\\frac{3}{2}}\\\\h(x) = x^{3}\\\\ x = (a+b)\\\\$ \end{equation}
+\begin{equation}\\mathrm{Using\\ the\\ Taylor\\ Series\\ Expansion:}\\\\ \\\\\\\\f(x) = f(a)+\\frac{f'(a)}{1!}(x-a)+\\frac{f''(a)}{2!}(x-a)^{2}+\\frac{f'''(a)}{3!}(x-a)^{3}+\\dots, \\\\Let:\\\\ \\\\ g(x) = x^{\\frac{3}{2}}\\\\h(x) = x^{3}\\\\ x = (a+b)\\\\ \end{equation}
 
 Here are their respective expansions:
 
