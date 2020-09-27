@@ -48,7 +48,7 @@ I was very curious why it worked. I derived a few methods:
 
 ### A Level Maths Method (Binomial Series Expansion to non-integer/negative powers)
 
-$\\mathrm{Let\\ } x\\ \\mathrm{be\\ the\\ square\\ root\\ we\\ wish\\ to\\ find\\ } \\\\ \\mathrm{Let\\ } a\\ \\mathrm{ be\\ the\\ difference\\ between\\ the\\ known\\ square\\ number\\ } k^{2} \\\\ \\mathrm{and\\ } x^{2}
+\\begin{equation}\\mathrm{Let\\ } x\\ \\mathrm{be\\ the\\ square\\ root\\ we\\ wish\\ to\\ find\\ } \\\\ \\mathrm{Let\\ } a\\ \\mathrm{ be\\ the\\ difference\\ between\\ the\\ known\\ square\\ number\\ } k^{2} \\\\ \\mathrm{and\\ } x^{2}
 
 \\\\x^{2} = (k^{2}+a) \\rightarrow \[1\]\\\\  
 \\\\ \\mathrm{Consider\\ the\\ R.H.S.:} \\\\(k^{2}+a)^\\frac{1}{2} = (k^{2}(1+\\frac{a}{k^{2}}))^{\\frac{1}{2}} \\\\= \\ k(1+ \\frac{a}{k^{2}})^{\\frac{1}{2}}
@@ -57,11 +57,11 @@ $\\mathrm{Let\\ } x\\ \\mathrm{be\\ the\\ square\\ root\\ we\\ wish\\ to\\ find\
 
 \\mathrm{We\\ can\\ ignore\\ terms\\ of\\ a^{2} or\\ more\\ as\\ they\\ become\\ increasingly\\ smaller.} \\\\ \\mathrm{Simplifying\\ gets\\ us:\\ }\\\\ R.H.S\\ = k(1+\\frac{a}{2k^{2}})
 
-\\\\=k+\\frac{a}{2k}$
+\\\\=k+\\frac{a}{2k} \\end{equation}
 
-$\\mathrm{Plugging\\ our\\ values\\ in:} \\\\ d = 6\\\\ k^{2} = 81 \\\\k=9\\\\ x^{2} = 87
+\\begin{equation}\\mathrm{Plugging\\ our\\ values\\ in:} \\\\ d = 6\\\\ k^{2} = 81 \\\\k=9\\\\ x^{2} = 87
 
-\\\\k +\\frac{d}{2k}=9 +\\frac{6}{18}= 9.333$
+\\\\k +\\frac{d}{2k}=9 +\\frac{6}{18}= 9.333 \\end{equation}
 
 ### Further Pure Mathematics Method (Taylor Series Expansion)
 
