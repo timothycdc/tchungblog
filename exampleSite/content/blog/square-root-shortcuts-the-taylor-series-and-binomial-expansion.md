@@ -36,52 +36,20 @@ I was very curious why it worked. I derived a few methods:
 
 ### A Level Maths Method 1 (Newton-Raphson Method for estimating roots)
 
-\\begin{equation}\\mathrm{We\\ want\\ to\\ find\\ the\\ square\\ root\\ value\\ } x\\ \\mathrm{such\\ that:\\ }\\\\ k^{2} + d = x^{2}\\\\
-
-\\mathrm{Where\\ } k^{2}\\ \\mathrm{is \\ the\\ square\\ number\\ with\\ the \\ known\\ root\\ } k\\ \\mathrm{ and\\ } \\\\ d\\ \\mathrm{is\\ the\\ difference\\ of\\ the\\ two\\ squares}\\\\\\mathrm{ To\\ find\\ the\\ root\\ of\\ the\\ equation:\\ }\\\\x^{2} - d - k^{2} = 0\\mathrm{Let\\ } f(x) = x^{2} - d - k^{2}\\\\ \\mathrm{We\\ could\\ solve\\ quadratically,\\ but\\ it\\ would\\ require\\ square\\ root\\ calculations\\ which\\ we\\ want\\ to\\ avoid.} \\\\ \\mathrm{We\\ can\\ instead\\ estimate\\ using\\ the\\ Newton{\\text -}Raphson\\ method:\\ }\\\\ f'(x) = 2x \\\\ x_1​=x_0​−\\frac{f(x_0​)}{f'(x_0​)​}\\\\ \\mathrm{Substitute\\ } k\\ \\mathrm{into\\ } x_0\\ \\mathrm{as\\ value\\ of\\ } k\\ \\mathrm{is\\ close\\ to\\ the\\ solution\\ (which\\ is\\ x)\\ } \\\\ x_1​=k​−\\frac{k^{2}-d-k^{2}}{2(k)}\\\\ =k +\\frac{d}{2k}
-
-\\mathrm{Plugging\\ our\\ values\\ in:} \\\\ d = 6\\\\ k^{2} = 81 \\\\ x^{2} = 87
-
-\\\\k +\\frac{d}{2k}=9 +\\frac{6}{18}= 9.333
-
-\\end{equation}
+\\begin{equation}\\mathrm{We\\ want\\ to\\ find\\ the\\ square\\ root\\ value\\ } x\\ \\mathrm{such\\ that:\\ }\\\\ k^{2} + d = x^{2}\\\\\\mathrm{Where\\ } k^{2}\\ \\mathrm{is \\ the\\ square\\ number\\ with\\ the \\ known\\ root\\ } k\\ \\mathrm{ and\\ } \\\\ d\\ \\mathrm{is\\ the\\ difference\\ of\\ the\\ two\\ squares}\\\\\\mathrm{ To\\ find\\ the\\ root\\ of\\ the\\ equation:\\ }\\\\x^{2} - d - k^{2} = 0\\mathrm{Let\\ } f(x) = x^{2} - d - k^{2}\\\\ \\mathrm{We\\ could\\ solve\\ quadratically,\\ but\\ it\\ would\\ require\\ square\\ root\\ calculations\\ which\\ we\\ want\\ to\\ avoid.} \\\\ \\mathrm{We\\ can\\ instead\\ estimate\\ using\\ the\\ Newton{\\text -}Raphson\\ method:\\ }\\\\ f'(x) = 2x \\\\ x_1​=x_0​−\\frac{f(x_0​)}{f'(x_0​)​}\\\\ \\mathrm{Substitute\\ } k\\ \\mathrm{into\\ } x_0\\ \\mathrm{as\\ value\\ of\\ } k\\ \\mathrm{is\\ close\\ to\\ the\\ solution\\ (which\\ is\\ x) _} \\\\ x_1​=k​−\\frac{k^{2}-d-k^{2}}{2(k)}\\\\ =k +\\frac{d}{2k}\\mathrm{Plugging\\ our\\ values\\ in:} \\\\ d = 6\\\\ k^{2} = 81 \\\\ x^{2} = 87\\\\k +\\frac{d}{2k}=9 +\\frac{6}{18}= 9.333_\\end{equation}
 
 ### A Level Maths Method (Binomial Series Expansion to non-integer/negative powers)
 
-\\begin{equation}\\mathrm{Let\\ } x\\ \\mathrm{be\\ the\\ square\\ root\\ we\\ wish\\ to\\ find\\ } \\\\ \\mathrm{Let\\ } a\\ \\mathrm{ be\\ the\\ difference\\ between\\ the\\ known\\ square\\ number\\ } k^{2} \\\\ \\mathrm{and\\ } x^{2}
-
-\\\\x^{2} = (k^{2}+a) \\rightarrow \[1\]\\\\  
-\\\\ \\mathrm{Consider\\ the\\ R.H.S.:} \\\\(k^{2}+a)^\\frac{1}{2} = (k^{2}(1+\\frac{a}{k^{2}}))^{\\frac{1}{2}} \\\\= \\ k(1+ \\frac{a}{k^{2}})^{\\frac{1}{2}}
-
-\\\\\\mathrm{Using\\ the\\ Binomial\\ Series\\ Expansion: \\ } \\\\ \\approx k(1+\\frac{1}{2}\\cdot \\frac{a}{k^{2}}+\\frac{\\frac{1}{2}(\\frac{1}{2}-1)}{2!}\\cdot (\\frac{a}{k^{2}})^{2}+\\frac{\\frac{1}{2}(\\frac{1}{2}-1)(\\frac{1}{2}-2)}{3!}\\cdot (\\frac{a}{k^{2}})^{3}+ \\dots )\\\\
-
-\\mathrm{We\\ can\\ ignore\\ terms\\ of\\ a^{2} or\\ more\\ as\\ they\\ become\\ increasingly\\ smaller.} \\\\ \\mathrm{Simplifying\\ gets\\ us:\\ }\\\\ R.H.S\\ = k(1+\\frac{a}{2k^{2}})
-
-\\\\=k+\\frac{a}{2k} \\end{equation}
-
-\\begin{equation}\\mathrm{Plugging\\ our\\ values\\ in:} \\\\ d = 6\\\\ k^{2} = 81 \\\\k=9\\\\ x^{2} = 87
+\\begin{equation}\\mathrm{Let\\ } x\\ \\mathrm{be\\ the\\ square\\ root\\ we\\ wish\\ to\\ find\\ } \\\\ \\mathrm{Let\\ } a\\ \\mathrm{ be\\ the\\ difference\\ between\\ the\\ known\\ square\\ number\\ } k^{2} \\\\ \\mathrm{and\\ } x^{2}\\\\x^{2} = (k^{2}+a) \\rightarrow \[1\]\\\\  
+\\\\ \\mathrm{Consider\\ the\\ R.H.S.:} \\\\(k^{2}+a)^\\frac{1}{2} = (k^{2}(1+\\frac{a}{k^{2}}))^{\\frac{1}{2}} \\\\= \\ k(1+ \\frac{a}{k^{2}})^{\\frac{1}{2}} \\\\\\mathrm{Using\\ the\\ Binomial\\ Series\\ Expansion: \\ } \\\\ \\approx k(1+\\frac{1}{2}\\cdot \\frac{a}{k^{2}}+\\frac{\\frac{1}{2}(\\frac{1}{2}-1)}{2!}\\cdot (\\frac{a}{k^{2}})^{2}+\\frac{\\frac{1}{2}(\\frac{1}{2}-1)(\\frac{1}{2}-2)}{3!}\\cdot (\\frac{a}{k^{2}})^{3}+ \\dots )\\\\ \\mathrm{We\\ can\\ ignore\\ terms\\ of\\ a^{2} or\\ more\\ as\\ they\\ become\\ increasingly\\ smaller.} \\\\ \\mathrm{Simplifying\\ gets\\ us:\\ }\\\\ R.H.S\\ = k(1+\\frac{a}{2k^{2}})\\\\=k+\\frac{a}{2k}\\end{equation}\\begin{equation}\\mathrm{Plugging\\ our\\ values\\ in:} \\\\ d = 6\\\\ k^{2} = 81 \\\\k=9\\\\ x^{2} = 87
 
 \\\\k +\\frac{d}{2k}=9 +\\frac{6}{18}= 9.333 \\end{equation}
 
 ### Further Pure Mathematics Method (Taylor Series Expansion)
 
-$\\mathrm{Using\\ the\\ Taylor\\ Series\\ Expansion:}\\\\ \\\\\\\\f(x) = f(a)+\\frac{f'(a)}{1!}(x-a)+\\frac{f''(a)}{2!}(x-a)^{2}+\\frac{f'''(a)}{3!}(x-a)^{3}+\\dots,$
+\\begin{equation}\\mathrm{Using\\ the\\ Taylor\\ Series\\ Expansion:}\\\\ \\\\\\\\f(x) = f(a)+\\frac{f'(a)}{1!}(x-a)+\\frac{f''(a)}{2!}(x-a)^{2}+\\frac{f'''(a)}{3!}(x-a)^{3}+\\dots, \\end{equation}
 
-$\\\\Let\\ f(x) = x^{\\frac{1}{2}}\\\\ Let\\ x = (k^{2}+d)\\\\
-
-x\\ \\mathrm{is\\ the\\ number\\ whose\\ square\\ root\\ we\\ wish\\ to\\ find\\ } \\\\ \\mathrm{Let\\ } d\\ \\mathrm{ be\\ the\\ difference\\ between\\ the\\ known\\ square\\ number\\ } k^2 \\\\ \\mathrm{and\\ } x \\\\
-
-\\\\ f(x)=(k^{2}) ^{{\\frac{1}{2}}}+\\frac{\\frac{1}{2}(k^{2})^{-\\frac{1}{2}}(d)}{1!} +\\frac{-\\frac{1}{4}(k^{2})^{-\\frac{3}{2}}(d)}{2!} +\\frac{-\\frac{3}{8}(k^{2})^{-\\frac{5}{2}}(d)}{3!} + \\cdots,
-
-\\\\ \\mathrm{We\\ take\\ the\\ first\\ two\\ terms\\ and\\ disregard\\ the\\ other\\ smaller\\ terms:\\ }
-
-\\\\ f(x)\\approx (k^{2}) ^{{\\frac{1}{2}}}+\\frac{\\frac{1}{2}(k^{2})^{-\\frac{1}{2}}(d)}{1!}
-
-\\\\ f(x)\\approx k+\\frac{d}{2k}
-
-\\\\\\mathrm{Plugging\\ our\\ values\\ in:} \\\\ d = 6\\\\ k^{2} = 81 \\\\k=9\\\\ x^{2} = 87
-
-\\\\k +\\frac{d}{2k}=9 +\\frac{6}{18}= 9.333$
+\\begin{equation} \\\\Let\\ f(x) = x^{\\frac{1}{2}}\\\\ Let\\ x = (k^{2}+d)\\\\x\\ \\mathrm{is\\ the\\ number\\ whose\\ square\\ root\\ we\\ wish\\ to\\ find\\ } \\\\ \\mathrm{Let\\ } d\\ \\mathrm{ be\\ the\\ difference\\ between\\ the\\ known\\ square\\ number\\ } k^2 \\\\ \\mathrm{and\\ } x \\\\\\\\ f(x)=(k^{2}) ^{{\\frac{1}{2}}}+\\frac{\\frac{1}{2}(k^{2})^{-\\frac{1}{2}}(d)}{1!} +\\frac{-\\frac{1}{4}(k^{2})^{-\\frac{3}{2}}(d)}{2!} +\\frac{-\\frac{3}{8}(k^{2})^{-\\frac{5}{2}}(d)}{3!} + \\cdots \\\\\\ \\mathrm{We\\ take\\ the\\ first\\ two\\ terms\\ and\\ disregard\\ the\\ other\\ smaller\\ terms:\\ }\\\\ f(x)\\approx (k^{2}) ^{{\\frac{1}{2}}}+\\frac{\\frac{1}{2}(k^{2})^{-\\frac{1}{2}}(d)}{1!}\\\\ f(x)\\approx k+\\frac{d}{2k}\\\\\\mathrm{Plugging\\ our\\ values\\ in:} \\\\ d = 6\\\\ k^{2} = 81 \\\\k=9\\\\ x^{2} = 87\\\\k +\\frac{d}{2k}=9 +\\frac{6}{18}= 9.333 \\end{equation}
 
 At this point of research, I am intrigued by how similar the Taylor Series is similar to the binomial expansion formula (a+b)^n. Most of my understanding is credited to 3Blue1Brown, who has done an amazing video on the Taylor Series.
 
