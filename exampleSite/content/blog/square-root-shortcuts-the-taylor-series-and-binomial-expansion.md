@@ -32,19 +32,19 @@ I was very curious why it worked. I derived a few methods:
 
 ### IGCSE Level Method (Basic Level Algebra)
 
-\\begin{equation}\\mathrm{Let\\ } x\\ \\mathrm{be\\ the\\ square\\ root\\ we\\ wish\\ to\\ find\\ } \\\\ \\mathrm{Let\\ } a\\ \\mathrm{ be\\ the\\ small\\ difference\\ (fractional\\ part)}\\\\ \\mathrm{that\\ when\\ added\\ to\\ the\\ known\\ root\\ } k, \\mathrm{ their\\ sum\\ forms\\ } x\\\\x = (k+a) \\rightarrow \[1\]\\\\ \\\\x^{2} = (k+a)^{2}\\\\ \\mathrm{Consider\\ the\\ R.H.S.:}\\\\ \\\\(k+a)^{2} = k^{2} + 2ak + a^{2}\\\\(k+a)^{2} \\approx k^{2} + 2ak\\\\ \\\\ \\mathrm{Since\\ a\\ is\\ small,\\ a^{2} can\\ be\\ ignored}\\\\ \\\\ x^{2} \\approx k^{2} + \\mathrm{Rearranging\\ the\\ equation\\ for\\ a:} \\\\ x^{2} - k^{2}\\approx 2ak\\\\ \\frac{x^{2} - k^{2}}{2k}\\approx a\\\\ \\\\ \\mathrm{Subbing\\ a\\ back\\ into\\ equation\\ \[1\]:} \\\\x = k+a \\\\x \\approx k + \\frac{x^{2} - k^{2}}{2k}\\\\ \\mathrm{Plugging\\ our\\ values\\ in:} \\\\ k = 9 \\\\ x^2 = 87 \\\\x \\approx k + \\frac{x^{2} - k^{2}}{2k}\\\\ \\\\x \\approx 9 + \\frac{87 - 81}{18}\\\\ \\\\x \\approx 9.3333\\\\ \\end{equation}
+\\begin{equation}\\mathrm{Let\\ } x\\ \\mathrm{be\\ the\\ square\\ root\\ we\\ wish\\ to\\ find\\ } \\\\ \\mathrm{Let\\ } a\\ \\mathrm{ be\\ the\\ small\\ difference\\ (fractional\\ part)}\\\\ \\mathrm{that\\ when\\ added\\ to\\ the\\ known\\ root\\ } k, \\mathrm{ their\\ sum\\ forms\\ } x\\\\x = (k+a) \\rightarrow \[1\]\\\\ \\\\x^{2} = (k+a)^{2}\\\\ \\mathrm{Consider\\ the\\ R.H.S.:}\\\\ \\\\(k+a)^{2} = k^{2} + 2ak + a^{2}\\\\(k+a)^{2} \\approx k^{2} + 2ak\\\\ \\\\ \\mathrm{Since\\ a\\ is\\ small,\\ a^{2} can\\ be\\ ignored}\\\\ \\\\ x^{2} \\approx k^{2} + \\mathrm{Rearranging\\ the\\ equation\\ for\\ a:} \\\\ x^{2} - k^{2}\\approx 2ak\\\\ \\frac{x^{2} - k^{2}}{2k}\\approx a\\\\ \\\\ \\mathrm{Plugging\\ a\\ back\\ into\\ equation\\ \[1\]:} \\\\x = k+a \\\\x \\approx k + \\frac{x^{2} - k^{2}}{2k}\\\\ \\mathrm{Plugging\\ our\\ values\\ in:} \\\\ k = 9 \\\\ x^2 = 87 \\\\x \\approx k + \\frac{x^{2} - k^{2}}{2k}\\\\ \\\\x \\approx 9 + \\frac{87 - 81}{18}\\\\ \\\\x \\approx 9.3333\\\\ \\end{equation}
 
 ### A Level Maths Method 1 (Newton-Raphson Method for estimating roots)
 
-$\\mathrm{We\\ want\\ to\\ find\\ the\\ square\\ root\\ value\\ } x\\ \\mathrm{such\\ that:\\ }\\\\ k^{2} + d = x^{2}\\\\
+\\begin{equation}\\mathrm{We\\ want\\ to\\ find\\ the\\ square\\ root\\ value\\ } x\\ \\mathrm{such\\ that:\\ }\\\\ k^{2} + d = x^{2}\\\\
 
-\\mathrm{Where\\ } k^{2}\\ \\mathrm{is \\ the\\ square\\ number\\ with\\ the \\ known\\ root\\ } k\\ \\mathrm{ and\\ } \\\\ d\\ \\mathrm{is\\ the\\ difference\\ of\\ the\\ two\\ squares}\\\\\\mathrm{ To\\ find\\ the\\ root\\ of\\ the\\ equation:\\ }\\\\x^{2} - d - k^{2} = 0$
+\\mathrm{Where\\ } k^{2}\\ \\mathrm{is \\ the\\ square\\ number\\ with\\ the \\ known\\ root\\ } k\\ \\mathrm{ and\\ } \\\\ d\\ \\mathrm{is\\ the\\ difference\\ of\\ the\\ two\\ squares}\\\\\\mathrm{ To\\ find\\ the\\ root\\ of\\ the\\ equation:\\ }\\\\x^{2} - d - k^{2} = 0\\mathrm{Let\\ } f(x) = x^{2} - d - k^{2}\\\\ \\mathrm{We\\ could\\ solve\\ quadratically,\\ but\\ it\\ would\\ require\\ square\\ root\\ calculations\\ which\\ we\\ want\\ to\\ avoid.} \\\\ \\mathrm{We\\ can\\ instead\\ estimate\\ using\\ the\\ Newton{\\text -}Raphson\\ method:\\ }\\\\ f'(x) = 2x \\\\ x_1​=x_0​−\\frac{f(x_0​)}{f'(x_0​)​}\\\\ \\mathrm{Substitute\\ } k\\ \\mathrm{into\\ } x_0\\ \\mathrm{as\\ value\\ of\\ } k\\ \\mathrm{is\\ close\\ to\\ the\\ solution\\ (which\\ is\\ x)\\ } \\\\ x_1​=k​−\\frac{k^{2}-d-k^{2}}{2(k)}\\\\ =k +\\frac{d}{2k}
 
-$\\mathrm{Let\\ } f(x) = x^{2} - d - k^{2}\\\\ \\mathrm{We\\ could\\ solve\\ quadratically,\\ but\\ it\\ would\\ require\\ square\\ root\\ calculations\\ which\\ we\\ want\\ to\\ avoid.} \\\\ \\mathrm{We\\ can\\ instead\\ estimate\\ using\\ the\\ Newton{\\text -}Raphson\\ method:\\ }\\\\ f'(x) = 2x \\\\ x_1​=x_0​−\\frac{f(x_0​)}{f'(x_0​)​}\\\\ \\mathrm{Substitute\\ } k\\ \\mathrm{into\\ } x_0\\ \\mathrm{as\\ value\\ of\\ } k\\ \\mathrm{is\\ close\\ to\\ the\\ solution\\ (which\\ is\\ x)\\ } \\\\ x_1​=k​−\\frac{k^{2}-d-k^{2}}{2(k)}\\\\ =k +\\frac{d}{2k}$
+\\mathrm{Plugging\\ our\\ values\\ in:} \\\\ d = 6\\\\ k^{2} = 81 \\\\ x^{2} = 87
 
-$\\mathrm{Plugging\\ our\\ values\\ in:} \\\\ d = 6\\\\ k^{2} = 81 \\\\ x^{2} = 87
+\\\\k +\\frac{d}{2k}=9 +\\frac{6}{18}= 9.333
 
-\\\\k +\\frac{d}{2k}=9 +\\frac{6}{18}= 9.333$
+\\end{equation}
 
 ### A Level Maths Method (Binomial Series Expansion to non-integer/negative powers)
 
