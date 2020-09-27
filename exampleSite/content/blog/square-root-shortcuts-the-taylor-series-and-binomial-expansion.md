@@ -18,31 +18,21 @@ Tl;Dw : To find a square root of a number, say 87, we find a square number close
 
 It sounds complicated, so I'll notate it here:
 
-$\\sqrt{87}\\approx\\ \\sqrt{81}+\\frac{87-81}{2\\sqrt{81}}\\\\\\sqrt{87}\\approx\\ 9+\\frac{6}{18}\\\\ \\sqrt{87} \\approx\\ 9.333$
+\\begin{equation}\\sqrt{87}\\approx\\ \\sqrt{81}+\\frac{87-81}{2\\sqrt{81}}\\\\\\sqrt{87}\\approx\\ 9+\\frac{6}{18}\\\\ \\sqrt{87} \\approx\\ 9.333\\end{equation}
 
 This allows for the formula:
 
-$x \\approx \\ a+\\frac{x^{2}-a^{2}}{2a}$
+\\begin{equation}x \\approx \\ a+\\frac{x^{2}-a^{2}}{2a} \\end{equation}
 
 And as you can see, the estimated value is pretty close to the actual value.
 
-$\\sqrt{87}\\ = 9.32737 \\dots \\\\ \\mathrm{Estimated \\ value:\\ }9.33333 \\dots$
+\\begin{equation}\\sqrt{87}\\ = 9.32737 \\dots \\\\ \\mathrm{Estimated \\ value:\\ }9.33333 \\dots \\end{equation}
 
 I was very curious why it worked. I derived a few methods:
 
 ### IGCSE Level Method (Basic Level Algebra)
 
-$\\mathrm{Let\\ } x\\ \\mathrm{be\\ the\\ square\\ root\\ we\\ wish\\ to\\ find\\ } \\\\ \\mathrm{Let\\ } a\\ \\mathrm{ be\\ the\\ small\\ difference\\ (fractional\\ part)}\\\\ \\mathrm{that\\ when\\ added\\ to\\ the\\ known\\ root\\ } k, \\mathrm{ their\\ sum\\ forms\\ } x
-
-\\\\x = (k+a) \\rightarrow \[1\]\\\\ \\\\x^{2} = (k+a)^{2}\\\\ \\mathrm{Consider\\ the\\ R.H.S.:}\\\\ \\\\(k+a)^{2} = k^{2} + 2ak + a^{2}\\\\(k+a)^{2} \\approx k^{2} + 2ak\\\\ \\\\ \\mathrm{Since\\ a\\ is\\ small,\\ a^{2} can\\ be\\ ignored}\\\\ \\\\ x^{2} \\approx k^{2} + 2ak\\\\ \\\\
-
-\\mathrm{Rearranging\\ the\\ equation\\ for\\ a:} \\\\ x^{2} - k^{2}\\approx 2ak\\\\ \\frac{x^{2} - k^{2}}{2k}\\approx a\\\\ \\\\
-
-\\mathrm{Subbing\\ a\\ back\\ into\\ equation\\ \[1\]:} \\\\x = k+a \\\\x \\approx k + \\frac{x^{2} - k^{2}}{2k}\\\\
-
-\\mathrm{Plugging\\ our\\ values\\ in:} \\\\ k = 9 \\\\ x^2 = 87 \\\\x \\approx k + \\frac{x^{2} - k^{2}}{2k}\\\\
-
-\\\\x \\approx 9 + \\frac{87 - 81}{18}\\\\ \\\\x \\approx 9.3333\\\\$
+\\begin{equation}\\mathrm{Let\\ } x\\ \\mathrm{be\\ the\\ square\\ root\\ we\\ wish\\ to\\ find\\ } \\\\ \\mathrm{Let\\ } a\\ \\mathrm{ be\\ the\\ small\\ difference\\ (fractional\\ part)}\\\\ \\mathrm{that\\ when\\ added\\ to\\ the\\ known\\ root\\ } k, \\mathrm{ their\\ sum\\ forms\\ } x\\\\x = (k+a) \\rightarrow \[1\]\\\\ \\\\x^{2} = (k+a)^{2}\\\\ \\mathrm{Consider\\ the\\ R.H.S.:}\\\\ \\\\(k+a)^{2} = k^{2} + 2ak + a^{2}\\\\(k+a)^{2} \\approx k^{2} + 2ak\\\\ \\\\ \\mathrm{Since\\ a\\ is\\ small,\\ a^{2} can\\ be\\ ignored}\\\\ \\\\ x^{2} \\approx k^{2} + \\mathrm{Rearranging\\ the\\ equation\\ for\\ a:} \\\\ x^{2} - k^{2}\\approx 2ak\\\\ \\frac{x^{2} - k^{2}}{2k}\\approx a\\\\ \\\\ \\mathrm{Subbing\\ a\\ back\\ into\\ equation\\ \[1\]:} \\\\x = k+a \\\\x \\approx k + \\frac{x^{2} - k^{2}}{2k}\\\\ \\mathrm{Plugging\\ our\\ values\\ in:} \\\\ k = 9 \\\\ x^2 = 87 \\\\x \\approx k + \\frac{x^{2} - k^{2}}{2k}\\\\ \\\\x \\approx 9 + \\frac{87 - 81}{18}\\\\ \\\\x \\approx 9.3333\\\\ \\end{equation}
 
 ### A Level Maths Method 1 (Newton-Raphson Method for estimating roots)
 
