@@ -122,3 +122,5 @@ $\\\\h(x) = a^{3}+\\frac{3a^{2}}{1!}(b)+\\frac{6a^{1}}{2!}(b^{2})+\\frac{6}{3!}(
 \\\\h(x) = a^{3}+\\frac{3a^{2}}{1!}(b)+\\frac{6a^{1}}{2!}(b^{2})+\\frac{6}{3!}(b^{3})+0(b^{4})+ 0(b^{5})+\\dots,$
 
 Looking at g(x), when the power of the function becomes negative, it keeps on differentiating infinitely. It could start off being positive, but if the function power is a non-integer, differentiating it causes it to skip past 0 from positive to negative, so and it goes on differentiating infinitely as well.
+
+The Taylor Series is a vital tool for physics and engineering where we can replace difficult-to-calculate functions with simpler estimations. I will cover such examples in a future blog post!
