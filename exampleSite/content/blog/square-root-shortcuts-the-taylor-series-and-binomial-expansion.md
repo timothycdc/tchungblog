@@ -8,7 +8,7 @@ tags = ["Binomial Expansion", "Taylor Series"]
 title = "Square Root Shortcuts, the Taylor Series, and Binomial Expansion"
 
 +++
-In the past few weeks I've come up with lots of new realisation of the topics thought to us in Maths.
+In the past few weeks I've realised many new things about topics taught to us in maths.
 
 {{< youtube "https://www.youtube.com/embed/PJHtqMjrStk" >}}
 
