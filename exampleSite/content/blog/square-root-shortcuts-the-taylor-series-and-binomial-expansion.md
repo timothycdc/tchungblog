@@ -50,7 +50,7 @@ $\\mathrm{We\\ want\\ to\\ find\\ the\\ square\\ root\\ value\\ } x\\ \\mathrm{s
 
 \\mathrm{Where\\ } k^{2}\\ \\mathrm{is \\ the\\ square\\ number\\ with\\ the \\ known\\ root\\ } k\\ \\mathrm{ and\\ } \\\\ d\\ \\mathrm{is\\ the\\ difference\\ of\\ the\\ two\\ squares}\\\\\\mathrm{ To\\ find\\ the\\ root\\ of\\ the\\ equation:\\ }\\\\x^{2} - d - k^{2} = 0$
 
-$\\mathrm{Let\\ } f(x) = x^{2} - d - k^{2}\\\\ \\mathrm{We\\ could\\ solve\\ quadratically,\\ but\\ it\\ would\\ require\\ square\\ root\\ calculations\\ which\\ we\\ want\\ to\\ avoid.} \\\\ \\mathrm{We\\ can\\ instead\\ estimate\\ using\\ the\\ Newton{\\text -}Raphson\\ method:\\ }\\\\ f'(x) = 2x \\\\ x_1​=x_0​−\\frac{f(x_0​)}{f'(x_0​)​}\\\\ \\mathrm{Substitute\\ } k\\ \\mathrm{into\\ } x_0\\ \\mathrm{as\\ value\\ of\\ } k\\ \\mathrm{is\\ close\\ to\\ the\\ solution\\ (which\\ is\\ x)\\ } \\\\ x_1​=k​−\\frac{k^{2}-d-k^{2}}{2(k)}\\\\ =k +\\frac{d}{2k}$
+$ \\mathrm{Let\\ } f(x) = x^{2} - d - k^{2}\\\\ \\mathrm{We\\ could\\ solve\\ quadratically,\\ but\\ it\\ would\\ require\\ square\\ root\\ calculations\\ which\\ we\\ want\\ to\\ avoid.} \\\\ \\mathrm{We\\ can\\ instead\\ estimate\\ using\\ the\\ Newton{\\text -}Raphson\\ method:\\ }\\\\ f'(x) = 2x \\\\ x_1​=x_0​−\\frac{f(x_0​)}{f'(x_0​)​}\\\\ \\mathrm{Substitute\\ } k\\ \\mathrm{into\\ } x_0\\ \\mathrm{as\\ value\\ of\\ } k\\ \\mathrm{is\\ close\\ to\\ the\\ solution\\ (which\\ is\\ x)\\ } \\\\ x_1​=k​−\\frac{k^{2}-d-k^{2}}{2(k)}\\\\ =k +\\frac{d}{2k}$
 
 $\\mathrm{Plugging\\ our\\ values\\ in:} \\\\ d = 6\\\\ k^{2} = 81 \\\\ x^{2} = 87
 
@@ -61,7 +61,7 @@ $\\mathrm{Plugging\\ our\\ values\\ in:} \\\\ d = 6\\\\ k^{2} = 81 \\\\ x^{2} = 
 $\\mathrm{Let\\ } x\\ \\mathrm{be\\ the\\ square\\ root\\ we\\ wish\\ to\\ find\\ } \\\\ \\mathrm{Let\\ } a\\ \\mathrm{ be\\ the\\ difference\\ between\\ the\\ known\\ square\\ number\\ } k^{2} \\\\ \\mathrm{and\\ } x^{2}
 
 \\\\x^{2} = (k^{2}+a) \\rightarrow \[1\]\\\\  
- \\\\ \\mathrm{Consider\\ the\\ R.H.S.:} \\\\(k^{2}+a)^\\frac{1}{2} = (k^{2}(1+\\frac{a}{k^{2}}))^{\\frac{1}{2}} \\\\= \\ k(1+ \\frac{a}{k^{2}})^{\\frac{1}{2}}
+\\\\ \\mathrm{Consider\\ the\\ R.H.S.:} \\\\(k^{2}+a)^\\frac{1}{2} = (k^{2}(1+\\frac{a}{k^{2}}))^{\\frac{1}{2}} \\\\= \\ k(1+ \\frac{a}{k^{2}})^{\\frac{1}{2}}
 
 \\\\\\mathrm{Using\\ the\\ Binomial\\ Series\\ Expansion: \\ } \\\\ \\approx k(1+\\frac{1}{2}\\cdot \\frac{a}{k^{2}}+\\frac{\\frac{1}{2}(\\frac{1}{2}-1)}{2!}\\cdot (\\frac{a}{k^{2}})^{2}+\\frac{\\frac{1}{2}(\\frac{1}{2}-1)(\\frac{1}{2}-2)}{3!}\\cdot (\\frac{a}{k^{2}})^{3}+ \\dots )\\\\
 
