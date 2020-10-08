@@ -46,7 +46,7 @@ Some cable management later, and I'm done! I stuffed as much cable as possible i
 
 ### The Results:
 
-(Sound/Video files to be uploaded by 30th Sept)
+(Sound/Video files to be uploaded soon!)
 
 What went well:
 
