@@ -13,7 +13,7 @@ unsafe = true
 [[menu.main]]
 URL = "/"
 name = "Blog"
-url = "index"
+url = "tchungblog.netlify.app"
 weight = 1
 [[menu.main]]
 name = "About"
@@ -26,8 +26,8 @@ weight = 2
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
-author = "Themefisher"
-description = "This is meta description"
+author = "Timothy, Themefisher"
+description = "Timo's Blog"
 [params.banner]
 heading = "The New UMoMA Opens its Doors"
 image = "images/2020-landscape-1-2.png"
