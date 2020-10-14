@@ -136,11 +136,7 @@ html {
 }
 .MathJax_Display: {
     overflow: auto;
-	
   }
-
-.MathJax_Display:-webkit-scrollbar {
-  display: none;
 
 body {
     background: rgb(42, 49, 80);
