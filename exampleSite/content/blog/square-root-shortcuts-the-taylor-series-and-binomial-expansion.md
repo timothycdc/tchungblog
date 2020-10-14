@@ -10,7 +10,7 @@ title = "Square Root Shortcuts, the Taylor Series, and Binomial Expansion"
 +++
 In the past few weeks I've come up with lots of new realisation of the topics thought to us in Maths.
 
-{{< youtube "[https://www.youtube.com/embed/PJHtqMjrStk](https://www.youtube.com/embed/PJHtqMjrStk "https://www.youtube.com/embed/PJHtqMjrStk")" >}}
+{{< youtube "https://www.youtube.com/embed/PJHtqMjrStk" >}}
 
 I came across this square root shortcut video a year ago. It is a simple way of estimating a square root of a non-square number using square numbers that are close in value to it. It gets more accurate for larger numbers and if the nearest square numbers are more close.
 
