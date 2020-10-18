@@ -44,7 +44,7 @@ Some cable management later, and I'm done! I stuffed as much cable as possible i
 
 ###### Figure 5: Front View
 
-### The Results:
+### The Results (watch with headphones/earphones for the binaural effect):
 
 {{< youtube "https://www.youtube.com/embed/eZvgixMUFpM" >}}
 
