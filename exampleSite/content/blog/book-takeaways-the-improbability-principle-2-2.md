@@ -54,7 +54,7 @@ However, this law is the reason for uncertainties in science research that are t
 
 Humans tend to hold on to things that fit their narrative, and marginalise events that oppose it. This is such the case relating to psychic mediums and prophecies. Take Jeane Dixon for example, a famous psychic who was a personal advisor to Nancy and Ronald Reagan. She made several correct predictions such as a Democrat winning the 1960s U.S. presidential election and the assassination of the president in 1960 – making her well-known for her prophetical ability. However this was balanced against her (lesser known but equally if not more outlandish) wrong predictions that the Soviet Union would be the first to send a man to the moon and the Second World War in 1958. People only remembered her for her correct predictions, which is the reason why Jeane had a cult following. It’s more statistically likely she made many ambiguous claims where only a portion turned out to be true.
 
-(In January 2020, she predicted 2020 would end an Armageddon. Let’s hope not.)
+(In January 2020, she predicted 2020 would end with an Armageddon. Let’s hope not.)
 
 ### Regression to the Mean
 
