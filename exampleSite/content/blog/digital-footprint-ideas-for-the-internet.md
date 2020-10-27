@@ -1,6 +1,6 @@
 +++
-author = []
-categories = []
+author = ["Timothy Chung"]
+categories = ["Epsom"]
 date = 2020-10-22T16:00:00Z
 description = ""
 draft = true
@@ -9,3 +9,4 @@ tags = []
 title = "Digital Footprint: Ideas for the Internet"
 
 +++
+Mr Barker 
