@@ -19,3 +19,9 @@ Markdown please allow my iFrame to work thanks
 {{< pyframe "https://trinket.io/embed/python/69caa9f4ae" >}}
 
 </span>
+
+<span class="tablewrapper" markdown="1">
+
+{{< pyframe "https://trinket.io/embed/python/69caa9f4ae" >}}
+
+</span>
