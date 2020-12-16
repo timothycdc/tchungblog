@@ -46,7 +46,7 @@ Drill Haptic (self-explanatory)
 
 These vibrations, when turned up to max volume on the speakers, produce reasonable jolts that can be felt by the user. However, they do not work for every device, these frequencies must be optimised to each device dimension.
 
-\*edit: These audio files may sound completely off. You need good speakers and the right size to properly get the effect!
+\*edit: These audio files may sound completely off. You need good speakers and the right device to properly get the effect!
 
 ### What Others Did:
 
