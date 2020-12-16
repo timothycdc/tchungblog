@@ -48,3 +48,7 @@ Drill Haptic (self-explanatory)
 These vibrations, when turned up to max volume on the speakers, produce reasonable jolts that can be felt by the user. However, they do not work for every device, these frequencies must be optimised to each device dimension.
 
 ### What Others Did:
+
+I'm not the first one to come up with an such an idea ¯\\_(ツ)_/¯_ . This developer created an [app](https://www.haptictouchbar.com/) for the Macbook Pro with Touch Bar (a strip of touchscreen that replaces the top row of the keyboard for extra customisable functionality) that provides haptic feedback to acknowledge when the user has tapped a button.
+
+Many users mourned the loss of being able to feel their way around the keyboard with the advent of a flat surface. Their website says "Stop the self-doubt (did I hit the key?) with tactile & audible feedback" and promises to bring back touch-typing.
