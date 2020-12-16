@@ -46,7 +46,9 @@ Drill Haptic (self-explanatory)
 
 These vibrations, when turned up to max volume on the speakers, produce reasonable jolts that can be felt by the user. However, they do not work for every device, these frequencies must be optimised to each device dimension.
 
-\*edit: These audio files may sound completely off. You need good speakers and the right device to properly get the effect!
+\*edit: These audio files will sound completely off to most, as they are only designed for a specific device.
+
+\*edit: The vibration strength is weaker compared to using a vibration motor, despite having good speakers on my iPad. It will just about work, but not for all devices.
 
 ### What Others Did:
 
