@@ -4808,12 +4808,15 @@ a.to-the-top>* {
     }	
 }	
 
-@media (min-width: 660px) {
+@media (min-width: 710px) {
     .videoWrapper {
     position: relative;
     padding-bottom: 45.5rem;
-    }
-	
+    }	
+}	
+
+@media (min-width: 660px) {
+
     /* Blocks -------------------------------- */
     /* BLOCK: GALLERY */
     figure.wp-block-gallery.alignleft {
