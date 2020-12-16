@@ -48,7 +48,11 @@ However, there is one caveat: keyboard controls do not work in fullscreen– thi
 
 Here are some screenshots:
 
-![](/images/img_0872.jpg)![](/images/img_0877.jpg)![](/images/img_0878.jpg)![](/images/img_0875.jpg)
+![](/images/img_0877.jpg)
+
+![](/images/img_0878.jpg)
+
+![](/images/img_0875.jpg)
 
 You can find the code below:
 
