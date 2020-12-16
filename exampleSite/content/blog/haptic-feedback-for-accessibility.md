@@ -30,7 +30,7 @@ I first started with a sine-wave - for the sound, I wanted a short attack, low d
 
 I played around with a set of frequencies and found the one that seemed to resonate with my iPad the most.
 
-Here are my results (turn up the volume and play it!)
+Here are my results for the 12.9" iPad Pro:
 
 Normal Haptic (one-buzz)
 
@@ -45,6 +45,8 @@ Drill Haptic (self-explanatory)
 {{< audioplayer "/drillHaptic.mp3" >}}
 
 These vibrations, when turned up to max volume on the speakers, produce reasonable jolts that can be felt by the user. However, they do not work for every device, these frequencies must be optimised to each device dimension.
+
+\*edit: These audio files may sound completely off. You need good speakers and the right size to properly get the effect!
 
 ### What Others Did:
 
