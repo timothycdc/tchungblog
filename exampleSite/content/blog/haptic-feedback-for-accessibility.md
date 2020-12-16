@@ -52,3 +52,7 @@ These vibrations, when turned up to max volume on the speakers, produce reasonab
 I'm not the first one to come up with an such an idea ¯\\_(ツ)_/¯_ . This developer created an [app](https://www.haptictouchbar.com/) for the Macbook Pro with Touch Bar (a strip of touchscreen that replaces the top row of the keyboard for extra customisable functionality) that provides haptic feedback to acknowledge when the user has tapped a button.
 
 Many users mourned the loss of being able to feel their way around the keyboard with the advent of a flat surface. Their website says "Stop the self-doubt (did I hit the key?) with tactile & audible feedback" and promises to bring back touch-typing.
+
+### Finally:
+
+This was just a fun project to do over the summer break. It's only now that I document it and share it out. Hope you enjoyed the project!
