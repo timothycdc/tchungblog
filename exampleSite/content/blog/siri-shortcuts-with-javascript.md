@@ -52,4 +52,4 @@ Here are some screenshots:
 
 You can find the code below:
 
-{{< pyframe "https://repl.it/@tmc724/VideoSpeedupYT?lite=true" >}}
+{{< pyframe "https://repl.it/@tmc724/SpeedUpYT?lite=true" >}}
