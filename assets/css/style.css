@@ -4801,10 +4801,17 @@ a.to-the-top>* {
 	
 }
 
+@media (min-width: 630px) {
+    .videoWrapper {
+    position: relative;
+    padding-bottom: calc(33rem + 7%);
+    }	
+	
+
 @media (min-width: 660px) {
     .videoWrapper {
     position: relative;
-    padding-bottom: 36.69rem;
+    padding-bottom: 43.5rem;
     }
 	
     /* Blocks -------------------------------- */
